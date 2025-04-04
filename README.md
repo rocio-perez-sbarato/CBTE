@@ -2,6 +2,7 @@
 
 ## Estructura del repositorio
 
+```
 📂 scraping_vivienda
 │── 📂 data/                   
 │── 📂 scripts/                   # Código para scraping y procesamiento  
@@ -17,3 +18,4 @@
 │   ├── email/                    # Código para el envío de mails  
 │   ├── utils.py                   # Funciones auxiliares (requests, parsing, logs)  
 │── 📂 notebooks/                  # Jupyter notebooks para exploración y análisis  
+```
