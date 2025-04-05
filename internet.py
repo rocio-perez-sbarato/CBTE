@@ -1,46 +1,47 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.keys import Keys
 import time
 
-def obtener_primer_plan_movistar(driver):
-    """
-    Extrae la oferta de megas y el precio mensual de la página de Personal.
-    """
+def iniciar_driver():
+    """Configura y devuelve un WebDriver en modo headless."""
+    options = webdriver.FirefoxOptions()
+    options.add_argument("--headless")
+    return webdriver.Firefox(options=options)
 
+
+def obtener_primer_plan_movistar():
+    """
+    Extrae la oferta de megas y el precio mensual de la página de Movistar.
+    """
+    
+    driver = iniciar_driver()
+    
     try:
         # Abrir la página
-        driver.get("https://www.personal.com.ar/internet")
+        driver.get("https://www.movistar.com.ar/productos-y-servicios/internet")
         time.sleep(5)  # Esperar que cargue
 
-        # Obtener todos los <h2> con la clase de oferta
-        ofertas = driver.find_elements(By.CLASS_NAME, "CardComponent_title_beVVt")
+        # Buscar el div con la clase que contiene los gigas
+        gigas_element = driver.find_element(By.CLASS_NAME, "js__nombre-plan.plan__gigas")
 
-        # Obtener todos los <div> con la clase de precio
-        precios = driver.find_elements(By.CLASS_NAME, "CardComponent_priceRichText_WuzS7")
-
-        # Tomar solo el primero de cada lista (si existen)
-        primera_oferta = ofertas[0].text if ofertas else "No encontrado"
-        primer_precio = precios[0].text if precios else "No encontrado"
-
-        return {"oferta": primera_oferta, "precio": primer_precio}
+        # Buscar el span con la clase que contiene el precio
+        precio_element = driver.find_element(By.CLASS_NAME, "price.js__precio-oferta")
+        
+        return {"oferta_movistar": gigas_element.text, "precio_movistar": precio_element.text}
 
     except Exception as e:
         print(f"Error: {e}")
         return None
 
     finally:
-        # Cerrar navegador
         driver.quit()
 
-def obtener_primer_plan_claro(driver):
+def obtener_primer_plan_claro():
     """
     Extrae la primera oferta de megas y el precio de la página de Claro.
-
-    Retorna:
-    - Un diccionario con la oferta y el precio.
     """
+    
+    driver = iniciar_driver()
 
     try:
         # Abrir la página
@@ -57,33 +58,25 @@ def obtener_primer_plan_claro(driver):
         primera_oferta = ofertas[0].text if ofertas else "No encontrado"
         primer_precio = precios[0].text if precios else "No encontrado"
 
-        return {"oferta": primera_oferta, "precio": primer_precio}
+        return {"oferta_claro": primera_oferta, "precio_claro": primer_precio}
 
     except Exception as e:
         print(f"Error: {e}")
         return None
 
     finally:
-        # Cerrar navegador
         driver.quit()
 
-# Configuración de Selenium con Firefox en modo headless
-options = webdriver.FirefoxOptions()
-options.add_argument("--headless")
-driver = webdriver.Firefox(options=options)
+plan_movistar = obtener_primer_plan_movistar()
+plan_claro = obtener_primer_plan_claro()
 
-# 📌 Ejemplo de uso:
-plan_movistar = obtener_primer_plan_movistar(driver)
-plan_claro = obtener_primer_plan_movistar(driver)
-
-# Imprimir el resultado
 if plan_movistar and plan_claro:
     print("----------Movistar\n")
-    print(f"{plan_movistar['oferta']}")
-    print(f"{plan_movistar['precio']}")
+    print(f"{plan_movistar['oferta_movistar']}")
+    print(f"{plan_movistar['precio_movistar']}")
     print("----------Claro\n")
-    print(f"{plan_claro['oferta']}")
-    print(f"{plan_claro['precio']}")
+    print(f"{plan_claro['oferta_claro']}")
+    print(f"{plan_claro['precio_claro']}")
 else:
     print("No se pudo obtener la información.")
 
