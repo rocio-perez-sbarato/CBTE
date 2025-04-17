@@ -7,6 +7,8 @@ import os
 import re
 import datetime
 
+# TODO: borrar esta feature porque soy solo una chica 
+
 def iniciar_driver():
     """Configura y devuelve un WebDriver en modo headless."""
     options = webdriver.FirefoxOptions()

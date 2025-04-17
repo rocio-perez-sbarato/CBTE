@@ -4,7 +4,7 @@ import pandas as pd
 # TO DO: automatizar el cálculo de páginas, nombre de archivo con fecha,
 # guardar excel carpeta del super, iterar en categorías  
 
-def obtener_productos(url, headers, num_paginas=2, productos_por_pagina=18):
+def obtener_productos(url, headers, num_paginas=10, productos_por_pagina=18):
     productos_totales = []
     
     for pagina in range(num_paginas):  
