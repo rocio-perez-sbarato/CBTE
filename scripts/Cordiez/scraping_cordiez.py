@@ -4,7 +4,7 @@ import math
 import os
 import pandas as pd
 
-# TODO: definir qué hacer con los productos sin stock
+# TODO: pasar formato de precios a inglés
 
 def obtener_productos(url, headers, productos_por_pagina=10):
     productos_totales = []
@@ -49,12 +49,23 @@ def obtener_productos(url, headers, productos_por_pagina=10):
 
 def procesar_productos(productos):
     datos = []
+
     for producto in productos:
         nombre = producto.get("productName", "Desconocido")
-        precio = producto.get("items", [{}])[0].get("sellers", [{}])[0].get("commertialOffer", {}).get("Price", "Sin precio")
-        cluster = producto.get("clusterHighlights", {})
-        en_oferta = "Sí" if "624" in cluster else "No"
-        datos.append([nombre, precio, en_oferta])
+        oferta = producto.get("clusterHighlights", {})
+        en_oferta = "Si" if "624" in oferta else "No"
+
+        try:
+            seller = producto["items"][0]["sellers"][0]
+            precio = seller["commertialOffer"]["Price"]
+            disponible = seller["commertialOffer"]["IsAvailable"]
+        except Exception:
+            precio = "Error"
+            disponible = False
+
+        disponibilidad = "Si" if disponible and precio not in [0, "Error"] else "No"
+        datos.append([nombre, precio, en_oferta, disponibilidad])
+
     return datos
 
 def agregar_fecha(categoria):
@@ -79,10 +90,10 @@ def guardar_en_excel(datos, ruta_archivo):
     nombre_categoria = agregar_fecha(ruta_archivo)
     nombre_archivo = os.path.join(directorio, nombre_categoria)
 
-    df = pd.DataFrame(datos)
+    df = pd.DataFrame(datos, columns=["Nombre", "Precio", "Oferta", "Disponible"])
     df.to_excel(nombre_archivo, index=False)
 
-    print(f"Datos guardados en '{nombre_archivo}'")
+    print(f"✅ Datos guardados correctamente en '{nombre_archivo}'.\n")
 
 def main():
     categorias = ["almacen/sal/sal-fina", 
@@ -96,19 +107,28 @@ def main():
         "Sec-Fetch-Mode": "cors"
     }
 
+    print("===========\n")
+    print("🚀 INICIANDO SCRAPING DE CORDIEZ")
+    print("===========\n")
     for categoria in categorias:
-        print(f"\nProcesando categoría: {categoria}")
+        print("---------------\n")
+        print(f"🕵️ Procesando categoría: {categoria}")
+        print("---------------\n")
         url = f"{base_url}{categoria}"
         
         productos = obtener_productos(url, headers)
         if not productos:
-            print(f"No se encontraron productos en la categoría {categoria}.")
+            print(f"😢 No se encontraron productos en la categoría {categoria}.\n")
             continue
 
         datos = procesar_productos(productos)
         guardar_en_excel(datos, categoria)
 
-        print(f"Total de productos en '{categoria}': {len(productos)}")
+        print(f"* {len(productos)} productos en '{categoria}': ")
+    
+    print("===========\n")
+    print("😎 SCRAPING DE CORDIEZ FINALIZADO")
+    print("===========\n")
 
 if __name__ == "__main__":
     main()
