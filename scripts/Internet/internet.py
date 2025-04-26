@@ -7,7 +7,8 @@ import os
 import re
 import datetime
 
-# TODO: borrar esta feature porque soy solo una chica 
+# TODO: modularizar (limpieza, archivos (utils) y scrapping), en main
+# poner cálculo de rendimiento
 
 def iniciar_driver():
     """Configura y devuelve un WebDriver en modo headless."""
@@ -15,10 +16,51 @@ def iniciar_driver():
     options.add_argument("--headless")
     return webdriver.Firefox(options=options)
 
+def obtener_primer_plan_personal():
+    """
+    Extrae la oferta de megas y el precio mensual de la página de Personal.
+    """
+    driver = iniciar_driver()
+    
+    # Abrir la página
+    driver.get('https://www.personal.com.ar/internet') 
 
+    wait = WebDriverWait(driver, 10)
+
+    # Buscar solo el div con data-index="0"
+    div_data_index_0 = wait.until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, 'div[data-index="0"]'))
+    )
+
+    # Inicializar valores
+    oferta = None
+    precio = None
+
+    # Buscar la oferta
+    try:
+        # Hay dos h2: uno para "Internet 300 MB" y otro para "Flow Full sin deco"
+        h2_elements = div_data_index_0.find_elements(By.CSS_SELECTOR, 'h2')
+        oferta = ' + '.join(h2.text.strip() for h2 in h2_elements if h2.text.strip())
+    except Exception:
+        oferta = None
+
+    # Buscar el precio
+    try:
+        price_container = div_data_index_0.find_element(By.CSS_SELECTOR, '.CardComponent_priceRichText__WuzS7 span')
+        precio = price_container.text.strip()
+    except Exception:
+        precio = None
+
+    # Retornar todo como un diccionario
+    return {
+        "Compañía": "Personal", 
+        'oferta': oferta,
+        'precio': precio
+    }
+    
 def obtener_primer_plan_movistar():
     """
-    Extrae la oferta de megas y el precio mensual de la página de Movistar.
+    Extrae la oferta de gigas y el precio mensual de la página de Movistar.
     """
     
     driver = iniciar_driver()
@@ -104,7 +146,7 @@ def guardar_en_excel(datos):
         datos["precio"] = limpiar_precio(datos["precio"])  # Unificar formato de precio
         
         # Crear la carpeta si no existe
-        carpeta = "data"
+        carpeta = "data/internet"
         os.makedirs(carpeta, exist_ok=True)
 
         # Generar el nombre del archivo con la fecha
@@ -126,6 +168,11 @@ def guardar_en_excel(datos):
 
 
 # Ejecutar y guardar los datos
+
+plan_personal = obtener_primer_plan_personal()
+print(plan_personal)
+guardar_en_excel(plan_personal)
+
 plan_movistar = obtener_primer_plan_movistar()
 print(plan_movistar)
 guardar_en_excel(plan_movistar)
