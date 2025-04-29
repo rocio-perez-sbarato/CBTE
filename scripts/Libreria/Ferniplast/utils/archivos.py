@@ -22,7 +22,7 @@ def guardar_en_excel(productos, url_categoria):
         return
 
     # Ruta relativa para ir a la carpeta superior y luego a "data"
-    directorio = os.path.abspath(os.path.join(".", "data/supermercados/carrefour"))
+    directorio = os.path.abspath(os.path.join(".", "data/libreria/ferniplast"))
 
     os.makedirs(directorio, exist_ok=True) 
 

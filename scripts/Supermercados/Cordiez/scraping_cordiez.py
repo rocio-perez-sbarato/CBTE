@@ -83,7 +83,7 @@ def guardar_en_excel(datos, ruta_archivo):
         return
 
     # Ruta relativa para ir a la carpeta superior y luego a "data"
-    directorio = os.path.abspath(os.path.join(".", "data/cordiez"))
+    directorio = os.path.abspath(os.path.join(".", "data/supermercados/cordiez"))
 
     os.makedirs(directorio, exist_ok=True) 
 
