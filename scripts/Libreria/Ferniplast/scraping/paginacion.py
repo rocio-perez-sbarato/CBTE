@@ -24,7 +24,7 @@ def obtener_cantidad_paginas(driver, productos_por_pagina=28):
             return cantidad_paginas
         else:
             print("⚠️ No se pudo interpretar el texto del contador.")
-            return 1
+            return 1 # Eso es cuando dice "Has visto todos los X productos"
 
     except Exception as e:
         print(f"❌ Error al obtener cantidad de páginas: {e}")

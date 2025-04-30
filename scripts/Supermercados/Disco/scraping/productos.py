@@ -12,6 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # NOTA: scrapea también lo que está en los sliders al fondo... 
+# TODO: ver si se arregla scrolleando hasta cierta parte de la pantalla
 
 def obtener_productos_y_precios_disco(driver, max_reintentos=5, espera_entre_intentos=3):
     """Extrae productos y precios desde la página de Disco."""

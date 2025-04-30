@@ -14,7 +14,7 @@ print("===========\n")
 with medir_recursos():
     for url_categoria in links_categorias:
         print("---------------\n")
-        print(f"🕵️ Scrapeando categoría {url_categoria}")
+        print(f"🕵️Scrapeando categoría {url_categoria}")
         print("---------------\n")
         driver = crear_driver()
         driver.get(url_categoria)
