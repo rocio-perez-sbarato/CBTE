@@ -17,7 +17,6 @@ with medir_recursos():
         print(f"🕵️Scrapeando categoría {url_categoria}")
         print("---------------\n")
         driver = crear_driver()
-        driver.get(url_categoria)
         try:
             productos = scrapear_categoria(driver, url_categoria)
             guardar_en_excel(productos, url_categoria)

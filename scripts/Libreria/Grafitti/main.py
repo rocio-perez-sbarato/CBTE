@@ -1,30 +1,27 @@
-import sys
-
-
-
-from Supermercados.Carrefour.scraping.productos import scrapear_categoria
-from Supermercados.Carrefour.utils.archivos import guardar_en_excel
-from Supermercados.Carrefour.utils.rendimiento import medir_recursos
-from Supermercados.Carrefour.scraping.navegador import crear_driver
-from scripts.Libreria.Carrefour.config import links_categorias
+from scraping.navegador import crear_driver
+from scraping.productos import obtener_productos_y_precios
+from utils.rendimiento import medir_recursos
+from utils.archivos import guardar_en_excel
+from config import links_categorias
 import pandas as pd
-sys.path.insert(0, '/CBTE/scripts/Supermercados/Carrefour/scraping/')
+
 categorias_fallidas = []
 
 print("===========\n")
-print("🚀 INICIANDO SCRAPING DE LIBRERIA DE CARREFOUR")
+print("🚀 INICIANDO SCRAPING DE GRAFITTI")
 print("===========\n")
     
 with medir_recursos():
     for url_categoria in links_categorias:
         print("---------------\n")
-        print(f"🕵️ Scrapeando categoría {url_categoria}")
+        print(f"🕵️  Scrapeando categoría {url_categoria}")
         print("---------------\n")
         driver = crear_driver()
-
+        driver.get(url_categoria)
         try:
-            productos = scrapear_categoria(driver, url_categoria)
+            productos = obtener_productos_y_precios(driver)
             guardar_en_excel(productos, url_categoria)
+            
         except Exception as e:
             print(f"😢 Error al procesar {url_categoria}: {e}")
             categorias_fallidas.append(url_categoria)
@@ -42,6 +39,5 @@ else:
     print("\n✅ ¡Todas las categorías se escrapearon correctamente!")
     
 print("===========\n")
-print("😎 SCRAPING DE LIBRERIA DE CARREFOUR FINALIZADO")
+print("😎 SCRAPING DE GRAFITTI FINALIZADO")
 print("===========\n")
-    
