@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys
 import time
 
 def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=3): 
@@ -19,32 +18,46 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
 
         try:
             WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "item-description"))
+                EC.presence_of_element_located((By.CLASS_NAME, "item-product"))
             )
 
-            productos = driver.find_elements(By.CLASS_NAME, "item-description")
-            print(f"{len(productos)} productos visibles")
+            contenedores = driver.find_elements(By.CLASS_NAME, "item-product")
+            print(f"{len(contenedores)} productos visibles")
 
             productos_precios = []
 
-            for producto in productos:
+            for container in contenedores:
+                # --- DATA VARIANTS
                 try:
-                    nombre = producto.find_element(By.CLASS_NAME, "item-name").text.strip()
+                    label_container = container.find_element(By.CLASS_NAME, "labels")
+                    stock_label = label_container.find_element(By.CLASS_NAME, "js-stock-label")
+
+                    # Analizamos el texto y estilo
+                    texto_label = stock_label.text.strip()
+                    style = stock_label.get_attribute("style")
+
+                    if "SIN STOCK" in texto_label and ("display:none" not in style if style else True):
+                        stock = "No"
+                    else:
+                        stock = "Si"
+                except Exception as e:
+                    stock ="Si"
+
+                # --- DESCRIPCIÓN
+                try:
+                    desc = container.find_element(By.CLASS_NAME, "item-description")
+                    nombre = desc.find_element(By.CLASS_NAME, "item-name").text.strip()
                 except:
                     nombre = "Nombre no disponible"
 
-                # Obtener contenedor de precios
+                # --- PRECIO
                 try:
-                    contenedor_precio = producto.find_element(By.CLASS_NAME, "item-price-container")
-
-                    # Precio final
+                    contenedor_precio = container.find_element(By.CLASS_NAME, "item-price-container")
                     precio_final = contenedor_precio.find_element(By.CLASS_NAME, "item-price").text.strip()
 
-                    # Precio original (si existe)
                     try:
-                        compare_element = contenedor_precio.find_element(By.CLASS_NAME, "price-compare")
-                        precio_original = compare_element.text.strip()
-                        # Si el texto está vacío o es "$0", entonces no hay oferta real
+                        precio_original_elem = contenedor_precio.find_element(By.CLASS_NAME, "price-compare")
+                        precio_original = precio_original_elem.text.strip()
                         if not precio_original or "$0" in precio_original:
                             precio_original = precio_final
                             tiene_oferta = "No"
@@ -58,17 +71,6 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
                     precio_final = "No disponible"
                     precio_original = "No disponible"
                     tiene_oferta = "No"
-
-                # Stock
-                try:
-                    stock_div = producto.find_element(By.CLASS_NAME, "js-stock-label")
-                    style = stock_div.get_attribute("style")
-                    if style and "display:none" in style:
-                        stock = "Disponible"
-                    else:
-                        stock = "Sin stock"
-                except:
-                    stock = "Disponible"
 
                 productos_precios.append({
                     "Nombre del producto": nombre,
@@ -93,6 +95,7 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
 
     print("😢 No se encontraron productos luego de varios intentos.\n")
     return []
+
 
 
 
