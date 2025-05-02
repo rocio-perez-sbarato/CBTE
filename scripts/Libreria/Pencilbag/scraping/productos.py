@@ -1,9 +1,10 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from scraping.paginacion import obtener_total_paginas
 import time
 
-def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=3): 
+def obtener_productos_y_precios_pencilbag(driver, max_reintentos=5, espera_entre_intentos=3): 
     """Extrae productos, precios, stock y ofertas desde la web de Pencilbag Librería."""
 
     for intento in range(max_reintentos):
@@ -95,3 +96,28 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
 
     print("😢 No se encontraron productos luego de varios intentos.\n")
     return []
+
+def scrapear_categoria(driver, url_categoria):
+    """Recorre todas las páginas de una categoría y extrae los productos."""
+    driver.get(url_categoria)
+    time.sleep(3)
+
+    total_paginas = obtener_total_paginas(driver)
+
+    todos_los_productos = []
+
+    for pagina in range(1, total_paginas + 1):
+        if pagina == 1:
+            url_pagina = url_categoria  # La primera página no lleva /page/X/
+        else:
+            url_pagina = f"{url_categoria}page/{pagina}/"
+
+        driver.get(url_pagina)
+        print(f"🕵️ Scrapeando página {pagina} de {total_paginas}...")
+        time.sleep(3)
+
+        productos_pagina = obtener_productos_y_precios_pencilbag(driver)
+        todos_los_productos.extend(productos_pagina)
+
+    return todos_los_productos
+

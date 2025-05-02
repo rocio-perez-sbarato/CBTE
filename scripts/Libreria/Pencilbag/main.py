@@ -1,5 +1,5 @@
 from scraping.navegador import crear_driver
-from scraping.productos import obtener_productos_y_precios
+from scraping.paginacion import obtener_total_paginas
 from utils.rendimiento import medir_recursos
 from utils.archivos import guardar_en_excel
 from config import links_categorias
@@ -19,9 +19,7 @@ with medir_recursos():
         driver = crear_driver()
         driver.get(url_categoria)
         try:
-            productos = obtener_productos_y_precios(driver)
-            guardar_en_excel(productos, url_categoria)
-            
+            total = obtener_total_paginas(driver)
         except Exception as e:
             print(f"😢 Error al procesar {url_categoria}: {e}")
             categorias_fallidas.append(url_categoria)
