@@ -5,11 +5,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from utils.limpieza import filtrar_productos
 from scraping.paginacion import obtener_total_paginas
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import time
 
 # NOTA: scrapea también lo que está en los sliders al fondo... 
 
