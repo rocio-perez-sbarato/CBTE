@@ -120,3 +120,94 @@ INFO : root : rendimiento : medir_recursos : Uso de CPU: 26.80%
 INFO : root : rendimiento : medir_recursos : Memoria utilizada: -937.65 MB
 INFO : root : main : main : ===========SCRAPING DE ARGENPROP FINALIZADO===========
 
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 2 de 5
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 2 de 5
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : main : main : Se obtuvieron 30 departamentos.
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\CBTE\CBTE\data\alquileres\zonaprop\departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html_06-05-2025.xlsx'
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.82 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 7.10%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -342.48 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : paginacion : obtener_total_paginas : Verificando página 1...
+INFO : root : paginacion : obtener_total_paginas : No se encontraron más publicaciones.
+INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.49 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 3.40%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -1527.89 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : paginacion : obtener_total_paginas : Verificando página 1...
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : paginacion : obtener_total_paginas : Verificando página 1...
+ERROR : root : paginacion : obtener_total_paginas : Error al obtener total de páginas: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.44 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 0.70%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -110.07 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
