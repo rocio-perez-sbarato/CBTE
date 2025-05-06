@@ -1,0 +1,33 @@
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ARGENPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.argenprop.com/departamentos/alquiler/cordoba-arg/2-ambientes/1-dormitorio
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 6
+INFO : root : productos : scrapear_pagina : Total de páginas a scrapear: 6
+INFO : root : productos : scrapear_pagina : Scrapeando página 1 de 6...
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+INFO : root : productos : scrapear_pagina : Scrapeando página 2 de 6...
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+INFO : root : productos : scrapear_pagina : Scrapeando página 3 de 6...
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+INFO : root : productos : scrapear_pagina : Scrapeando página 4 de 6...
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+INFO : root : productos : scrapear_pagina : Scrapeando página 5 de 6...
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+INFO : root : productos : scrapear_pagina : Scrapeando página 6 de 6...
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_argenprop : 1 propiedades encontradas.
+INFO : root : productos : scrapear_pagina : Scraping completo.
+INFO : root : main : main : Se obtuvieron 101 departamentos.
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\CBTE\CBTE\data\alquileres\argenprop\departamentos_alquiler_cordoba-arg_2-ambientes_1-dormitorio_06-05-2025.xlsx'
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : main : main : ===========SCRAPING DE ARGENPROP FINALIZADO===========
+

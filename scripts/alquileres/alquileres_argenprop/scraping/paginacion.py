@@ -1,28 +1,39 @@
 import time
 from selenium.webdriver.common.by import By
+import logging
+import logging.config
 
-# TODO: pensar como acceder al último botón
+logging.config.fileConfig('logging_config/logging.conf')
+logger = logging.getLogger('root')
 
-def obtener_hrefs_paginas(driver):
-    """Obtiene los hrefs de los enlaces de las páginas de la paginación."""
+def obtener_total_paginas(driver):
+    """Devuelve la cantidad total de páginas basada en los botones de paginación."""
     try:
-        time.sleep(3)  # Asegurar que la página carga completamente
+        time.sleep(3)  # Asegurarse de que cargue la página
 
-        # Buscar los botones de paginación
-        paginas = driver.find_elements(By.CSS_SELECTOR, "ul.pagination.pagination--links li.pagination_page")
+        ul_paginacion = driver.find_element(By.CSS_SELECTOR, "ul.pagination.pagination--links")
+        paginas = ul_paginacion.find_elements(By.TAG_NAME, "li")
 
-        # Extraer los hrefs de los enlaces
-        hrefs = []
+        numeros = []
         for pagina in paginas:
-            # Verificar si el <li> contiene un enlace <a>
             if pagina.find_elements(By.TAG_NAME, "a"):
-                link = pagina.find_element(By.TAG_NAME, "a").get_attribute("href")
-                hrefs.append(link)
+                enlace = pagina.find_element(By.TAG_NAME, "a")
+                texto = enlace.text.strip()
 
-        print(f"Enlaces de páginas detectados: {hrefs}")
-        return hrefs
+                # Filtrar botones "‹" y "›"
+                if texto not in ["‹", "›"]:
+                    try:
+                        numero = int(texto)
+                        numeros.append(numero)
+                    except ValueError:
+                        continue  # Ignorar si no es número
+
+        total_paginas = max(numeros) if numeros else 1
+        logger.info(f"Total de páginas detectadas: {total_paginas}")
+        return total_paginas
 
     except Exception as e:
-        print(f"Error obteniendo los hrefs: {e}")
-        return []
+        logger.info(f"Error al obtener total de páginas: {e}")
+        return 1
+
 

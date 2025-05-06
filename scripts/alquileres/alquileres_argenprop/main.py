@@ -1,32 +1,41 @@
 from scraping.navegador import crear_driver
-from scraping.productos import obtener_alquileres_y_precios_argenprop
-from scraping.paginacion import obtener_hrefs_paginas
+from scraping.productos import scrapear_pagina
 from config import base_url
 from utils.rendimiento import medir_recursos
 from utils.archivos import guardar_en_excel
-import pandas as pd
+import logging
+import logging.config
 
-# TODO: agregar logs
+logging.config.fileConfig('logging_config/logging.conf')
+logger = logging.getLogger('root')
 
-print("===========\n")
-print("🚀 INICIANDO SCRAPING DE ARGENPROP")
-print("===========\n")
+def main():
+    logger.info("===========INICIANDO SCRAPING DE ARGENPROP===========\n")
 
-with medir_recursos():
-    print("---------------\n")
-    print(f"🕵️ Scrapeando los alquileres en {base_url}")
-    print("---------------\n")
-    driver = crear_driver()
-    driver.get(base_url)
-    try:
-        deptos = obtener_alquileres_y_precios_argenprop(driver)
-        guardar_en_excel(deptos, base_url)    
-        print("\n✅ ¡Todas los deptos se escrapearon correctamente!")
-    except Exception as e:
-        print(f"😢 Error al procesar {base_url}: {e}")
-    finally:
-        driver.quit()
+    with medir_recursos():
+        logger.info(f"Scrapeando los alquileres en {base_url}")
     
-print("===========\n")
-print("😎 SCRAPING DE ARGENPROP FINALIZADO")
-print("===========\n")
+        try:
+            driver = crear_driver()
+            logger.info("Driver creado.")
+            
+            logger.info("Iniciando el scraping...")
+            deptos = scrapear_pagina(driver, base_url)
+            logger.info(f"Se obtuvieron {len(deptos)} departamentos.")
+
+            logger.info("Guardando resultados en Excel...")
+            guardar_en_excel(deptos, base_url)
+            logger.info("¡Todas los deptos se escrapearon y guardaron correctamente!")
+
+        except Exception as e:
+            logger.error(f"Error al procesar {base_url}: {e}")
+
+        finally:
+            driver.quit()
+            logger.info("Driver cerrado.")
+
+    logger.info("===========SCRAPING DE ARGENPROP FINALIZADO===========\n")
+
+if __name__ == "__main__":
+    main()
+

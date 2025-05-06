@@ -2,6 +2,11 @@ import os
 import datetime
 import pandas as pd
 from utils.limpieza import limpiar_url
+import logging
+import logging.config
+
+logging.config.fileConfig('logging_config/logging.conf')
+logger = logging.getLogger('root')
 
 def agregar_fecha(nombre_base):
     """Agrega la fecha actual al nombre del archivo, respetando la extensión."""
@@ -22,7 +27,7 @@ def guardar_en_excel(productos, url_categoria):
         return
 
     # Ruta relativa para ir a la carpeta superior y luego a "data"
-    directorio = os.path.abspath(os.path.join(".", "data/alquileres/zonaprop"))
+    directorio = os.path.abspath(os.path.join(".", "data/alquileres/argenprop"))
 
     os.makedirs(directorio, exist_ok=True) 
 
@@ -32,4 +37,4 @@ def guardar_en_excel(productos, url_categoria):
     df = pd.DataFrame(productos)
     df.to_excel(nombre_archivo, index=False)
 
-    print(f"✅ Datos guardados correctamente en '{nombre_archivo}'")
+    logger.info(f"Datos guardados correctamente en '{nombre_archivo}'")

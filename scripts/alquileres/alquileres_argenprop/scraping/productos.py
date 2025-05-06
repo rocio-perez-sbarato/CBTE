@@ -2,16 +2,21 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from scraping.paginacion import obtener_total_paginas
 
 # TODO: limpiar los precios (idea: separar los numeros separados por el +)
+
+import logging
+import logging.config
+
+logging.config.fileConfig('logging_config/logging.conf')
+logger = logging.getLogger('root')
 
 def obtener_alquileres_y_precios_argenprop(driver, max_reintentos=5, espera_entre_intentos=3):
     """Extrae propiedades y precios desde Argenprop."""
 
     for intento in range(max_reintentos):
-        print("---------\n")
-        print(f"🔍 Intento {intento + 1} de {max_reintentos}")
-        print("---------\n")
+        logger.info(f"Intento {intento + 1} de {max_reintentos}")
 
         for _ in range(5):
             driver.execute_script("window.scrollBy(0, 800);")
@@ -62,19 +67,38 @@ def obtener_alquileres_y_precios_argenprop(driver, max_reintentos=5, espera_entr
                 })
 
             if propiedades:
-                print(f"✅ {len(propiedades)} propiedades encontradas.")
+                logger.info(f"{len(propiedades)} propiedades encontradas.")
                 return propiedades
             else:
-                print("😢 No se encontraron propiedades. Reintentando...")
+                logger.warning("No se encontraron propiedades. Reintentando...")
                 time.sleep(espera_entre_intentos)
 
         except Exception as e:
-            print(f"⚠️ Error en intento {intento + 1}: {e}")
+            logger.error(f"Error en intento {intento + 1}: {e}")
             time.sleep(espera_entre_intentos)
 
-    print("❌ No se encontraron propiedades luego de varios intentos.\n")
+    logger.critical("No se encontraron propiedades luego de varios intentos.")
     return []
 
+def scrapear_pagina(driver, url_filtros):
+    """Recorre todas las páginas de una categoría y extrae los productos."""
+    driver.get(url_filtros)
+    time.sleep(3)
 
+    total_paginas = obtener_total_paginas(driver)
+    logger.info(f"Total de páginas a scrapear: {total_paginas}")
+    
+    todos_los_productos = []
+    for pagina in range(1, total_paginas + 1):
+        url_pagina = f"{url_filtros}?pagina-{pagina}&solo-ver-pesos"
+        driver.get(url_pagina)
+        logger.info(f"Scrapeando página {pagina} de {total_paginas}...")
+        time.sleep(3)
+
+        productos_pagina = obtener_alquileres_y_precios_argenprop(driver)
+        todos_los_productos.extend(productos_pagina)
+        
+    logger.info("Scraping completo.")
+    return todos_los_productos
 
 
