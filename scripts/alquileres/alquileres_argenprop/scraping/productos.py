@@ -3,9 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from scraping.paginacion import obtener_total_paginas
-
-# TODO: limpiar los precios (idea: separar los numeros separados por el +)
-
 import logging
 import logging.config
 
@@ -20,10 +17,10 @@ def obtener_alquileres_y_precios_argenprop(driver, max_reintentos=5, espera_entr
 
         for _ in range(5):
             driver.execute_script("window.scrollBy(0, 800);")
-            time.sleep(1)
+            time.sleep(3)
 
         try:
-            WebDriverWait(driver, 30).until(
+            WebDriverWait(driver, 50).until(
                 EC.presence_of_element_located((By.CLASS_NAME, "listing__items"))
             )
 
@@ -37,16 +34,20 @@ def obtener_alquileres_y_precios_argenprop(driver, max_reintentos=5, espera_entr
                     direccion = "No disponible"
 
                 try:
-                    precio_texto = card.find_element(By.CSS_SELECTOR, "p.card_price").text.strip()
-                    precio = precio_texto.split('\n')[0]
+                    precio_texto = card.find_element(By.CSS_SELECTOR, "p.card__price").text.strip()
+
+                    # Separar por '+' si existe
+                    partes = [parte.strip() for parte in precio_texto.split('+')]
+
+                    if len(partes) == 2:
+                        precio, expensas = partes
+                    else:
+                        precio = partes[0]
+                        expensas = "No disponibles"
+
                 except:
                     precio = "No disponible"
-
-                try:
-                    expensas = card.find_element(By.CSS_SELECTOR, "span.card__expenses").text.strip()
-                except:
-                    expensas = "No disponibles"
-
+                    expensas = "No disponible"
 
                 try:
                     superficie = card.find_element(By.CSS_SELECTOR, "li:has(i.icono-superficie_cubierta)").text.strip()
