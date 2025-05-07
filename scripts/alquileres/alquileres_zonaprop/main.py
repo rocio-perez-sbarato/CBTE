@@ -1,5 +1,5 @@
 from scraping.navegador import crear_driver
-from scraping.paginacion import obtener_total_paginas
+from scraping.productos import scrapear_pagina
 from config import base_url
 from utils.rendimiento import medir_recursos
 from utils.archivos import guardar_en_excel
@@ -17,14 +17,12 @@ def main():
     
         try:
             driver = crear_driver()
-            driver.get(base_url)
             logger.info("Driver creado.")
-            
             logger.info("Iniciando el scraping...")
-            deptos = obtener_total_paginas(driver, base_url)
+            deptos = scrapear_pagina(driver, base_url)
 
             logger.info("Guardando resultados en Excel...")
-            #guardar_en_excel(deptos, base_url)
+            guardar_en_excel(deptos, base_url)
             logger.info("¡Todas los deptos se escrapearon y guardaron correctamente!")
 
         except Exception as e:

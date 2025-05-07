@@ -2,7 +2,8 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from scraping.paginacion import obtener_total_paginas
+from scraping.paginacion import hay_pagina_siguiente
+from utils.limpieza import insertar_pagina_en_url
 import logging
 import logging.config
 
@@ -10,7 +11,7 @@ logging.config.fileConfig('logging_config/logging.conf')
 logger = logging.getLogger('root')
 
 
-def obtener_alquileres_y_precios_zonaprop(driver, max_reintentos=5, espera_entre_intentos=3):
+def obtener_alquileres_y_precios_zonaprop(driver, max_reintentos=1, espera_entre_intentos=3):
     """Extrae propiedades y precios desde Zonaprop."""
 
     for intento in range(max_reintentos):
@@ -71,24 +72,27 @@ def obtener_alquileres_y_precios_zonaprop(driver, max_reintentos=5, espera_entre
     return []
 
 def scrapear_pagina(driver, url_filtros):
-    """Recorre todas las páginas de una categoría y extrae los productos."""
-    driver.get(url_filtros)
-    time.sleep(3)
+    """Recorre las páginas de una categoría y extrae los productos mientras exista página siguiente."""
 
-    total_paginas = obtener_total_paginas(driver)
-    logger.info(f"Total de páginas a scrapear: {total_paginas}")
-    
+    pagina = 1
     todos_los_productos = []
-    for pagina in range(1, total_paginas + 1):
-        url_pagina = f"{url_filtros}-pagina-{pagina}"
-        driver.get(url_pagina)
-        logger.info(f"Scrapeando página {pagina} de {total_paginas}...")
-        time.sleep(3)
 
+    while True:
+        logger.info(insertar_pagina_en_url(url_filtros, pagina))
+        url_pagina = insertar_pagina_en_url(url_filtros, pagina) if pagina > 1 else url_filtros
+        driver.get(url_pagina)
+        logger.info(f"Scrapeando página {pagina}...")
         productos_pagina = obtener_alquileres_y_precios_zonaprop(driver)
         todos_los_productos.extend(productos_pagina)
-        
+
+        if not hay_pagina_siguiente(driver):
+            logger.info("No hay más páginas.")
+            break
+
+        pagina += 1
+
     logger.info("Scraping completo.")
     return todos_los_productos
+
 
 

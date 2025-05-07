@@ -211,3 +211,338 @@ INFO : root : rendimiento : medir_recursos : Uso de CPU: 0.70%
 INFO : root : rendimiento : medir_recursos : Memoria utilizada: -110.07 MB
 INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
 
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+ERROR : root : main : main : Error al procesar https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html: obtener_total_paginas() takes 1 positional argument but 2 were given
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.30 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 35.80%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -671.74 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.32 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 30.30%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -399.55 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : Scrapeando página 1...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: True
+INFO : root : productos : scrapear_pagina : Scrapeando página 2...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 2 de 5
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 2: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 3 de 5
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : Scrapeando página 1...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: True
+INFO : root : productos : scrapear_pagina : Scrapeando página 2...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 2 de 5
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 2: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 3 de 5
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-1.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 1...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: True
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-2.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 2...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 5
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 2 de 5
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-1.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 1...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: True
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-2.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 2...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+CRITICAL : root : productos : obtener_alquileres_y_precios_zonaprop : No se encontraron propiedades luego de varios intentos.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: False
+INFO : root : productos : scrapear_pagina : No hay más páginas.
+INFO : root : productos : scrapear_pagina : Scraping completo.
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\CBTE\CBTE\data\alquileres\zonaprop\departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html_07-05-2025.xlsx'
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.01 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: -16.40%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -771.66 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-2.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\CBTE\CBTE\data\alquileres\zonaprop\departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-2.html_07-05-2025.xlsx'
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.55 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: -4.00%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -780.07 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-2.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 2...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: True
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-3.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 3...
+ERROR : root : main : main : Error al procesar https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.43 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 18.10%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -978.48 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-2.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 2...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: True
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-3.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 3...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+CRITICAL : root : productos : obtener_alquileres_y_precios_zonaprop : No se encontraron propiedades luego de varios intentos.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: False
+INFO : root : productos : scrapear_pagina : No hay más páginas.
+INFO : root : productos : scrapear_pagina : Scraping completo.
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\CBTE\CBTE\data\alquileres\zonaprop\departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html_07-05-2025.xlsx'
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.77 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 4.50%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -738.82 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : main : main : Guardando resultados en Excel...
+ERROR : root : main : main : Error al procesar https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.20 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 35.50%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -254.68 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+ERROR : root : main : main : Error al procesar https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html: module 'requests' has no attribute 'status_code'
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.21 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 23.90%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -106.74 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : 403
+INFO : root : main : main : Guardando resultados en Excel...
+ERROR : root : main : main : Error al procesar https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.18 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 44.60%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -119.34 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : 403
+INFO : root : main : main : Guardando resultados en Excel...
+ERROR : root : main : main : Error al procesar https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.19 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: 69.00%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -192.46 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-1.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 1...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: True
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-2.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 2...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+CRITICAL : root : productos : obtener_alquileres_y_precios_zonaprop : No se encontraron propiedades luego de varios intentos.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: False
+INFO : root : productos : scrapear_pagina : No hay más páginas.
+INFO : root : productos : scrapear_pagina : Scraping completo.
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\CBTE\CBTE\data\alquileres\zonaprop\departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html_07-05-2025.xlsx'
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.81 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: -7.80%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -493.81 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+INFO : root : main : main : Driver creado.
+INFO : root : main : main : Iniciando el scraping...
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-1.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 1...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : 30 propiedades encontradas.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: True
+INFO : root : productos : scrapear_pagina : https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes-pagina-2.html
+INFO : root : productos : scrapear_pagina : Scrapeando página 2...
+INFO : root : productos : obtener_alquileres_y_precios_zonaprop : Intento 1 de 1
+ERROR : root : productos : obtener_alquileres_y_precios_zonaprop : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+CRITICAL : root : productos : obtener_alquileres_y_precios_zonaprop : No se encontraron propiedades luego de varios intentos.
+INFO : root : paginacion : hay_pagina_siguiente : ¿Hay página siguiente?: False
+INFO : root : productos : scrapear_pagina : No hay más páginas.
+INFO : root : productos : scrapear_pagina : Scraping completo.
+INFO : root : main : main : Guardando resultados en Excel...
+INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\CBTE\CBTE\data\alquileres\zonaprop\departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html_07-05-2025.xlsx'
+INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+INFO : root : main : main : Driver cerrado.
+INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 3.46 minutos
+INFO : root : rendimiento : medir_recursos : Uso de CPU: -2.00%
+INFO : root : rendimiento : medir_recursos : Memoria utilizada: -769.35 MB
+INFO : root : main : main : ===========SCRAPING DE ZONAPROP FINALIZADO===========
+
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+ERROR : root : main : main : Error al procesar https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html: WebDriver.__init__() got an unexpected keyword argument 'firefox_profile'
+INFO : root : main : main : ===========INICIANDO SCRAPING DE ZONAPROP===========
+
+INFO : root : main : main : Scrapeando los alquileres en https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html
+ERROR : root : main : main : Error al procesar https://www.zonaprop.com.ar/departamentos-alquiler-cordoba-cb-1-habitacion-desde-1-hasta-2-ambientes.html: WebDriver.__init__() got an unexpected keyword argument 'firefox_profile'
