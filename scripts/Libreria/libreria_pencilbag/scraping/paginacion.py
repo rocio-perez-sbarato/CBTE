@@ -3,6 +3,11 @@ import re
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import logging 
+import logging.config 
+
+logging.config.fileConfig('logging_config/logging.conf') 
+logger = logging.getLogger('root')
 
 def obtener_total_paginas(driver):
     """Obtiene el número total de páginas desde el texto '1 / X' en Pencilbag."""
@@ -26,14 +31,14 @@ def obtener_total_paginas(driver):
         if len(spans) >= 3:
             texto = spans[2].text  # Toma el tercer <span>, que debería tener el número total
             total_paginas = int(texto)
-            print(f"Total de páginas detectadas: {total_paginas}")
+            logger.info(f"Total de páginas detectadas: {total_paginas}")
             return total_paginas
         else:
-            print("No se encontraron suficientes <span> en el contenedor.")
+            logger.info("No se encontraron suficientes <span> en el contenedor.")
             return 1
 
     except Exception as e:
-        print(f"😢 Error obteniendo total de páginas: {e}")
+        logger.error(f"Error obteniendo total de páginas: {e}")
         return 1
 
 

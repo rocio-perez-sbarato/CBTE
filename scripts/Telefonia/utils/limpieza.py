@@ -12,5 +12,5 @@ def limpiar_precio(texto_precio):
 
 def limpiar_oferta(oferta):
     """Elimina todas las letras y deja solo los números en la oferta."""
-    numeros = re.findall(r"\d+", oferta)  # Buscar solo números
-    return " ".join(numeros) if numeros else ""  # Unir números separados por espacios
+    numeros = re.findall(r"\d+(?:\.\d+)?", oferta) 
+    return "".join(numeros) if numeros else ""  # Unir números separados por espacios

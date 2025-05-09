@@ -5,14 +5,17 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from scraping.paginacion import obtener_cantidad_paginas
 from utils.limpieza import limpiar_nombre, filtrar_productos
+import logging 
+import logging.config 
+
+logging.config.fileConfig('logging_config/logging.conf') 
+logger = logging.getLogger('root')
 
 def obtener_productos_y_precios_ferniplast(driver, max_reintentos=5, espera_entre_intentos=3): 
     """Extrae productos y precios de Ferniplast, incluyendo detección de ofertas."""
     
     for intento in range(max_reintentos):
-        #print("---------\n")
-        #print(f"😦 Intento {intento + 1} de {max_reintentos}")
-        #print("---------\n")
+        logger.info(f"Intento {intento + 1} de {max_reintentos}")
 
         # Scroll para cargar productos
         for _ in range(5):
@@ -29,7 +32,7 @@ def obtener_productos_y_precios_ferniplast(driver, max_reintentos=5, espera_entr
             time.sleep(2)
 
             productos = driver.find_elements(By.CSS_SELECTOR, "section[aria-label]")
-            print(f"{len(productos)} productos visibles")
+            logger.info(f"{len(productos)} productos visibles")
 
             productos_precios = []
 
@@ -81,14 +84,14 @@ def obtener_productos_y_precios_ferniplast(driver, max_reintentos=5, espera_entr
             if productos_filtrados:
                 return productos_filtrados
             else:
-                print("😢 No se encontraron productos. Reintentando...")
+                logger.critical("No se encontraron productos. Reintentando...")
                 time.sleep(espera_entre_intentos)
 
         except Exception as e:
-            print(f"😢 Error en intento {intento + 1}: {e}")
+            logger.error(f"Error en intento {intento + 1}: {e}")
             time.sleep(espera_entre_intentos)
 
-    print("😢 No se encontraron productos luego de varios intentos.\n")
+    logger.info("No se encontraron productos luego de varios intentos.\n")
     return []
 
 def scrapear_categoria(driver, url_categoria):
@@ -102,6 +105,7 @@ def scrapear_categoria(driver, url_categoria):
 
     for pagina in range(1, total_paginas + 1):
         url_pagina = f"{url_categoria}?page={pagina}"
+        logger.info(f"Scrapeando página {pagina} de {total_paginas}...")
         driver.get(url_pagina)
         time.sleep(3)
 

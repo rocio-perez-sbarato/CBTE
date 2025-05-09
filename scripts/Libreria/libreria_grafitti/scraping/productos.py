@@ -2,14 +2,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import logging 
+import logging.config 
+
+logging.config.fileConfig('logging_config/logging.conf') 
+logger = logging.getLogger('root')
 
 def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=3): 
     """Extrae productos, precios, stock y ofertas desde la web de Grafitti Librería."""
 
     for intento in range(max_reintentos):
-        print("---------\n")
-        print(f"😦 Intento {intento + 1} de {max_reintentos}")
-        print("---------\n")
+        logger.info(f"Intento {intento + 1} de {max_reintentos}")
 
         # Scroll para cargar productos
         for _ in range(5):
@@ -22,7 +25,7 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
             )
 
             contenedores = driver.find_elements(By.CLASS_NAME, "item-product")
-            print(f"{len(contenedores)} productos visibles")
+            logger.info(f"{len(contenedores)} productos visibles")
 
             productos_precios = []
 
@@ -81,17 +84,17 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
                 })
 
             if productos_precios:
-                print(f"* {len(productos_precios)} productos.")
+                logger.info(f"* {len(productos_precios)} productos.")
                 return productos_precios
             else:
-                print("😢 No se encontraron productos. Reintentando...")
+                logger.critical("No se encontraron productos. Reintentando...")
                 time.sleep(espera_entre_intentos)
 
         except Exception as e:
-            print(f"😢 Error en intento {intento + 1}: {e}")
+            logger.error(f"Error en intento {intento + 1}: {e}")
             time.sleep(espera_entre_intentos)
 
-    print("😢 No se encontraron productos luego de varios intentos.\n")
+    logger.info("No se encontraron productos luego de varios intentos.\n")
     return []
 
 

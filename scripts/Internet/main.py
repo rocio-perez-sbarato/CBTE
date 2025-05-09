@@ -11,7 +11,7 @@ logger = logging.getLogger('root')
 
 def main():
     with medir_recursos():
-        logger.info("===========INICIANDO SCRAPING DE TELEFONIA===========\n")
+        logger.info("===========INICIANDO SCRAPING DE INTERNET===========\n")
 
         try:
             logger.debug("Obteniendo primer plan de Personal")
@@ -40,7 +40,7 @@ def main():
         except Exception as e:
             logger.error(f"Error al obtener o guardar plan Claro: {e}")
 
-    logger.info("===========SCRAPING DE TELEFONIA FINALIZADO===========\n")
+    logger.info("===========SCRAPING DE INTERNET FINALIZADO===========\n")
 
 
 if __name__ == "__main__":

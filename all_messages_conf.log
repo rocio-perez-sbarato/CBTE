@@ -193,3 +193,21 @@ INFO : root : main : main : ===========SCRAPING DE LAVOZ FINALIZADO===========
 [09-05-2025 12:51:18] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_09-05-2025.xlsx
 [09-05-2025 12:51:18] INFO : root : internet : main : ===========SCRAPING DE TELEFONIA FINALIZADO===========
 
+[09-05-2025 16:57:40] INFO : root : main : main : ===========INICIANDO SCRAPING DE TELEFONIA===========
+
+[09-05-2025 16:57:53] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta': 'Móvil 3 GB', 'precio': '$11.043'}
+[09-05-2025 16:57:57] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_09-05-2025.xlsx
+[09-05-2025 16:58:19] INFO : root : main : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta': '5 Gigas', 'precio': '$ 6.700'}
+[09-05-2025 16:58:23] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_09-05-2025.xlsx
+[09-05-2025 16:58:43] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta': '2 GIGAS', 'precio': '$19.047'}
+[09-05-2025 16:58:47] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_09-05-2025.xlsx
+[09-05-2025 16:58:47] INFO : root : main : main : ===========SCRAPING DE TELEFONIA FINALIZADO===========
+
+[09-05-2025 17:00:09] INFO : root : main : main : ===========INICIANDO SCRAPING DE INTERNET===========
+
+[09-05-2025 17:00:26] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta': 'Internet 300 MB + + Flow Full sin deco', 'precio': '$24.000'}
+[09-05-2025 17:00:30] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_09-05-2025.xlsx
+[09-05-2025 17:02:01] INFO : root : main : main : ===========INICIANDO SCRAPING DE INTERNET===========
+
+[09-05-2025 17:02:15] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta': 'Internet 300 MB + + Flow Full sin deco', 'precio': '$24.000'}
+[09-05-2025 17:02:19] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_09-05-2025.xlsx

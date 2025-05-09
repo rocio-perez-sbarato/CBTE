@@ -1,5 +1,10 @@
 import time
 from selenium.webdriver.common.by import By
+import logging 
+import logging.config 
+
+logging.config.fileConfig('logging_config/logging.conf') 
+logger = logging.getLogger('root')
 
 def obtener_total_paginas(driver):
     """Obtiene el número total de páginas de la categoría."""
@@ -19,9 +24,9 @@ def obtener_total_paginas(driver):
                 continue  # Ignorar valores no numéricos
 
         total_paginas = max(numeros) if numeros else 1
-        print(f"Total de páginas detectadas: {total_paginas}")
+        logger.info(f"Total de páginas detectadas: {total_paginas}")
         return total_paginas
 
     except Exception as e:
-        print(f"Error obteniendo páginas: {e}")
+        logger.error(f"Error obteniendo páginas: {e}")
         return 1

@@ -1,7 +1,12 @@
 import time
 from selenium.webdriver.common.by import By
-
 import re
+import logging 
+import logging.config 
+
+logging.config.fileConfig('logging_config/logging.conf') 
+logger = logging.getLogger('root')
+
 
 def obtener_total_paginas(driver):
     """Obtiene el número total de páginas desde el texto 'Página X de Y' en Disco."""
@@ -15,12 +20,12 @@ def obtener_total_paginas(driver):
         match = re.search(r"de\s+(\d+)", texto)
         if match:
             total_paginas = int(match.group(1))
-            print(f"Total de páginas detectadas: {total_paginas}")
+            logger.info(f"Total de páginas detectadas: {total_paginas}")
             return total_paginas
         else:
-            print("No se pudo interpretar el texto de paginación.")
+            logger.info("No se pudo interpretar el texto de paginación.")
             return 1
 
     except Exception as e:
-        print(f"😢 Error obteniendo total de páginas: {e}")
+        logger.error(f"😢 Error obteniendo total de páginas: {e}")
         return 1

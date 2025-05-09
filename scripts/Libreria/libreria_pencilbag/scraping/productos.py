@@ -3,14 +3,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from scraping.paginacion import obtener_total_paginas
 import time
+import logging 
+import logging.config 
+
+logging.config.fileConfig('logging_config/logging.conf') 
+logger = logging.getLogger('root')
 
 def obtener_productos_y_precios_pencilbag(driver, max_reintentos=5, espera_entre_intentos=3): 
     """Extrae productos, precios, stock y ofertas desde la web de Pencilbag Librería."""
 
     for intento in range(max_reintentos):
-        print("---------\n")
-        print(f"😦 Intento {intento + 1} de {max_reintentos}")
-        print("---------\n")
+        logger.info(f"Intento {intento + 1} de {max_reintentos}")
 
         # Scroll para cargar productos
         for _ in range(5):
@@ -24,7 +27,7 @@ def obtener_productos_y_precios_pencilbag(driver, max_reintentos=5, espera_entre
 
             contenedores = driver.find_elements(By.CLASS_NAME, "js-item-info-container")
             
-            print(f"{len(contenedores)} productos visibles")
+            logger.info(f"{len(contenedores)} productos visibles")
 
             productos_precios = []
 
@@ -82,17 +85,17 @@ def obtener_productos_y_precios_pencilbag(driver, max_reintentos=5, espera_entre
                 })
 
             if productos_precios:
-                print(f"* {len(productos_precios)} productos.")
+                logger.info(f"* {len(productos_precios)} productos.")
                 return productos_precios
             else:
-                print("😢 No se encontraron productos. Reintentando...")
+                logger.critical("No se encontraron productos. Reintentando...")
                 time.sleep(espera_entre_intentos)
 
         except Exception as e:
-            print(f"😢 Error en intento {intento + 1}: {e}")
+            logger.error(f"Error en intento {intento + 1}: {e}")
             time.sleep(espera_entre_intentos)
 
-    print("😢 No se encontraron productos luego de varios intentos.\n")
+    logger.info("No se encontraron productos luego de varios intentos.\n")
     return []
 
 def scrapear_categoria(driver, url_categoria):
@@ -111,7 +114,7 @@ def scrapear_categoria(driver, url_categoria):
             url_pagina = f"{url_categoria}page/{pagina}/"
 
         driver.get(url_pagina)
-        print(f"🕵️ Scrapeando página {pagina} de {total_paginas}...")
+        logger.info(f"Scrapeando página {pagina} de {total_paginas}...")
         time.sleep(3)
 
         productos_pagina = obtener_productos_y_precios_pencilbag(driver)
