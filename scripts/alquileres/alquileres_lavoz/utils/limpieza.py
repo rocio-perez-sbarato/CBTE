@@ -24,7 +24,3 @@ def limpiar_url(url):
     nombre_base = re.sub(r'[\\/:"*?<>|]', '_', categorias)
 
     return nombre_base
-
-def insertar_pagina_en_url(url_base, numero_pagina):
-    """Inserta -pagina-{n} antes del .html en la URL."""
-    return re.sub(r"\.html$", f"-pagina-{numero_pagina}.html", url_base)

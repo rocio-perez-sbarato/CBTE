@@ -10,7 +10,7 @@ logging.config.fileConfig('logging_config/logging.conf')
 logger = logging.getLogger('root')
 
 def main():
-    logger.info("===========INICIANDO SCRAPING DE ZONAPROP===========\n")
+    logger.info("===========INICIANDO SCRAPING DE LAVOZ===========\n")
 
     with medir_recursos():
         logger.info(f"Scrapeando los alquileres en {base_url}")
@@ -20,6 +20,7 @@ def main():
             logger.info("Driver creado.")
             logger.info("Iniciando el scraping...")
             deptos = scrapear_pagina(driver, base_url)
+            logger.info(f"Se obtuvieron {len(deptos)} departamentos.")
 
             logger.info("Guardando resultados en Excel...")
             guardar_en_excel(deptos, base_url)
@@ -32,7 +33,7 @@ def main():
             driver.quit()
             logger.info("Driver cerrado.")
 
-    logger.info("===========SCRAPING DE ZONAPROP FINALIZADO===========\n")
+    logger.info("===========SCRAPING DE LAVOZ FINALIZADO===========\n")
 
 if __name__ == "__main__":
     main()
