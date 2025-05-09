@@ -1,185 +1,51 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import pandas as pd
-import os
-import re
-import datetime
+from scraping.internet_claro import obtener_primer_plan_claro
+from scraping.internet_movistar import obtener_primer_plan_movistar
+from scraping.internet_personal import obtener_primer_plan_personal
+from utils.archivos import guardar_en_excel
+from utils.rendimiento import medir_recursos
+import logging
+import logging.config
 
-# TODO: modularizar (limpieza, archivos (utils) y scrapping), en main
-# poner cálculo de rendimiento, cambiar la limpieza
+logging.config.fileConfig('logging_config/logging.conf')
+logger = logging.getLogger('root')
 
-def iniciar_driver():
-    """Configura y devuelve un WebDriver en modo headless."""
-    options = webdriver.FirefoxOptions()
-    options.add_argument("--headless")
-    return webdriver.Firefox(options=options)
+def main():
+    with medir_recursos():
+        logger.info("===========INICIANDO SCRAPING DE TELEFONIA===========\n")
 
-def obtener_primer_plan_personal():
-    """
-    Extrae la oferta de megas y el precio mensual de la página de Personal.
-    """
-    driver = iniciar_driver()
-    
-    # Abrir la página
-    driver.get('https://www.personal.com.ar/internet') 
+        try:
+            logger.debug("Obteniendo primer plan de Personal")
+            plan_personal = obtener_primer_plan_personal()
+            logger.info(f"Plan Personal obtenido: {plan_personal}")
+            guardar_en_excel(plan_personal)
+            logger.debug("Plan Personal guardado en Excel")
+        except Exception as e:
+            logger.error(f"Error al obtener o guardar plan Personal: {e}")
 
-    wait = WebDriverWait(driver, 10)
+        try:
+            logger.debug("Obteniendo primer plan de Movistar")
+            plan_movistar = obtener_primer_plan_movistar()
+            logger.info(f"Plan Movistar obtenido: {plan_movistar}")
+            guardar_en_excel(plan_movistar)
+            logger.debug("Plan Movistar guardado en Excel")
+        except Exception as e:
+            logger.error(f"Error al obtener o guardar plan Movistar: {e}")
 
-    # Buscar solo el div con data-index="0"
-    div_data_index_0 = wait.until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, 'div[data-index="0"]'))
-    )
+        try:
+            logger.debug("Obteniendo primer plan de Claro")
+            plan_claro = obtener_primer_plan_claro()
+            logger.info(f"Plan Claro obtenido: {plan_claro}")
+            guardar_en_excel(plan_claro)
+            logger.debug("Plan Claro guardado en Excel")
+        except Exception as e:
+            logger.error(f"Error al obtener o guardar plan Claro: {e}")
 
-    # Inicializar valores
-    oferta = None
-    precio = None
-
-    # Buscar la oferta
-    try:
-        # Hay dos h2: uno para "Internet 300 MB" y otro para "Flow Full sin deco"
-        h2_elements = div_data_index_0.find_elements(By.CSS_SELECTOR, 'h2')
-        oferta = ' + '.join(h2.text.strip() for h2 in h2_elements if h2.text.strip())
-    except Exception:
-        oferta = None
-
-    # Buscar el precio
-    try:
-        price_container = div_data_index_0.find_element(By.CSS_SELECTOR, '.CardComponent_priceRichText__WuzS7 span')
-        precio = price_container.text.strip()
-    except Exception:
-        precio = None
-
-    # Retornar todo como un diccionario
-    return {
-        "Compañía": "Personal", 
-        'oferta': oferta,
-        'precio': precio
-    }
-    
-def obtener_primer_plan_movistar():
-    """
-    Extrae la oferta de gigas y el precio mensual de la página de Movistar.
-    """
-    
-    driver = iniciar_driver()
-    
-    try:
-        # Abrir la página
-        driver.get("https://www.movistar.com.ar/productos-y-servicios/internet")
-
-        # Esperar que carguen los elementos
-        gigas_element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "js__nombre-plan.plan__gigas"))
-        )
-        precio_element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "price.js__precio-oferta"))
-        )
-        
-        return {"Compañía": "Movistar", "oferta": gigas_element.text, "precio": precio_element.text}
-
-    except Exception as e:
-        print(f"Error Movistar: {e}")
-        return None
-
-    finally:
-        driver.quit()
-
-def obtener_primer_plan_claro():
-    """
-    Extrae la primera oferta de megas y el precio de la página de Claro.
-    """
-    
-    driver = iniciar_driver()
-
-    try:
-        # Abrir la página
-        driver.get("https://www.claro.com.ar/personas/internet-wifi-telefonia-tv")
-        
-        # Esperar que los elementos de ofertas estén presentes antes de buscarlos
-        ofertas = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'strong[tacc="headingMarkdown-strong"]'))
-        )
-
-        # Esperar que los elementos de ofertas estén presentes antes de buscarlos
-        precios = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'p[tacc="planCard-body-price"]'))
-        )
-
-        # Tomar solo el primero de cada lista (si existen)
-        primera_oferta = ofertas[0].text if ofertas else "No encontrado"
-        primer_precio = precios[0].text if precios else "No encontrado"
-
-        return {"Compañía": "Claro", "oferta": primera_oferta, "precio": primer_precio}
-
-    except Exception as e:
-        print(f"Error Claro: {e}")
-        return None
-
-    finally:
-        driver.quit()
-
-def limpiar_precio(precio):
-    """Convierte el precio en un número uniforme eliminando símbolos y texto adicional."""
-    precio = re.sub(r"[^\d]", "", precio)  # Eliminar todo excepto números
-    return f"{int(precio):,}"  # Agregar separador de miles
-
-def limpiar_oferta(oferta):
-    """Elimina todas las letras y deja solo los números en la oferta."""
-    numeros = re.findall(r"\d+", oferta)  # Buscar solo números
-    return " ".join(numeros) if numeros else ""  # Unir números separados por espacios
-
-def agregar_fecha(nombre_base):
-    """Agrega la fecha actual al nombre del archivo, respetando la extensión."""
-    fecha_hoy = datetime.datetime.today().strftime("%d-%m-%Y")
-    
-    # Separar la extensión
-    nombre, extension = os.path.splitext(nombre_base)
-    
-    return f"{nombre}_{fecha_hoy}{extension}"
-
-def guardar_en_excel(datos):
-    """Guarda los datos en un archivo xlsx dentro de la carpeta 'data'."""
-    if datos:
-        datos["oferta"] = limpiar_oferta(datos["oferta"])  # Unificar MB
-        datos["precio"] = limpiar_precio(datos["precio"])  # Unificar formato de precio
-        
-        # Crear la carpeta si no existe
-        carpeta = "data/internet"
-        os.makedirs(carpeta, exist_ok=True)
-
-        # Generar el nombre del archivo con la fecha
-        archivo = os.path.join(carpeta, agregar_fecha("servicios_internet.xlsx"))
-
-        # Guardar los datos en Excel
-        df_nuevo = pd.DataFrame([datos], dtype=str)
-
-        if os.path.exists(archivo):
-            df_existente = pd.read_excel(archivo, dtype=str)
-            df_final = pd.concat([df_existente, df_nuevo], ignore_index=True)
-        else:
-            df_final = df_nuevo
-
-        df_final.to_excel(archivo, index=False)
-        print(f"Datos guardados en {archivo}")
-    else:
-        print("No se guardaron datos, ocurrió un error.")
+    logger.info("===========SCRAPING DE TELEFONIA FINALIZADO===========\n")
 
 
-# Ejecutar y guardar los datos
+if __name__ == "__main__":
+    main()
 
-plan_personal = obtener_primer_plan_personal()
-print(plan_personal)
-guardar_en_excel(plan_personal)
-
-plan_movistar = obtener_primer_plan_movistar()
-print(plan_movistar)
-guardar_en_excel(plan_movistar)
-
-plan_claro = obtener_primer_plan_claro()
-print(plan_claro)
-guardar_en_excel(plan_claro)
 
 
 

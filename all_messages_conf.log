@@ -176,3 +176,20 @@ INFO : root : main : main : ===========SCRAPING DE LAVOZ FINALIZADO===========
 [2025-05-09 12:29:48] INFO : root : main : main : Scrapeando los alquileres en https://www.argenprop.com/departamentos/alquiler/cordoba-arg/2-ambientes/1-dormitorio
 [2025-05-09 12:29:55] INFO : root : main : main : Driver creado.
 [2025-05-09 12:29:55] INFO : root : main : main : Iniciando el scraping...
+[09-05-2025 12:46:34] INFO : root : internet : main : ===========INICIANDO SCRAPING DE TELEFONIA===========
+
+[09-05-2025 12:46:49] INFO : root : internet : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta': 'Internet 300 MB + + Flow Full sin deco', 'precio': '$24.000'}
+[09-05-2025 12:47:18] INFO : root : internet : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta': '300 megas', 'precio': '19.000'}
+[09-05-2025 12:47:38] INFO : root : internet : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta': 'WIFI 100 MB', 'precio': '$15.999/mes'}
+[09-05-2025 12:47:42] INFO : root : internet : main : ===========SCRAPING DE TELEFONIA FINALIZADO===========
+
+[09-05-2025 12:50:14] INFO : root : internet : main : ===========INICIANDO SCRAPING DE TELEFONIA===========
+
+[09-05-2025 12:50:27] INFO : root : internet : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta': 'Internet 300 MB + + Flow Full sin deco', 'precio': '$24.000'}
+[09-05-2025 12:50:30] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_09-05-2025.xlsx
+[09-05-2025 12:50:52] INFO : root : internet : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta': '', 'precio': '19.000'}
+[09-05-2025 12:50:56] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_09-05-2025.xlsx
+[09-05-2025 12:51:14] INFO : root : internet : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta': 'WIFI 100 MB', 'precio': '$15.999/mes'}
+[09-05-2025 12:51:18] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_09-05-2025.xlsx
+[09-05-2025 12:51:18] INFO : root : internet : main : ===========SCRAPING DE TELEFONIA FINALIZADO===========
+
