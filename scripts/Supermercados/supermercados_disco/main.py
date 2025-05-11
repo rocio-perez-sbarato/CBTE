@@ -9,8 +9,6 @@ import logging.config
 logging.config.fileConfig('logging_config/logging.conf') 
 logger = logging.getLogger('root')
 
-# TODO: agregar rendimiento
-
 def main():
     categorias_fallidas = []
 

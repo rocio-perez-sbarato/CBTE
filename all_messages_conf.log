@@ -211,3 +211,28 @@ INFO : root : main : main : ===========SCRAPING DE LAVOZ FINALIZADO===========
 
 [09-05-2025 17:02:15] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta': 'Internet 300 MB + + Flow Full sin deco', 'precio': '$24.000'}
 [09-05-2025 17:02:19] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_09-05-2025.xlsx
+[11-05-2025 13:31:28] INFO : root : main : main : ===========INICIANDO SCRAPING DE INTERNET===========
+
+[11-05-2025 13:31:43] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta': 'Internet 300 MB + + Flow Full sin deco', 'precio': '$24.000'}
+[11-05-2025 13:31:47] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_11-05-2025.xlsx
+[11-05-2025 13:32:11] INFO : root : main : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta': '300 megas', 'precio': '19.000'}
+[11-05-2025 13:32:15] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_11-05-2025.xlsx
+[11-05-2025 13:32:32] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta': 'WIFI 100 MB', 'precio': '$15.999/mes'}
+[11-05-2025 13:32:36] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_11-05-2025.xlsx
+[11-05-2025 13:32:36] INFO : root : main : main : ===========SCRAPING DE INTERNET FINALIZADO===========
+
+[11-05-2025 13:32:39] INFO : root : main : main : ===========INICIANDO SCRAPING DE TELEFONIA===========
+
+[11-05-2025 13:32:50] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta': 'Móvil 3 GB', 'precio': '$11.043'}
+[11-05-2025 13:32:51] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_11-05-2025.xlsx
+[11-05-2025 13:33:11] INFO : root : main : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta': '5 Gigas', 'precio': '$ 6.700'}
+[11-05-2025 13:33:15] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_11-05-2025.xlsx
+[11-05-2025 13:33:38] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta': '2 GIGAS', 'precio': '$19.047'}
+[11-05-2025 13:33:42] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_11-05-2025.xlsx
+[11-05-2025 13:33:42] INFO : root : main : main : ===========SCRAPING DE TELEFONIA FINALIZADO===========
+
+[11-05-2025 13:37:52] INFO : root : main : main : ===========INICIANDO SCRAPING DE ARGENPROP===========
+
+[11-05-2025 13:37:52] INFO : root : main : main : Scrapeando los alquileres en https://www.argenprop.com/departamentos/alquiler/cordoba-arg/2-ambientes/1-dormitorio
+[11-05-2025 13:38:00] INFO : root : main : main : Driver creado.
+[11-05-2025 13:38:00] INFO : root : main : main : Iniciando el scraping...
