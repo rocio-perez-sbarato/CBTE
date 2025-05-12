@@ -1,0 +1,16 @@
+# Ignorar credenciales de Google
+scripts/credentials.json
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Archivos de configuración de Jupyter y VSCode
+.ipynb_checkpoints/
+.vscode/
+
+# Archivos de backup y datos
+*.xlsx
+*.csv
+data/

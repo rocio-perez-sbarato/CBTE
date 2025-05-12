@@ -13,7 +13,8 @@ scripts = [
     "supermercados/supermercados_disco/main.py",
     "supermercados/supermercados_vea/main.py",
     "internet/main.py",
-    "telefonia/main.py"
+    "telefonia/main.py",
+    "upload_to_drive.py"
 ]
 
 def run_all():
