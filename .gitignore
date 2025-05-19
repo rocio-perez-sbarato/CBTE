@@ -4,7 +4,6 @@ scripts/credentials.json
 # Archivos temporales de Python
 __pycache__/
 *.py[cod]
-*.log
 
 # Archivos de configuración de Jupyter y VSCode
 .ipynb_checkpoints/

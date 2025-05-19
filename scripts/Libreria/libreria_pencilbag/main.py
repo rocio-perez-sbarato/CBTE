@@ -12,7 +12,7 @@ logger = logging.getLogger('root')
 
 def main():
 
-    categorias_fallidas = []
+    categorias_fallidas_pencilbag = []
 
     logger.info("===========INICIANDO SCRAPING DE PENCILBAG===========")
         
@@ -25,15 +25,15 @@ def main():
                 guardar_en_excel(productos, url_categoria)
             except Exception as e:
                 logger.error(f"😢 Error al procesar {url_categoria}: {e}")
-                categorias_fallidas.append(url_categoria)
+                categorias_fallidas_pencilbag.append(url_categoria)
             finally:
                 driver.quit()
 
-    if categorias_fallidas:
+    if categorias_fallidas_pencilbag:
         logger.info("Categorías que fallaron")
-        for cat in categorias_fallidas:
+        for cat in categorias_fallidas_pencilbag:
             logger.info(f"- {cat}")
-        pd.DataFrame(categorias_fallidas, columns=["Categoría"]).to_csv("categorias_fallidas.csv", index=False)
+        pd.DataFrame(categorias_fallidas_pencilbag, columns=["Categoría"]).to_csv("categorias_fallidas_pencilbag.csv", index=False)
     else:
         logger.info("¡Todas las categorías se escrapearon correctamente!")
         

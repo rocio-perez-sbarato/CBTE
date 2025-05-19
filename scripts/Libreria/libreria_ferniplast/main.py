@@ -11,7 +11,7 @@ logging.config.fileConfig('logging_config/logging.conf')
 logger = logging.getLogger('root')
 
 def main():
-    categorias_fallidas = []
+    categorias_fallidas_ferniplast = []
 
     logger.info("===========INICIANDO SCRAPING DE FERNIPLAST===========")
         
@@ -25,15 +25,15 @@ def main():
                 
             except Exception as e:
                 logger.info(f"Error al procesar {url_categoria}: {e}")
-                categorias_fallidas.append(url_categoria)
+                categorias_fallidas_ferniplast.append(url_categoria)
             finally:
                 driver.quit()
 
-    if categorias_fallidas:
+    if categorias_fallidas_ferniplast:
         logger.info("Categorías que fallaron")
-        for cat in categorias_fallidas:
+        for cat in categorias_fallidas_ferniplast:
             logger.info(f"- {cat}")
-        pd.DataFrame(categorias_fallidas, columns=["Categoría"]).to_csv("categorias_fallidas.csv", index=False)
+        pd.DataFrame(categorias_fallidas_ferniplast, columns=["Categoría"]).to_csv("categorias_fallidas_ferniplast.csv", index=False)
     else:
         logger.info("¡Todas las categorías se escrapearon correctamente!")
         

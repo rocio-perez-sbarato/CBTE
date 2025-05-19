@@ -12,7 +12,7 @@ logger = logging.getLogger('root')
 
 def main():
 
-    categorias_fallidas = []
+    categorias_fallidas_grafitti = []
 
     logger.info("===========INICIANDO SCRAPING DE GRAFITTI===========")
         
@@ -27,15 +27,15 @@ def main():
                 
             except Exception as e:
                 logger.info(f"Error al procesar {url_categoria}: {e}")
-                categorias_fallidas.append(url_categoria)
+                categorias_fallidas_grafitti.append(url_categoria)
             finally:
                 driver.quit()
 
-    if categorias_fallidas:
+    if categorias_fallidas_grafitti:
         logger.info("Categorías que fallaron")
-        for cat in categorias_fallidas:
+        for cat in categorias_fallidas_grafitti:
             logger.info(f"- {cat}")
-        pd.DataFrame(categorias_fallidas, columns=["Categoría"]).to_csv("categorias_fallidas.csv", index=False)
+        pd.DataFrame(categorias_fallidas_grafitti, columns=["Categoría"]).to_csv("categorias_fallidas_grafitti.csv", index=False)
     else:
         logger.info("¡Todas las categorías se escrapearon correctamente!")
         

@@ -12,7 +12,7 @@ logger = logging.getLogger('root')
 
 def main():
         
-    categorias_fallidas = []
+    categorias_fallidas_vea = []
 
     logger.info("===========INICIANDO SCRAPING DE VEA===========")
 
@@ -26,15 +26,15 @@ def main():
                 guardar_en_excel(productos, url_categoria)        
             except Exception as e:
                 logger.error(f"Error al procesar {url_categoria}: {e}")
-                categorias_fallidas.append(url_categoria)
+                categorias_fallidas_vea.append(url_categoria)
             finally:
                 driver.quit()
 
-    if categorias_fallidas:
+    if categorias_fallidas_vea:
         logger.info("Categorías que fallaron")
-        for cat in categorias_fallidas:
+        for cat in categorias_fallidas_vea:
             logger.info(f"- {cat}")
-        pd.DataFrame(categorias_fallidas, columns=["Categoría"]).to_csv("categorias_fallidas_disco.csv", index=False)
+        pd.DataFrame(categorias_fallidas_vea, columns=["Categoría"]).to_csv("categorias_fallidas_vea.csv", index=False)
     else:
         logger.info("¡Todas las categorías se escrapearon correctamente!")
         

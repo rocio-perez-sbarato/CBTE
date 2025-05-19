@@ -29,42 +29,23 @@ def obtener_alquileres_y_precios_argenprop(driver, max_reintentos=5, espera_entr
 
             for card in cards:
                 try:
-                    direccion = card.find_element(By.CSS_SELECTOR, "p.card__address").text.strip()
+                    barrio = card.find_element(By.CSS_SELECTOR, "p.card__title--primary").text.strip()
                 except:
-                    direccion = "No disponible"
+                    barrio = "No disponible"
 
                 try:
                     precio_texto = card.find_element(By.CSS_SELECTOR, "p.card__price").text.strip()
 
                     # Separar por '+' si existe
                     partes = [parte.strip() for parte in precio_texto.split('+')]
-
-                    if len(partes) == 2:
-                        precio, expensas = partes
-                    else:
-                        precio = partes[0]
-                        expensas = "No disponibles"
+                    precio = partes[0]
 
                 except:
                     precio = "No disponible"
-                    expensas = "No disponible"
-
-                try:
-                    superficie = card.find_element(By.CSS_SELECTOR, "li:has(i.icono-superficie_cubierta)").text.strip()
-                except:
-                    superficie = "No disponible"
-
-                try:
-                    dormitorios = card.find_element(By.CSS_SELECTOR, "li:has(i.icono-cantidad_dormitorios)").text.strip()
-                except:
-                    dormitorios = "No disponible"
 
                 propiedades.append({
-                    "Dirección": direccion,
-                    "Precio": precio,
-                    "Expensas": expensas,
-                    "Superficie": superficie,
-                    "Dormitorios": dormitorios
+                    "Barrio": barrio,
+                    "Precio": precio
                 })
 
             if propiedades:

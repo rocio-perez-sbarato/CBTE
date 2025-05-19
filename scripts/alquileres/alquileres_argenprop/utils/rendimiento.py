@@ -1,10 +1,10 @@
 import time
 import psutil
 from contextlib import contextmanager
-import logging
-import logging.config
+import logging 
+import logging.config 
 
-logging.config.fileConfig('logging_config/logging.conf')
+logging.config.fileConfig('logging_config/logging.conf') 
 logger = logging.getLogger('root')
 
 @contextmanager
@@ -21,4 +21,3 @@ def medir_recursos():
 
     logger.info(f"Tiempo de ejecución: {(end_time - start_time) / 60:.2f} minutos")
     logger.info(f"Uso de CPU: {cpu_end - cpu_start:.2f}%")
-    logger.info(f"Memoria utilizada: {mem_end - mem_start:.2f} MB")

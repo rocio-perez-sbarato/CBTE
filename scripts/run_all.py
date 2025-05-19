@@ -14,7 +14,9 @@ scripts = [
     "supermercados/supermercados_vea/main.py",
     "internet/main.py",
     "telefonia/main.py",
-    "upload_to_drive.py"
+    "upload_to_drive.py", # Comentar línea si no lo querés subir a drive
+    "erase_data.py", # Comentar esta línea si no lo vas a subir a drive 
+    "erase_log.py" # Comentar esta línea si no lo vas a subir a drive
 ]
 
 def run_all():
