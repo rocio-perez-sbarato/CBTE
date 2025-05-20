@@ -3,49 +3,48 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from scraping.paginacion import obtener_total_paginas
+from utils.limpieza import limpiar_precio
 import logging
 import logging.config
 
 logging.config.fileConfig('logging_config/logging.conf')
 logger = logging.getLogger('root')
 
-def obtener_alquileres_y_precios_argenprop(driver, max_reintentos=5, espera_entre_intentos=3):
-    """Extrae propiedades y precios desde Argenprop."""
+def obtener_alquileres_y_precios_lavoz(driver, max_reintentos=5, espera_entre_intentos=3):
+    """Extrae propiedades y precios desde La Voz."""
 
     for intento in range(max_reintentos):
         logger.info(f"Intento {intento + 1} de {max_reintentos}")
 
         for _ in range(5):
             driver.execute_script("window.scrollBy(0, 800);")
-            time.sleep(3)
+            time.sleep(2)
 
         try:
-            WebDriverWait(driver, 50).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "listing__items"))
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.grid"))
             )
 
-            cards = driver.find_elements(By.CSS_SELECTOR, ".listing__items .card")
+            cards = driver.find_elements(By.CSS_SELECTOR, "div.grid div.flex.flex-wrap")
+
             propiedades = []
 
             for card in cards:
                 try:
-                    barrio = card.find_element(By.CSS_SELECTOR, "p.card__title--primary").text.strip()
+                    barrio = card.find_element(By.CSS_SELECTOR, "div.title-1lines").text.strip()
                 except:
                     barrio = "No disponible"
 
                 try:
-                    precio_texto = card.find_element(By.CSS_SELECTOR, "p.card__price").text.strip()
-
-                    # Separar por '+' si existe
-                    partes = [parte.strip() for parte in precio_texto.split('+')]
-                    precio = partes[0]
-
+                    precio = card.find_element(By.CSS_SELECTOR, "p.main span.price").text.strip()
                 except:
                     precio = "No disponible"
 
+                precio_limpio = limpiar_precio(precio)
+                
                 propiedades.append({
                     "Barrio": barrio,
-                    "Precio": precio
+                    "Precio": precio_limpio
                 })
 
             if propiedades:
@@ -62,6 +61,7 @@ def obtener_alquileres_y_precios_argenprop(driver, max_reintentos=5, espera_entr
     logger.critical("No se encontraron propiedades luego de varios intentos.")
     return []
 
+
 def scrapear_pagina(driver, url_filtros):
     """Recorre todas las páginas de una categoría y extrae los productos."""
     driver.get(url_filtros)
@@ -72,12 +72,12 @@ def scrapear_pagina(driver, url_filtros):
     
     todos_los_productos = []
     for pagina in range(1, total_paginas + 1):
-        url_pagina = f"{url_filtros}?pagina-{pagina}&solo-ver-pesos"
+        url_pagina = f"{url_filtros}&page={pagina}"
         driver.get(url_pagina)
         logger.info(f"Scrapeando página {pagina} de {total_paginas}...")
         time.sleep(3)
 
-        productos_pagina = obtener_alquileres_y_precios_argenprop(driver)
+        productos_pagina = obtener_alquileres_y_precios_lavoz(driver)
         todos_los_productos.extend(productos_pagina)
         
     logger.info("Scraping completo.")

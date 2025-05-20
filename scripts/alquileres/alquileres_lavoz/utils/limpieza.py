@@ -1,6 +1,16 @@
 import re
 from urllib.parse import urlparse
 
+def limpiar_precio(texto_precio):
+    """
+    Limpia el precio y deja solo el número.
+    """
+    if not texto_precio:
+        return None
+    # Eliminar signos de pesos, espacios, y reemplazar puntos de miles por nada
+    precio_limpio = texto_precio.replace("$", "")
+    return precio_limpio
+
 def filtrar_productos(productos):
     """Filtra los productos que son 'slider' o tienen todos los atributos 'No disponible'."""
     productos_filtrados = []

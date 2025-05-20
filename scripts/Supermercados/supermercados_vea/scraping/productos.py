@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from utils.limpieza import filtrar_productos
+from utils.limpieza import filtrar_productos, limpiar_precio
 from scraping.paginacion import obtener_total_paginas
 import logging 
 import logging.config 
@@ -48,10 +48,12 @@ def obtener_productos_y_precios_vea(driver, max_reintentos=5, espera_entre_inten
                     precio = precio_elemento.text.strip()
                 except:
                     precio = "No disponible"
-
+                    
+                precio_limpio = limpiar_precio(precio)
+                
                 productos_precios.append({
                     "Producto": nombre_producto,
-                    "Precio": precio
+                    "Precio": precio_limpio
                 })
 
             productos_filtrados = filtrar_productos(productos_precios)
@@ -60,14 +62,14 @@ def obtener_productos_y_precios_vea(driver, max_reintentos=5, espera_entre_inten
                 logger.info(f"* {len(productos_filtrados)} productos.")
                 return productos_filtrados
             else:
-                logger.critical("😢 No se encontraron productos. Reintentando...")
+                logger.critical("No se encontraron productos. Reintentando...")
                 time.sleep(espera_entre_intentos)
 
         except Exception as e:
-            logger.error(f"😢 Error en intento {intento + 1}: {e}")
+            logger.error(f"Error en intento {intento + 1}: {e}")
             time.sleep(espera_entre_intentos)
 
-    logger.info("😢 No se encontraron productos luego de varios intentos.\n")
+    logger.info("No se encontraron productos luego de varios intentos.\n")
     return []
 
 def scrapear_categoria(driver, url_categoria):

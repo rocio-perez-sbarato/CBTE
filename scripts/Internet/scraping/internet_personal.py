@@ -39,6 +39,7 @@ def obtener_primer_plan_personal():
     except Exception:
         precio = None
 
+    driver.quit()
     # Retornar todo como un diccionario
     return {
         "Compañía": "Personal", 

@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from scraping.paginacion import obtener_cantidad_paginas
-from utils.limpieza import limpiar_nombre, filtrar_productos
+from utils.limpieza import limpiar_precio, filtrar_productos
 import logging 
 import logging.config 
 
@@ -75,8 +75,8 @@ def obtener_productos_y_precios_ferniplast(driver, max_reintentos=5, espera_entr
 
                 productos_precios.append({
                     "Nombre del producto": nuevo_nombre,
-                    "Precio final": selling_price,
-                    "Precio original": list_price,
+                    "Precio final": selling_price_num,
+                    "Precio original": list_price_num,
                     "Tiene oferta": tiene_oferta
                 })
 

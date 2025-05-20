@@ -21,7 +21,7 @@ def obtener_primer_plan_telefonia_movistar():
         precio_element = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CLASS_NAME, "price-product"))
         )
-        
+        driver.quit()
         return {"Compañía": "Movistar", "oferta": gigas_element.text.strip(), "precio": precio_element.text.strip()}
 
     except Exception as e:

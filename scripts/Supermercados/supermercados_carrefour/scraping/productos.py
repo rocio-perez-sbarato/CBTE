@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from utils.limpieza import limpiar_nombre, filtrar_productos
+from utils.limpieza import limpiar_nombre, filtrar_productos, limpiar_precio
 from scraping.paginacion import obtener_total_paginas
 import logging 
 import logging.config 
@@ -45,6 +45,7 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
                 try:
                     precio_elemento = producto.find_element(By.CSS_SELECTOR, "span.valtech-carrefourar-product-price-0-x-sellingPriceValue")
                     selling_price = precio_elemento.text.replace("\n", "").strip()
+                    selling_price = limpiar_precio(selling_price)
                 except:
                     selling_price = "No disponible"
 
@@ -60,11 +61,14 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
                 except:
                     beneficio_mi_crf = "No"
 
+                list_price_limpio = limpiar_precio(list_price)
+                selling_price_limpio = limpiar_precio(selling_price)
+                
                 productos_precios.append({
                     "Nombre del producto": nuevo_nombre,
-                    "Precio final": selling_price,
-                    "Precio original": list_price if list_price != selling_price else selling_price,
-                    "Tiene oferta": "Sí" if list_price != selling_price else "No",
+                    "Precio final": selling_price_limpio,
+                    "Precio original": list_price_limpio if list_price_limpio != selling_price_limpio else selling_price_limpio,
+                    "Tiene oferta": "Sí" if list_price_limpio != selling_price_limpio else "No",
                     "Beneficio Mi CRF": beneficio_mi_crf
                 })
 

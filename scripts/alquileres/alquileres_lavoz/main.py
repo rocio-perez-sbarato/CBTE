@@ -1,5 +1,5 @@
 from scraping.navegador import crear_driver
-from scraping.productos import scrapear_pagina
+from scraping.alquileres import scrapear_pagina
 from config import base_url
 from utils.rendimiento import medir_recursos
 from utils.archivos import guardar_en_excel

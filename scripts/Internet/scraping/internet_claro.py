@@ -29,8 +29,9 @@ def obtener_primer_plan_claro():
         primera_oferta = ofertas[0].text if ofertas else "No encontrado"
         primer_precio = precios[0].text if precios else "No encontrado"
 
+        driver.quit()
         return {"Compañía": "Claro", "oferta": primera_oferta, "precio": primer_precio}
-
+        
     except Exception as e:
         print(f"Error Claro: {e}")
         return None

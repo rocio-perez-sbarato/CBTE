@@ -38,7 +38,8 @@ def obtener_primer_plan_telefonia_personal():
         precio = price_container.text.strip()
     except Exception:
         precio = None
-
+        
+    driver.quit()
     # Retornar todo como un diccionario
     return {
         'Compañía': 'Personal',

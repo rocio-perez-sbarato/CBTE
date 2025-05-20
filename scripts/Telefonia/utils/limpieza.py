@@ -2,7 +2,7 @@ import re
 
 def limpiar_precio(texto_precio):
     """
-    Limpia el precio y lo convierte en número flotante (formato inglés).
+    Limpia el precio y deja solo el número.
     """
     if not texto_precio:
         return None

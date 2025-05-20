@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from scraping.paginacion import obtener_total_paginas
+from utils.limpieza import limpiar_precio
 import time
 import logging 
 import logging.config 
@@ -75,11 +76,14 @@ def obtener_productos_y_precios_pencilbag(driver, max_reintentos=5, espera_entre
                     precio_final = "No disponible"
                     precio_original = "No disponible"
                     tiene_oferta = "No"
+                    
+                precio_final_limpio = limpiar_precio(precio_final)
+                precio_original_limpio = limpiar_precio(precio_original)
 
                 productos_precios.append({
                     "Nombre del producto": nombre,
-                    "Precio final": precio_final,
-                    "Precio original": precio_original,
+                    "Precio final": precio_final_limpio,
+                    "Precio original": precio_original_limpio,
                     "Tiene oferta": tiene_oferta,
                     "Stock": stock
                 })

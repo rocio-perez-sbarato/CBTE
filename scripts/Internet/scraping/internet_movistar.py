@@ -23,6 +23,7 @@ def obtener_primer_plan_movistar():
             EC.presence_of_element_located((By.CLASS_NAME, "price.js__precio-oferta"))
         )
         
+        driver.quit()
         return {"Compañía": "Movistar", "oferta": gigas_element.text, "precio": precio_element.text}
 
     except Exception as e:
