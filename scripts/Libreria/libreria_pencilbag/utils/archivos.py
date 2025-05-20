@@ -37,4 +37,4 @@ def guardar_en_excel(productos, url_categoria):
     df = pd.DataFrame(productos)
     df.to_excel(nombre_archivo, index=False)
 
-    logger.info(f"✅ Datos guardados correctamente en '{nombre_archivo}'")
+    logger.info(f"Datos guardados correctamente en '{nombre_archivo}'")

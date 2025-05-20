@@ -13,7 +13,7 @@ def obtener_primer_plan_personal():
     # Abrir la página
     driver.get('https://www.personal.com.ar/internet') 
 
-    wait = WebDriverWait(driver, 10)
+    wait = WebDriverWait(driver, 150)
 
     # Buscar solo el div con data-index="0"
     div_data_index_0 = wait.until(

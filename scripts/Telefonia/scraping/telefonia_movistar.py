@@ -15,10 +15,10 @@ def obtener_primer_plan_telefonia_movistar():
         driver.get("https://tienda.movistar.com.ar/cambiodeplan/migra")
 
         # Esperar que carguen los elementos de telefonía
-        gigas_element = WebDriverWait(driver, 10).until(
+        gigas_element = WebDriverWait(driver, 150).until(
             EC.presence_of_element_located((By.CLASS_NAME, "card-total-gigas"))
         )
-        precio_element = WebDriverWait(driver, 10).until(
+        precio_element = WebDriverWait(driver, 150).until(
             EC.presence_of_element_located((By.CLASS_NAME, "price-product"))
         )
         driver.quit()

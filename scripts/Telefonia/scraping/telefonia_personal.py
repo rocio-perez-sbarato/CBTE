@@ -13,7 +13,7 @@ def obtener_primer_plan_telefonia_personal():
     # Abrir la página
     driver.get('https://www.personal.com.ar/planes-internet-movil?icn=planes&ici=homeperso_quicklinks') 
 
-    wait = WebDriverWait(driver, 10)
+    wait = WebDriverWait(driver, 150)
 
     # Buscar el div con data-index="0"
     div_data_index_0 = wait.until(

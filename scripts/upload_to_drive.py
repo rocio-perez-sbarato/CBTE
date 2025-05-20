@@ -49,7 +49,7 @@ def subir_carpeta_recursiva(service, ruta_local, parent_id_drive, fecha):
 # Función principal
 def subir_data_con_estructura(carpeta_local='data'):
     service = init_drive_service()
-    fecha = datetime.today().strftime('%d/%m/%Y')
+    fecha = datetime.today().strftime('%d-%m-%Y')
 
     # ID de la carpeta padre en Google Drive
     id_carpeta_padre = '1HKKNcj13Utp0ylPgiIlTTxA0Hcu03eLP' 
@@ -79,14 +79,14 @@ def subir_data_con_estructura(carpeta_local='data'):
         for archivo in archivos:
             if archivo.endswith('.xlsx'):
                 ruta_archivo = os.path.join(carpeta_raiz, archivo)
-                nombre_con_fecha = f"{os.path.splitext(archivo)[0]}_{fecha}.xlsx"
+                nombre_con_fecha = f"{os.path.splitext(archivo)[0]}.xlsx"
                 subir_archivo(service, ruta_archivo, nombre_con_fecha, id_carpeta_actual)
 
     # Subir archivo de log
     ruta_log = os.path.join('scripts', 'all_messages_conf.log')
     if os.path.exists(ruta_log):
         subir_archivo(service, ruta_log, f"registro_scraping_{fecha}.log", id_backup)  
- 
+
 # Ejecutar
 if __name__ == "__main__":
     subir_data_con_estructura("data")

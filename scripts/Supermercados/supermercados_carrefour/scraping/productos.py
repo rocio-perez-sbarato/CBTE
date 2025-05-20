@@ -25,7 +25,7 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
             time.sleep(1)
 
         try:
-            WebDriverWait(driver, 10).until(
+            WebDriverWait(driver, 150).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "section[aria-label]"))
             )
 

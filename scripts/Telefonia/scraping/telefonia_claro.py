@@ -14,7 +14,7 @@ def obtener_primer_plan_telefonia_claro():
         driver.get("https://www.claro.com.ar/personas/planes-prepago-pospago")
         
         # Buscar todas las ofertas que son <strong>
-        oferta_elements = WebDriverWait(driver, 10).until(
+        oferta_elements = WebDriverWait(driver, 150).until(
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'strong[tacc="headingMarkdown-strong"]'))
         )
 
@@ -27,7 +27,7 @@ def obtener_primer_plan_telefonia_claro():
                 break
 
         # Buscar el precio normalmente
-        precio_element = WebDriverWait(driver, 10).until(
+        precio_element = WebDriverWait(driver, 150).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'span[tacc="planCard-body-price-text"]'))
         )
         precio = precio_element.text.strip() if precio_element else "No encontrado"

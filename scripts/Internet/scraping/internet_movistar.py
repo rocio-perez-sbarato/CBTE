@@ -16,10 +16,10 @@ def obtener_primer_plan_movistar():
         driver.get("https://www.movistar.com.ar/productos-y-servicios/internet")
 
         # Esperar que carguen los elementos
-        gigas_element = WebDriverWait(driver, 10).until(
+        gigas_element = WebDriverWait(driver, 150).until(
             EC.presence_of_element_located((By.CLASS_NAME, "js__nombre-plan.plan__gigas"))
         )
-        precio_element = WebDriverWait(driver, 10).until(
+        precio_element = WebDriverWait(driver, 150).until(
             EC.presence_of_element_located((By.CLASS_NAME, "price.js__precio-oferta"))
         )
         

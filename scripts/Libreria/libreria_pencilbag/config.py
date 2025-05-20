@@ -1,7 +1,7 @@
 # Definir la URL base y las categorías
 base_url = "https://pencilbaglibreria.com.ar/"
 categorias_deseadas = ["escritura1/lapices-grafito/",
-                       "escritura1/resaltadores1/"
+                       "escritura1/resaltadores1/",
                        "gomas/",
                        "escritura1/boligrafos/clasicos/"]
 # Obtener los links de las categorías

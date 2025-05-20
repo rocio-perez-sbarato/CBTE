@@ -16,12 +16,12 @@ def obtener_primer_plan_claro():
         driver.get("https://www.claro.com.ar/personas/internet-wifi-telefonia-tv")
         
         # Esperar que los elementos de ofertas estén presentes antes de buscarlos
-        ofertas = WebDriverWait(driver, 10).until(
+        ofertas = WebDriverWait(driver, 150).until(
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'strong[tacc="headingMarkdown-strong"]'))
         )
 
         # Esperar que los elementos de ofertas estén presentes antes de buscarlos
-        precios = WebDriverWait(driver, 10).until(
+        precios = WebDriverWait(driver, 150).until(
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'p[tacc="planCard-body-price"]'))
         )
 

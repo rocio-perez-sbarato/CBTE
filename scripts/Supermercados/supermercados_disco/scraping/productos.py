@@ -24,13 +24,13 @@ def obtener_productos_y_precios_disco(driver, max_reintentos=5, espera_entre_int
             time.sleep(1)
 
         try:
-            WebDriverWait(driver, 10).until(
+            WebDriverWait(driver, 150).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "section[aria-label]"))
             )
 
             body = driver.find_element(By.TAG_NAME, "body")
             body.send_keys(Keys.PAGE_DOWN)
-            time.sleep(2)
+            time.sleep(10)
 
             productos = driver.find_elements(By.CSS_SELECTOR, "section[aria-label]")
             productos_precios = []

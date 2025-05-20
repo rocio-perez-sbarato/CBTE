@@ -13,7 +13,9 @@ def limpiar_precio(texto_precio):
 
 def limpiar_barrio(nombre):
     """Elimina la palabra 'Producto' al inicio del nombre, con o sin espacio."""
-    return re.sub(r"^Departamento en Alquiler en*", "", nombre)  # Quita 'Producto' + cualquier espacio opcional
+    barrio_cordoba = re.sub(r"^Departamento en Alquiler en*", "", nombre)  
+    barrio = re.sub(r"^, Cordoba*", "", barrio_cordoba)
+    return barrio 
 
 def filtrar_productos(productos):
     """Filtra los productos que son 'slider' o tienen todos los atributos 'No disponible'."""

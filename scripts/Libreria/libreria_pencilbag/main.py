@@ -24,7 +24,7 @@ def main():
                 productos = scrapear_categoria(driver, url_categoria)
                 guardar_en_excel(productos, url_categoria)
             except Exception as e:
-                logger.error(f"😢 Error al procesar {url_categoria}: {e}")
+                logger.error(f"Error al procesar {url_categoria}: {e}")
                 categorias_fallidas_pencilbag.append(url_categoria)
             finally:
                 driver.quit()
