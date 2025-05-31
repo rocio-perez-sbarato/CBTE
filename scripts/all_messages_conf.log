@@ -1,0 +1,36 @@
+[31-05-2025 15:39:34] INFO : root : main : main : ===========INICIANDO SCRAPING DE INTERNET===========
+
+[31-05-2025 15:39:53] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta (MB)': 'Internet 300 MB + + Flow Full sin deco', 'precio': '24000.000'}
+[31-05-2025 15:39:53] ERROR : root : main : main : Error al obtener o guardar plan Personal: 'oferta'
+[31-05-2025 15:40:14] INFO : root : main : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta (MB)': '', 'precio': None}
+[31-05-2025 15:40:14] ERROR : root : main : main : Error al obtener o guardar plan Movistar: 'oferta'
+[31-05-2025 15:40:30] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta (MB)': 'WIFI 100 MB', 'precio': None}
+[31-05-2025 15:40:30] ERROR : root : main : main : Error al obtener o guardar plan Claro: 'oferta'
+[31-05-2025 15:40:30] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.94 minutos
+[31-05-2025 15:40:30] INFO : root : rendimiento : medir_recursos : Uso de CPU: 62.20%
+[31-05-2025 15:40:30] INFO : root : main : main : ===========SCRAPING DE INTERNET FINALIZADO===========
+
+[31-05-2025 15:45:18] INFO : root : main : main : ===========INICIANDO SCRAPING DE INTERNET===========
+
+[31-05-2025 15:45:35] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta (MB)': 'Internet 300 MB + + Flow Full sin deco', 'precio': '24000.000'}
+[31-05-2025 15:45:42] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_31-05-2025.xlsx
+[31-05-2025 15:46:00] INFO : root : main : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta (MB)': '', 'precio': None}
+[31-05-2025 15:46:04] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_31-05-2025.xlsx
+[31-05-2025 15:46:18] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta (MB)': 'WIFI 100 MB', 'precio': None}
+[31-05-2025 15:46:22] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_31-05-2025.xlsx
+[31-05-2025 15:46:22] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.06 minutos
+[31-05-2025 15:46:22] INFO : root : rendimiento : medir_recursos : Uso de CPU: 48.80%
+[31-05-2025 15:46:22] INFO : root : main : main : ===========SCRAPING DE INTERNET FINALIZADO===========
+
+[31-05-2025 15:50:37] INFO : root : main : main : ===========INICIANDO SCRAPING DE INTERNET===========
+
+[31-05-2025 15:50:57] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta (MB)': 'Internet 300 MB + + Flow Full sin deco', 'precio': '24000.000'}
+[31-05-2025 15:51:02] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_31-05-2025.xlsx
+[31-05-2025 15:51:22] INFO : root : main : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta (MB)': '', 'precio': None}
+[31-05-2025 15:51:26] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_31-05-2025.xlsx
+[31-05-2025 15:51:40] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta (MB)': 'WIFI 100 MB', 'precio': '15999.000'}
+[31-05-2025 15:51:44] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_31-05-2025.xlsx
+[31-05-2025 15:51:44] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.12 minutos
+[31-05-2025 15:51:44] INFO : root : rendimiento : medir_recursos : Uso de CPU: 55.50%
+[31-05-2025 15:51:44] INFO : root : main : main : ===========SCRAPING DE INTERNET FINALIZADO===========
+

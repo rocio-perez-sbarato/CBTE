@@ -43,6 +43,6 @@ def obtener_primer_plan_telefonia_personal():
     # Retornar todo como un diccionario
     return {
         'Compañía': 'Personal',
-        'oferta': oferta,
+        'oferta (GB)': oferta,
         'precio': precio
     }

@@ -22,7 +22,7 @@ def obtener_productos_y_precios_pencilbag(driver, max_reintentos=5, espera_entre
             time.sleep(1)
 
         try:
-            WebDriverWait(driver, 150).until(
+            WebDriverWait(driver, 500).until(
                 EC.presence_of_element_located((By.CLASS_NAME, "js-item-info-container"))
             )
 

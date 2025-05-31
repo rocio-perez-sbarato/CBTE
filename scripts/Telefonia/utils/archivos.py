@@ -42,4 +42,4 @@ def guardar_en_excel(datos):
         df_final.to_excel(archivo, index=False)
         logger.info(f"Datos guardados en {archivo}")
     else:
-        logger.crititcal("No se guardaron datos, ocurrió un error.")
+        logger.critical("No se guardaron datos, ocurrió un error.")

@@ -33,7 +33,7 @@ def obtener_primer_plan_telefonia_claro():
         precio = precio_element.text.strip() if precio_element else "No encontrado"
 
         driver.quit()
-        return {"Compañía": "Claro", "oferta": primera_oferta, "precio": precio}
+        return {"Compañía": "Claro", "oferta (GB)": primera_oferta, "precio": precio}
 
     except Exception as e:
         print(f"Error Claro: {e}")

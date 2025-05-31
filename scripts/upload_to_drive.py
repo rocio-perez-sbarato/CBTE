@@ -52,7 +52,7 @@ def subir_data_con_estructura(carpeta_local='data'):
     fecha = datetime.today().strftime('%d-%m-%Y')
 
     # ID de la carpeta padre en Google Drive
-    id_carpeta_padre = '1HKKNcj13Utp0ylPgiIlTTxA0Hcu03eLP' 
+    id_carpeta_padre = '12ATKgCJ0tckWVMpO2F30w2-YrXNx2110' 
 
     # Carpeta raíz del backup
     id_backup = crear_carpeta(service, f'scraping_{fecha}', parent_id=id_carpeta_padre)

@@ -17,7 +17,7 @@ def obtener_productos_y_precios_vea(driver, max_reintentos=5, espera_entre_inten
     """Extrae productos y precios desde la página de Disco."""
     
     for intento in range(max_reintentos):
-        logger.info(f"😦 Intento {intento + 1} de {max_reintentos}")
+        logger.info(f"Intento {intento + 1} de {max_reintentos}")
         
         for _ in range(5):
             driver.execute_script("window.scrollBy(0, 500);")

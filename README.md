@@ -1,4 +1,5 @@
-# Canasta Básica Social Estudiantil
+# Scraping de precios
+## Canasta Básica Estudiantil
 
 - [Estructura del proyecto y avances](https://gitmind.com/app/docs/mss9thvm)
 
@@ -24,7 +25,7 @@ Por ejemplo, `python scripts/alquileres/alquileres_argenprop/main.py`
 
 Este proyecto utiliza la API de Google Drive para subir la carpeta data a la carpeta de drive del proyecto. 
 
-**⚠️ Si no lo querés usar, tenés que comentar la linea que lo ejecuta en el archivo `run_all.py` en la carpeta `scripts`**
+**⚠️ Si no lo querés usar, tenés que comentar la linea que lo ejecuta en el archivo `run_all.py` en la carpeta `scripts`. Tiene que quedar así:**
 
 ```
 # Lista de paths a cada main.py

@@ -22,7 +22,7 @@ def obtener_primer_plan_telefonia_movistar():
             EC.presence_of_element_located((By.CLASS_NAME, "price-product"))
         )
         driver.quit()
-        return {"Compañía": "Movistar", "oferta": gigas_element.text.strip(), "precio": precio_element.text.strip()}
+        return {"Compañía": "Movistar", "oferta (GB)": gigas_element.text.strip(), "precio": precio_element.text.strip()}
 
     except Exception as e:
         print(f"Error Movistar: {e}")
