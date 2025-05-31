@@ -20,7 +20,7 @@ def agregar_fecha(nombre_base):
 def guardar_en_excel(datos):
     """Guarda los datos en un archivo xlsx dentro de la carpeta 'data'."""
     if datos:
-        datos["oferta"] = limpiar_oferta(datos["oferta"])  # Unificar MB
+        datos["oferta (GB)"] = limpiar_oferta(datos["oferta (GB)"])  # Unificar MB
         datos["precio"] = limpiar_precio(datos["precio"])  # Unificar formato de precio
         
         # Crear la carpeta si no existe

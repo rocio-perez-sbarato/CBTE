@@ -21,6 +21,7 @@ def guardar_en_excel(datos):
     """Guarda los datos en un archivo xlsx dentro de la carpeta 'data'."""
     if datos:
         datos["oferta (MB)"] = limpiar_oferta(datos["oferta (MB)"])  # Unificar MB
+        datos["precio)"] = limpiar_precio(datos["precio"])  # Unificar precios
         
         # Crear la carpeta si no existe
         carpeta = "data/internet"

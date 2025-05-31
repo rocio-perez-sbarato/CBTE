@@ -12,4 +12,5 @@ __pycache__/
 # Archivos de backup y datos
 *.xlsx
 *.csv
+*.log
 data/

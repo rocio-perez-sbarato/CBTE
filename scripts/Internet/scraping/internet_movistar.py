@@ -1,4 +1,4 @@
-from utils.limpieza import limpiar_precio
+from selenium import webdriver
 from scraping.navegador import iniciar_driver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -16,16 +16,14 @@ def obtener_primer_plan_movistar():
         driver.get("https://www.movistar.com.ar/productos-y-servicios/internet")
 
         # Esperar que carguen los elementos
-        gigas_element = WebDriverWait(driver, 500).until(
+        gigas_element = WebDriverWait(driver, 350).until(
             EC.presence_of_element_located((By.CLASS_NAME, "js__nombre-plan.plan__gigas"))
         )
-        precio_element = WebDriverWait(driver, 500).until(
+        precio_element = WebDriverWait(driver, 350).until(
             EC.presence_of_element_located((By.CLASS_NAME, "price.js__precio-oferta"))
         )
-    
-        precio_limpio = limpiar_precio(precio_element.text)
         
-        return {"Compañía": "Movistar", "oferta (MB)": gigas_element.text, "precio": precio_limpio}
+        return {"Compañía": "Movistar", "oferta": gigas_element.text, "precio": precio_element.text}
 
     except Exception as e:
         print(f"Error Movistar: {e}")

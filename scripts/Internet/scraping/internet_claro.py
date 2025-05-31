@@ -1,5 +1,4 @@
 from scraping.navegador import iniciar_driver
-from utils.limpieza import limpiar_precio
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -27,11 +26,10 @@ def obtener_primer_plan_claro():
 
         # Tomar solo el primero de cada lista (si existen)
         primera_oferta = ofertas[0].text if ofertas else "No encontrado"
-        precio_raw = precios[0].text if precios else "No encontrado"
+        precio = precios[0].text if precios else "No encontrado"
+
         
-        precio_limpio = limpiar_precio(precio_raw)
-        
-        return {"Compañía": "Claro", "oferta (MB)": primera_oferta, "precio": precio_limpio}
+        return {"Compañía": "Claro", "oferta (MB)": primera_oferta, "precio": precio}
         
     except Exception as e:
         print(f"Error Claro: {e}")

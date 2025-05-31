@@ -1,5 +1,4 @@
 from scraping.navegador import iniciar_driver
-from utils.limpieza import limpiar_precio
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -22,7 +21,7 @@ def obtener_primer_plan_personal():
 
     # Inicializar valores
     oferta = None
-    precio_limpio = None
+    precio = None
 
     # Buscar la oferta
     try:
@@ -35,10 +34,9 @@ def obtener_primer_plan_personal():
     # Buscar el precio
     try:
         price_container = div_data_index_0.find_element(By.CSS_SELECTOR, '.CardComponent_priceRichText__WuzS7 span')
-        precio_raw = price_container.text.strip()
-        precio_limpio = limpiar_precio(precio_raw)
+        precio = price_container.text.strip()
     except Exception:
-        precio_limpio = None
+        precio = None
 
     driver.quit()
     
@@ -46,5 +44,5 @@ def obtener_primer_plan_personal():
     return {
         "Compañía": "Personal", 
         'oferta (MB)': oferta,
-        'precio': precio_limpio
+        'precio': precio
     }

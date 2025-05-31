@@ -3,13 +3,27 @@ from urllib.parse import urlparse
 
 def limpiar_precio(texto_precio):
     """
-    Limpia el precio y deja solo el número.
+    Limpia el precio.
     """
-    if not texto_precio:
-        return None
-    # Eliminar signos de pesos, espacios, y reemplazar puntos de miles por nada
-    precio_limpio = texto_precio.replace("$", "")
-    return precio_limpio
+    # Quitar espacios en blanco
+    texto_precio = texto_precio.strip()
+    
+    # Quitar símbolos comunes (ejemplo $, €, %, espacios)
+    for simbolo in ['$', '€', '%', ' ', '/mes']:
+        texto_precio = texto_precio.replace(simbolo, '')
+    
+    # Quitar puntos de miles y cambiar coma decimal por punto
+    texto_precio = texto_precio.replace('.', '').replace(',', '.')
+    
+    try:
+        precio_float = float(texto_precio)
+    except ValueError:
+        precio_float = None  # O el valor que quieras poner si no se puede parsear
+    
+    # Formatear con 3 decimales para conservar ceros finales si querés string
+    precio_formateado = f"{precio_float:.3f}" if precio_float is not None else None
+    
+    return precio_formateado
 
 def filtrar_productos(productos):
     """Filtra los productos que son 'slider' o tienen todos los atributos 'No disponible'."""

@@ -34,3 +34,239 @@
 [31-05-2025 15:51:44] INFO : root : rendimiento : medir_recursos : Uso de CPU: 55.50%
 [31-05-2025 15:51:44] INFO : root : main : main : ===========SCRAPING DE INTERNET FINALIZADO===========
 
+[31-05-2025 16:00:19] INFO : root : main : main : ===========INICIANDO SCRAPING DE TELEFONIA===========
+
+[31-05-2025 16:00:35] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta (GB)': 'Móvil 3 GB', 'precio': '$10.780'}
+[31-05-2025 16:00:40] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_31-05-2025.xlsx
+[31-05-2025 16:01:34] INFO : root : main : main : Plan Movistar obtenido: None
+[31-05-2025 16:01:34] CRITICAL : root : archivos : guardar_en_excel : No se guardaron datos, ocurrió un error.
+[31-05-2025 16:02:12] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta (GB)': '2 GIGAS', 'precio': '$19.047'}
+[31-05-2025 16:02:12] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_31-05-2025.xlsx
+[31-05-2025 16:02:12] INFO : root : main : main : ===========SCRAPING DE TELEFONIA FINALIZADO===========
+
+[31-05-2025 16:09:48] INFO : root : main : main : ===========INICIANDO SCRAPING DE ARGENPROP===========
+
+[31-05-2025 16:09:48] INFO : root : main : main : Scrapeando los alquileres en https://www.argenprop.com/departamentos/alquiler/cordoba-arg/2-ambientes/1-dormitorio
+[31-05-2025 16:09:54] INFO : root : main : main : Driver creado.
+[31-05-2025 16:09:54] INFO : root : main : main : Iniciando el scraping...
+[31-05-2025 16:10:06] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 6
+[31-05-2025 16:10:06] INFO : root : alquileres : scrapear_pagina : Total de páginas a scrapear: 6
+[31-05-2025 16:10:08] INFO : root : alquileres : scrapear_pagina : Scrapeando página 1 de 6...
+[31-05-2025 16:10:11] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[31-05-2025 16:10:27] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[31-05-2025 16:10:29] INFO : root : alquileres : scrapear_pagina : Scrapeando página 2 de 6...
+[31-05-2025 16:10:32] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[31-05-2025 16:10:47] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[31-05-2025 16:10:50] INFO : root : alquileres : scrapear_pagina : Scrapeando página 3 de 6...
+[31-05-2025 16:10:53] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[31-05-2025 16:11:08] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[31-05-2025 16:11:12] INFO : root : alquileres : scrapear_pagina : Scrapeando página 4 de 6...
+[31-05-2025 16:11:15] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[31-05-2025 16:11:30] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[31-05-2025 16:11:32] INFO : root : alquileres : scrapear_pagina : Scrapeando página 5 de 6...
+[31-05-2025 16:11:35] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[31-05-2025 16:11:51] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[31-05-2025 16:11:52] INFO : root : alquileres : scrapear_pagina : Scrapeando página 6 de 6...
+[31-05-2025 16:11:55] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[31-05-2025 16:12:10] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 14 propiedades encontradas.
+[31-05-2025 16:12:10] INFO : root : alquileres : scrapear_pagina : Scraping completo.
+[31-05-2025 16:12:10] INFO : root : main : main : Se obtuvieron 114 departamentos.
+[31-05-2025 16:12:10] INFO : root : main : main : Guardando resultados en Excel...
+[31-05-2025 16:12:11] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\alquileres\argenprop\departamentos_alquiler_cordoba-arg_2-ambientes_1-dormitorio_31-05-2025.xlsx'
+[31-05-2025 16:12:11] INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+[31-05-2025 16:12:14] INFO : root : main : main : Driver cerrado.
+[31-05-2025 16:12:14] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.43 minutos
+[31-05-2025 16:12:14] INFO : root : rendimiento : medir_recursos : Uso de CPU: -34.10%
+[31-05-2025 16:12:14] INFO : root : main : main : ===========SCRAPING DE ARGENPROP FINALIZADO===========
+
+[31-05-2025 16:16:27] INFO : root : main : main : ===========INICIANDO SCRAPING DE LAVOZ===========
+
+[31-05-2025 16:16:27] INFO : root : main : main : Scrapeando los alquileres en https://clasificados.lavoz.com.ar/inmuebles/departamentos/alquileres/1-dormitorio?cantidad-de-dormitorios%5B0%5D=1-dormitorio&tipo-de-unidad=departamento&ciudad=cordoba
+[31-05-2025 16:16:35] INFO : root : main : main : Driver creado.
+[31-05-2025 16:16:35] INFO : root : main : main : Iniciando el scraping...
+[31-05-2025 16:16:47] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 58
+[31-05-2025 16:16:47] INFO : root : alquileres : scrapear_pagina : Total de páginas a scrapear: 58
+[31-05-2025 16:16:49] INFO : root : alquileres : scrapear_pagina : Scrapeando página 1 de 58...
+[31-05-2025 16:16:52] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:17:03] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:17:06] INFO : root : alquileres : scrapear_pagina : Scrapeando página 2 de 58...
+[31-05-2025 16:17:09] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:17:19] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:17:22] INFO : root : alquileres : scrapear_pagina : Scrapeando página 3 de 58...
+[31-05-2025 16:17:25] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:17:35] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:17:38] INFO : root : alquileres : scrapear_pagina : Scrapeando página 4 de 58...
+[31-05-2025 16:17:41] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:17:52] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:17:55] INFO : root : alquileres : scrapear_pagina : Scrapeando página 5 de 58...
+[31-05-2025 16:17:58] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:18:08] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:18:11] INFO : root : alquileres : scrapear_pagina : Scrapeando página 6 de 58...
+[31-05-2025 16:18:14] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:18:24] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:18:27] INFO : root : alquileres : scrapear_pagina : Scrapeando página 7 de 58...
+[31-05-2025 16:18:30] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:18:40] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:18:43] INFO : root : alquileres : scrapear_pagina : Scrapeando página 8 de 58...
+[31-05-2025 16:18:46] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:18:57] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:18:59] INFO : root : alquileres : scrapear_pagina : Scrapeando página 9 de 58...
+[31-05-2025 16:19:02] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:19:13] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:19:15] INFO : root : alquileres : scrapear_pagina : Scrapeando página 10 de 58...
+[31-05-2025 16:19:18] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:19:29] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:19:31] INFO : root : alquileres : scrapear_pagina : Scrapeando página 11 de 58...
+[31-05-2025 16:19:34] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:19:45] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:19:47] INFO : root : alquileres : scrapear_pagina : Scrapeando página 12 de 58...
+[31-05-2025 16:19:50] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:20:01] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:20:03] INFO : root : alquileres : scrapear_pagina : Scrapeando página 13 de 58...
+[31-05-2025 16:20:06] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:20:17] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:20:19] INFO : root : alquileres : scrapear_pagina : Scrapeando página 14 de 58...
+[31-05-2025 16:20:22] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:20:33] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:20:35] INFO : root : alquileres : scrapear_pagina : Scrapeando página 15 de 58...
+[31-05-2025 16:20:38] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:20:49] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:20:52] INFO : root : alquileres : scrapear_pagina : Scrapeando página 16 de 58...
+[31-05-2025 16:20:55] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:21:05] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:21:08] INFO : root : alquileres : scrapear_pagina : Scrapeando página 17 de 58...
+[31-05-2025 16:21:11] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:21:21] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:21:23] INFO : root : alquileres : scrapear_pagina : Scrapeando página 18 de 58...
+[31-05-2025 16:21:26] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:21:37] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:21:39] INFO : root : alquileres : scrapear_pagina : Scrapeando página 19 de 58...
+[31-05-2025 16:21:42] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:21:53] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:21:55] INFO : root : alquileres : scrapear_pagina : Scrapeando página 20 de 58...
+[31-05-2025 16:21:58] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:22:09] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:22:11] INFO : root : alquileres : scrapear_pagina : Scrapeando página 21 de 58...
+[31-05-2025 16:22:14] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:22:24] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:22:27] INFO : root : alquileres : scrapear_pagina : Scrapeando página 22 de 58...
+[31-05-2025 16:22:30] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:22:40] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:22:43] INFO : root : alquileres : scrapear_pagina : Scrapeando página 23 de 58...
+[31-05-2025 16:22:46] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:22:57] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:22:59] INFO : root : alquileres : scrapear_pagina : Scrapeando página 24 de 58...
+[31-05-2025 16:23:02] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:23:13] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:23:15] INFO : root : alquileres : scrapear_pagina : Scrapeando página 25 de 58...
+[31-05-2025 16:23:18] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:23:29] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:23:31] INFO : root : alquileres : scrapear_pagina : Scrapeando página 26 de 58...
+[31-05-2025 16:23:34] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:23:45] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:23:47] INFO : root : alquileres : scrapear_pagina : Scrapeando página 27 de 58...
+[31-05-2025 16:23:50] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:24:01] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:24:03] INFO : root : alquileres : scrapear_pagina : Scrapeando página 28 de 58...
+[31-05-2025 16:24:06] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:24:17] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:24:19] INFO : root : alquileres : scrapear_pagina : Scrapeando página 29 de 58...
+[31-05-2025 16:24:22] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:24:33] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:24:35] INFO : root : alquileres : scrapear_pagina : Scrapeando página 30 de 58...
+[31-05-2025 16:24:38] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:24:49] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:24:51] INFO : root : alquileres : scrapear_pagina : Scrapeando página 31 de 58...
+[31-05-2025 16:24:54] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:25:05] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:25:07] INFO : root : alquileres : scrapear_pagina : Scrapeando página 32 de 58...
+[31-05-2025 16:25:10] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:25:20] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:25:23] INFO : root : alquileres : scrapear_pagina : Scrapeando página 33 de 58...
+[31-05-2025 16:25:26] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:25:37] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:25:39] INFO : root : alquileres : scrapear_pagina : Scrapeando página 34 de 58...
+[31-05-2025 16:25:42] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:25:53] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:25:55] INFO : root : alquileres : scrapear_pagina : Scrapeando página 35 de 58...
+[31-05-2025 16:25:58] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:26:08] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:26:11] INFO : root : alquileres : scrapear_pagina : Scrapeando página 36 de 58...
+[31-05-2025 16:26:14] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:26:24] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:26:27] INFO : root : alquileres : scrapear_pagina : Scrapeando página 37 de 58...
+[31-05-2025 16:26:30] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:26:40] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:26:42] INFO : root : alquileres : scrapear_pagina : Scrapeando página 38 de 58...
+[31-05-2025 16:26:45] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:26:56] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:26:58] INFO : root : alquileres : scrapear_pagina : Scrapeando página 39 de 58...
+[31-05-2025 16:27:01] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:27:12] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:27:14] INFO : root : alquileres : scrapear_pagina : Scrapeando página 40 de 58...
+[31-05-2025 16:27:17] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:27:27] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:27:30] INFO : root : alquileres : scrapear_pagina : Scrapeando página 41 de 58...
+[31-05-2025 16:27:33] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:27:43] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:27:46] INFO : root : alquileres : scrapear_pagina : Scrapeando página 42 de 58...
+[31-05-2025 16:27:49] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:27:59] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:28:01] INFO : root : alquileres : scrapear_pagina : Scrapeando página 43 de 58...
+[31-05-2025 16:28:04] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:28:15] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:28:18] INFO : root : alquileres : scrapear_pagina : Scrapeando página 44 de 58...
+[31-05-2025 16:28:21] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:28:32] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:28:34] INFO : root : alquileres : scrapear_pagina : Scrapeando página 45 de 58...
+[31-05-2025 16:28:37] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:28:47] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:28:50] INFO : root : alquileres : scrapear_pagina : Scrapeando página 46 de 58...
+[31-05-2025 16:28:53] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:29:03] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:29:05] INFO : root : alquileres : scrapear_pagina : Scrapeando página 47 de 58...
+[31-05-2025 16:29:08] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:29:19] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:29:21] INFO : root : alquileres : scrapear_pagina : Scrapeando página 48 de 58...
+[31-05-2025 16:29:24] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:29:35] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:29:37] INFO : root : alquileres : scrapear_pagina : Scrapeando página 49 de 58...
+[31-05-2025 16:29:40] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:29:51] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:29:53] INFO : root : alquileres : scrapear_pagina : Scrapeando página 50 de 58...
+[31-05-2025 16:29:56] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:30:07] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:30:09] INFO : root : alquileres : scrapear_pagina : Scrapeando página 51 de 58...
+[31-05-2025 16:30:12] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:30:22] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:30:25] INFO : root : alquileres : scrapear_pagina : Scrapeando página 52 de 58...
+[31-05-2025 16:30:28] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:30:39] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:30:41] INFO : root : alquileres : scrapear_pagina : Scrapeando página 53 de 58...
+[31-05-2025 16:30:44] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:30:54] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:30:57] INFO : root : alquileres : scrapear_pagina : Scrapeando página 54 de 58...
+[31-05-2025 16:31:00] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:31:10] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:31:13] INFO : root : alquileres : scrapear_pagina : Scrapeando página 55 de 58...
+[31-05-2025 16:31:16] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:31:27] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:31:29] INFO : root : alquileres : scrapear_pagina : Scrapeando página 56 de 58...
+[31-05-2025 16:31:32] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:31:43] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:31:45] INFO : root : alquileres : scrapear_pagina : Scrapeando página 57 de 58...
+[31-05-2025 16:31:48] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:31:58] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[31-05-2025 16:32:01] INFO : root : alquileres : scrapear_pagina : Scrapeando página 58 de 58...
+[31-05-2025 16:32:04] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[31-05-2025 16:32:14] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 9 propiedades encontradas.
+[31-05-2025 16:32:14] INFO : root : alquileres : scrapear_pagina : Scraping completo.
+[31-05-2025 16:32:14] INFO : root : main : main : Se obtuvieron 1377 departamentos.
+[31-05-2025 16:32:14] INFO : root : main : main : Guardando resultados en Excel...
+[31-05-2025 16:32:15] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\alquileres\lavoz\inmuebles_departamentos_alquileres_1-dormitorio_31-05-2025.xlsx'
+[31-05-2025 16:32:15] INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+[31-05-2025 16:32:19] INFO : root : main : main : Driver cerrado.
+[31-05-2025 16:32:19] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 15.87 minutos
+[31-05-2025 16:32:19] INFO : root : rendimiento : medir_recursos : Uso de CPU: -16.70%
+[31-05-2025 16:32:19] INFO : root : main : main : ===========SCRAPING DE LAVOZ FINALIZADO===========
+
