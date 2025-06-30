@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from utils.limpieza import filtrar_productos, limpiar_precio
+from utils.limpieza import filtrar_productos, limpiar_precio, limpiar_precio_kg_lt
 from scraping.paginacion import obtener_total_paginas
 import logging 
 import logging.config 
@@ -49,11 +49,21 @@ def obtener_productos_y_precios_disco(driver, max_reintentos=5, espera_entre_int
                 except:
                     precio = "No disponible"
 
+                try:
+                    precio_kg_lt_elemento = producto.find_element(
+                        By.CSS_SELECTOR, "div.vtex-custom-unit-price"
+                    )
+                    precio_kg_lt = precio_kg_lt_elemento.text.strip()
+                except:
+                    precio_kg_lt = "No disponible"
+
                 precio_limpio = limpiar_precio(precio)
+                precio_kglt_limpio = limpiar_precio_kg_lt(precio_kg_lt)
                 
                 productos_precios.append({
                     "Producto": nombre_producto,
-                    "Precio": precio_limpio
+                    "Precio": precio_limpio,
+                    "Precio x kg/lt": precio_kglt_limpio
                 })
 
             productos_filtrados = filtrar_productos(productos_precios)

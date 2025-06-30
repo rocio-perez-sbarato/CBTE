@@ -54,6 +54,17 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
                     list_price = list_price_elemento.text.replace("\n", "").strip()
                 except:
                     list_price = selling_price
+                    
+                # === PRECIO POR KG/LT ===
+                try:
+                    contenedor_peso = producto.find_element(
+                        By.CSS_SELECTOR,
+                        "span[class*='dynamic-weight-price'][class$='currencyContainer']"
+                    )
+                    partes = [sp.text.strip() for sp in contenedor_peso.find_elements(By.TAG_NAME, "span")]
+                    precio_kglt = "".join(partes)
+                except:
+                    precio_kglt = "No disponible"
 
                 try:
                     mi_crf_elemento = producto.find_element(By.CSS_SELECTOR, "div[data-highlight-name*='Mi CRF']")
@@ -63,13 +74,15 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
 
                 list_price_limpio = limpiar_precio(list_price)
                 selling_price_limpio = limpiar_precio(selling_price)
+                precio_kglt_limpio = limpiar_precio(precio_kglt)
                 
                 productos_precios.append({
                     "Nombre del producto": nuevo_nombre,
                     "Precio final": selling_price_limpio,
                     "Precio original": list_price_limpio if list_price_limpio != selling_price_limpio else selling_price_limpio,
                     "Tiene oferta": "Sí" if list_price_limpio != selling_price_limpio else "No",
-                    "Beneficio Mi CRF": beneficio_mi_crf
+                    "Beneficio Mi CRF": beneficio_mi_crf,
+                    "Precio por kg/lt": precio_kglt_limpio
                 })
 
             productos_filtrados = filtrar_productos(productos_precios)

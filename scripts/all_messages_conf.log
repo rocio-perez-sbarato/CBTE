@@ -270,3 +270,303 @@
 [31-05-2025 16:32:19] INFO : root : rendimiento : medir_recursos : Uso de CPU: -16.70%
 [31-05-2025 16:32:19] INFO : root : main : main : ===========SCRAPING DE LAVOZ FINALIZADO===========
 
+[03-06-2025 10:15:48] INFO : root : main : main : ===========INICIANDO SCRAPING DE FERNIPLAST===========
+[03-06-2025 10:15:48] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/marcadores-y-resaltadores
+[03-06-2025 10:16:08] INFO : root : paginacion : obtener_cantidad_paginas : Total de productos: 97
+[03-06-2025 10:16:08] INFO : root : paginacion : obtener_cantidad_paginas : Total de páginas: 4
+[03-06-2025 10:16:08] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[03-06-2025 10:16:16] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[03-06-2025 10:16:24] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[03-06-2025 10:16:29] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[03-06-2025 10:16:40] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[03-06-2025 10:16:48] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[03-06-2025 10:16:49] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[03-06-2025 10:16:58] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[03-06-2025 10:17:06] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[03-06-2025 10:17:07] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[03-06-2025 10:17:15] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[03-06-2025 10:17:22] INFO : root : productos : obtener_productos_y_precios_ferniplast : 13 productos visibles
+[03-06-2025 10:17:27] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_marcadores-y-resaltadores_03-06-2025.xlsx'
+[03-06-2025 10:17:31] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/escritura/boligrafos
+[03-06-2025 10:17:48] INFO : root : paginacion : obtener_cantidad_paginas : Total de productos: 44
+[03-06-2025 10:17:48] INFO : root : paginacion : obtener_cantidad_paginas : Total de páginas: 2
+[03-06-2025 10:17:48] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 2...
+[03-06-2025 10:17:58] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[03-06-2025 10:18:05] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[03-06-2025 10:18:07] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 2...
+[03-06-2025 10:18:15] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[03-06-2025 10:18:22] INFO : root : productos : obtener_productos_y_precios_ferniplast : 16 productos visibles
+[03-06-2025 10:18:23] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_escritura_boligrafos_03-06-2025.xlsx'
+[03-06-2025 10:18:27] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/escritura/gomas-de-borrar
+[03-06-2025 10:18:45] INFO : root : paginacion : obtener_cantidad_paginas : No se pudo interpretar el texto del contador.
+[03-06-2025 10:18:45] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[03-06-2025 10:18:55] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[03-06-2025 10:19:02] INFO : root : productos : obtener_productos_y_precios_ferniplast : 8 productos visibles
+[03-06-2025 10:19:03] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_escritura_gomas-de-borrar_03-06-2025.xlsx'
+[03-06-2025 10:19:07] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/escritura/lapices-negros
+[03-06-2025 10:19:26] INFO : root : paginacion : obtener_cantidad_paginas : No se pudo interpretar el texto del contador.
+[03-06-2025 10:19:26] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[03-06-2025 10:19:34] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[03-06-2025 10:19:41] INFO : root : productos : obtener_productos_y_precios_ferniplast : 5 productos visibles
+[03-06-2025 10:19:46] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_escritura_lapices-negros_03-06-2025.xlsx'
+[03-06-2025 10:19:49] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[03-06-2025 10:19:49] INFO : root : main : main : ===========SCRAPING DE FERNIPLAST FINALIZADO===========
+[04-06-2025 10:15:29] INFO : root : main : main : ===========INICIANDO SCRAPING DE PENCILBAG===========
+[04-06-2025 10:15:29] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/escritura1/lapices-grafito/...
+[04-06-2025 10:15:55] INFO : root : paginacion : obtener_total_paginas : No se encontraron suficientes <span> en el contenedor.
+[04-06-2025 10:15:58] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[04-06-2025 10:16:01] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[04-06-2025 10:16:07] INFO : root : productos : obtener_productos_y_precios_pencilbag : 34 productos visibles
+[04-06-2025 10:16:22] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 34 productos.
+[04-06-2025 10:16:30] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\escritura1_lapices-grafito_04-06-2025.xlsx'
+[04-06-2025 10:16:37] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/escritura1/resaltadores1/...
+[04-06-2025 10:17:03] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 2
+[04-06-2025 10:17:06] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 2...
+[04-06-2025 10:17:09] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[04-06-2025 10:17:15] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[04-06-2025 10:17:24] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[04-06-2025 10:17:26] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 2...
+[04-06-2025 10:17:29] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[04-06-2025 10:17:34] INFO : root : productos : obtener_productos_y_precios_pencilbag : 41 productos visibles
+[04-06-2025 10:17:40] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 41 productos.
+[04-06-2025 10:17:40] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\escritura1_resaltadores1_04-06-2025.xlsx'
+[04-06-2025 10:17:48] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/gomas/...
+[04-06-2025 10:18:11] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 2
+[04-06-2025 10:18:15] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 2...
+[04-06-2025 10:18:18] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[04-06-2025 10:18:25] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[04-06-2025 10:18:34] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[04-06-2025 10:18:36] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 2...
+[04-06-2025 10:18:39] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[04-06-2025 10:18:44] INFO : root : productos : obtener_productos_y_precios_pencilbag : 24 productos visibles
+[04-06-2025 10:18:45] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 24 productos.
+[04-06-2025 10:18:46] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\gomas_04-06-2025.xlsx'
+[04-06-2025 10:18:49] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/escritura1/boligrafos/clasicos/...
+[04-06-2025 10:19:10] INFO : root : paginacion : obtener_total_paginas : No se encontraron suficientes <span> en el contenedor.
+[04-06-2025 10:19:12] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[04-06-2025 10:19:15] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[04-06-2025 10:19:20] INFO : root : productos : obtener_productos_y_precios_pencilbag : 42 productos visibles
+[04-06-2025 10:19:28] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 42 productos.
+[04-06-2025 10:19:29] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\escritura1_boligrafos_clasicos_04-06-2025.xlsx'
+[04-06-2025 10:19:33] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[04-06-2025 10:19:33] INFO : root : main : main : ===========SCRAPING DE PENCILBAG FINALIZADO===========
+[04-06-2025 11:57:29] INFO : root : main : main : ===========INICIANDO SCRAPING DE GRAFITTI===========
+[04-06-2025 11:57:29] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/escritura1/lapiceras-y-boligrafos/
+[04-06-2025 11:57:41] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[04-06-2025 11:57:47] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[04-06-2025 11:57:48] INFO : root : productos : obtener_productos_y_precios : * 10 productos.
+[04-06-2025 11:57:50] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\grafitti\libreria-escolar_escritura1_lapiceras-y-boligrafos_04-06-2025.xlsx'
+[04-06-2025 11:57:53] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/escritura1/fibras-y-marcadores/
+[04-06-2025 11:58:04] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[04-06-2025 11:58:09] INFO : root : productos : obtener_productos_y_precios : 41 productos visibles
+[04-06-2025 11:58:12] INFO : root : productos : obtener_productos_y_precios : * 41 productos.
+[04-06-2025 11:58:12] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\grafitti\libreria-escolar_escritura1_fibras-y-marcadores_04-06-2025.xlsx'
+[04-06-2025 11:58:16] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/gomas1/
+[04-06-2025 11:58:26] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[04-06-2025 11:58:31] INFO : root : productos : obtener_productos_y_precios : 12 productos visibles
+[04-06-2025 11:58:32] INFO : root : productos : obtener_productos_y_precios : * 12 productos.
+[04-06-2025 11:58:32] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\grafitti\libreria-escolar_gomas1_04-06-2025.xlsx'
+[04-06-2025 11:58:35] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/artistica/lapices/
+[04-06-2025 11:58:45] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[04-06-2025 11:58:50] INFO : root : productos : obtener_productos_y_precios : 23 productos visibles
+[04-06-2025 11:58:52] INFO : root : productos : obtener_productos_y_precios : * 23 productos.
+[04-06-2025 11:58:52] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\libreria\grafitti\artistica_lapices_04-06-2025.xlsx'
+[04-06-2025 11:58:56] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[04-06-2025 11:58:56] INFO : root : main : main : ===========SCRAPING DE GRAFITTI FINALIZADO===========
+[30-06-2025 15:43:18] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[30-06-2025 15:43:18] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/almacen/sal-aderezos-y-saborizadores/sal...
+[30-06-2025 15:43:47] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 4
+[30-06-2025 15:43:54] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[30-06-2025 15:43:57] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 15:44:05] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 15:44:06] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 15:44:13] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[30-06-2025 15:44:16] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 15:44:23] INFO : root : productos : obtener_productos_y_precios : 14 productos visibles
+[30-06-2025 15:44:25] INFO : root : productos : obtener_productos_y_precios : * 12 productos.
+[30-06-2025 15:44:32] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[30-06-2025 15:44:35] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 15:44:44] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 15:44:45] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 15:44:52] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[30-06-2025 15:44:55] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 15:45:02] INFO : root : productos : obtener_productos_y_precios : 5 productos visibles
+[30-06-2025 15:45:02] INFO : root : productos : obtener_productos_y_precios : * 3 productos.
+[30-06-2025 15:45:05] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\almacen_sal-aderezos-y-saborizadores_sal_30-06-2025.xlsx'
+[30-06-2025 15:45:30] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.21 minutos
+[30-06-2025 15:45:30] INFO : root : rendimiento : medir_recursos : Uso de CPU: 18.30%
+[30-06-2025 15:45:30] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[30-06-2025 15:45:30] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[30-06-2025 15:48:41] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[30-06-2025 15:48:41] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/almacen/sal-aderezos-y-saborizadores/sal...
+[30-06-2025 15:49:00] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 4
+[30-06-2025 15:49:06] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[30-06-2025 15:49:09] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 15:49:17] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 15:49:19] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 15:49:22] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[30-06-2025 15:49:25] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 15:49:33] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 15:49:34] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 15:49:38] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[30-06-2025 15:49:41] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 15:49:49] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 15:49:51] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 15:49:55] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[30-06-2025 15:49:58] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 15:50:06] INFO : root : productos : obtener_productos_y_precios : 5 productos visibles
+[30-06-2025 15:50:06] INFO : root : productos : obtener_productos_y_precios : * 3 productos.
+[30-06-2025 15:50:07] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\almacen_sal-aderezos-y-saborizadores_sal_30-06-2025.xlsx'
+[30-06-2025 15:50:32] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.85 minutos
+[30-06-2025 15:50:32] INFO : root : rendimiento : medir_recursos : Uso de CPU: 3.10%
+[30-06-2025 15:50:32] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[30-06-2025 15:50:32] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[30-06-2025 16:00:56] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[30-06-2025 16:00:56] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/almacen/sal-aderezos-y-saborizadores/sal...
+[30-06-2025 16:01:16] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 4
+[30-06-2025 16:01:20] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[30-06-2025 16:01:23] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 16:01:31] INFO : root : productos : obtener_productos_y_precios : 12 productos visibles
+[30-06-2025 16:01:39] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: The element with the reference c9a4530a-6566-4c26-9b02-cfe1f45f3ebc is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:796:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
+
+[30-06-2025 16:01:42] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[30-06-2025 16:01:49] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:01:53] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 16:01:57] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[30-06-2025 16:02:00] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 16:02:09] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:02:11] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 16:02:16] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[30-06-2025 16:02:19] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 16:02:27] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:02:32] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 16:02:36] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[30-06-2025 16:02:39] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 16:02:47] INFO : root : productos : obtener_productos_y_precios : 5 productos visibles
+[30-06-2025 16:02:47] INFO : root : productos : obtener_productos_y_precios : * 3 productos.
+[30-06-2025 16:02:48] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\almacen_sal-aderezos-y-saborizadores_sal_30-06-2025.xlsx'
+[30-06-2025 16:03:13] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.28 minutos
+[30-06-2025 16:03:13] INFO : root : rendimiento : medir_recursos : Uso de CPU: 15.40%
+[30-06-2025 16:03:13] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[30-06-2025 16:03:13] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[30-06-2025 16:08:27] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[30-06-2025 16:08:27] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes...
+[30-06-2025 16:08:50] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[30-06-2025 16:08:57] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[30-06-2025 16:09:00] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[30-06-2025 16:09:18] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[30-06-2025 16:09:19] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_aceites-y-vinagres_aceites-comunes_30-06-2025.xlsx'
+[30-06-2025 16:09:23] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[30-06-2025 16:09:23] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.93 minutos
+[30-06-2025 16:09:23] INFO : root : rendimiento : medir_recursos : Uso de CPU: -0.60%
+[30-06-2025 16:09:23] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[30-06-2025 16:20:04] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[30-06-2025 16:20:04] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes...
+[30-06-2025 16:20:29] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[30-06-2025 16:20:34] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[30-06-2025 16:20:37] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[30-06-2025 16:20:54] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[30-06-2025 16:20:54] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_aceites-y-vinagres_aceites-comunes_30-06-2025.xlsx'
+[30-06-2025 16:20:59] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[30-06-2025 16:20:59] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.92 minutos
+[30-06-2025 16:20:59] INFO : root : rendimiento : medir_recursos : Uso de CPU: 3.50%
+[30-06-2025 16:20:59] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[30-06-2025 16:27:15] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[30-06-2025 16:27:15] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes...
+[30-06-2025 16:27:36] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[30-06-2025 16:27:41] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[30-06-2025 16:27:44] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[30-06-2025 16:28:01] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[30-06-2025 16:28:02] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_aceites-y-vinagres_aceites-comunes_30-06-2025.xlsx'
+[30-06-2025 16:28:07] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[30-06-2025 16:28:07] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.87 minutos
+[30-06-2025 16:28:07] INFO : root : rendimiento : medir_recursos : Uso de CPU: -9.10%
+[30-06-2025 16:28:07] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[30-06-2025 16:29:11] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[30-06-2025 16:29:11] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes...
+[30-06-2025 16:29:32] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[30-06-2025 16:29:37] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[30-06-2025 16:29:40] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[30-06-2025 16:29:58] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[30-06-2025 16:29:59] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_aceites-y-vinagres_aceites-comunes_30-06-2025.xlsx'
+[30-06-2025 16:30:02] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[30-06-2025 16:30:02] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.86 minutos
+[30-06-2025 16:30:02] INFO : root : rendimiento : medir_recursos : Uso de CPU: 22.30%
+[30-06-2025 16:30:02] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[30-06-2025 16:38:42] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[30-06-2025 16:38:42] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes...
+[30-06-2025 16:39:04] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[30-06-2025 16:39:08] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[30-06-2025 16:39:11] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[30-06-2025 16:39:27] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[30-06-2025 16:39:28] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_aceites-y-vinagres_aceites-comunes_30-06-2025.xlsx'
+[30-06-2025 16:39:32] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[30-06-2025 16:39:32] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.84 minutos
+[30-06-2025 16:39:32] INFO : root : rendimiento : medir_recursos : Uso de CPU: 5.10%
+[30-06-2025 16:39:32] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[30-06-2025 16:40:03] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[30-06-2025 16:40:03] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/almacen/sal-aderezos-y-saborizadores/sal...
+[30-06-2025 16:40:23] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 4
+[30-06-2025 16:40:29] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[30-06-2025 16:40:32] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 16:40:39] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:40:42] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 16:40:52] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[30-06-2025 16:40:55] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 16:41:02] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:41:05] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 16:41:15] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[30-06-2025 16:41:18] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 16:41:26] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:41:28] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:41:31] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[30-06-2025 16:41:38] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:41:39] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:41:42] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[30-06-2025 16:41:50] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:41:52] ERROR : root : productos : obtener_productos_y_precios : Error en intento 3: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:41:55] INFO : root : productos : obtener_productos_y_precios : Intento 4 de 5
+[30-06-2025 16:42:02] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:42:04] ERROR : root : productos : obtener_productos_y_precios : Error en intento 4: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:42:07] INFO : root : productos : obtener_productos_y_precios : Intento 5 de 5
+[30-06-2025 16:42:14] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 16:42:16] ERROR : root : productos : obtener_productos_y_precios : Error en intento 5: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:42:19] INFO : root : productos : obtener_productos_y_precios : No se encontraron productos luego de varios intentos.
+
+[30-06-2025 16:42:25] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[30-06-2025 16:42:28] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 16:42:35] INFO : root : productos : obtener_productos_y_precios : 5 productos visibles
+[30-06-2025 16:42:35] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:42:38] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[30-06-2025 16:42:46] INFO : root : productos : obtener_productos_y_precios : 5 productos visibles
+[30-06-2025 16:42:46] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:42:49] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[30-06-2025 16:42:56] INFO : root : productos : obtener_productos_y_precios : 5 productos visibles
+[30-06-2025 16:42:56] ERROR : root : productos : obtener_productos_y_precios : Error en intento 3: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:42:59] INFO : root : productos : obtener_productos_y_precios : Intento 4 de 5
+[30-06-2025 16:43:06] INFO : root : productos : obtener_productos_y_precios : 5 productos visibles
+[30-06-2025 16:43:07] ERROR : root : productos : obtener_productos_y_precios : Error en intento 4: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:43:10] INFO : root : productos : obtener_productos_y_precios : Intento 5 de 5
+[30-06-2025 16:43:17] INFO : root : productos : obtener_productos_y_precios : 5 productos visibles
+[30-06-2025 16:43:17] ERROR : root : productos : obtener_productos_y_precios : Error en intento 5: 'NoneType' object has no attribute 'strip'
+[30-06-2025 16:43:20] INFO : root : productos : obtener_productos_y_precios : No se encontraron productos luego de varios intentos.
+
+[30-06-2025 16:43:21] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\almacen_sal-aderezos-y-saborizadores_sal_30-06-2025.xlsx'
+[30-06-2025 16:43:45] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/almacen/aceites-y-vinagres/vinagres-acetos-y-limon...
