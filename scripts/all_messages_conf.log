@@ -570,3 +570,53 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 
 [30-06-2025 16:43:21] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\almacen_sal-aderezos-y-saborizadores_sal_30-06-2025.xlsx'
 [30-06-2025 16:43:45] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/almacen/aceites-y-vinagres/vinagres-acetos-y-limon...
+[30-06-2025 20:44:58] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[30-06-2025 20:44:58] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/almacen/sal-aderezos-y-saborizadores/sal...
+[30-06-2025 20:45:22] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 4
+[30-06-2025 20:45:29] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[30-06-2025 20:45:32] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 20:45:40] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 20:45:47] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 20:45:53] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[30-06-2025 20:45:56] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 20:46:05] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 20:46:09] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 20:46:16] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[30-06-2025 20:46:19] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 20:46:27] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 20:46:30] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 20:46:36] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[30-06-2025 20:46:39] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 20:46:49] INFO : root : productos : obtener_productos_y_precios : 4 productos visibles
+[30-06-2025 20:46:49] INFO : root : productos : obtener_productos_y_precios : * 2 productos.
+[30-06-2025 20:46:55] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\almacen_sal-aderezos-y-saborizadores_sal_30-06-2025.xlsx'
+[30-06-2025 20:47:21] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.38 minutos
+[30-06-2025 20:47:21] INFO : root : rendimiento : medir_recursos : Uso de CPU: 8.50%
+[30-06-2025 20:47:21] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[30-06-2025 20:47:21] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[30-06-2025 20:52:46] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[30-06-2025 20:52:46] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/almacen/sal-aderezos-y-saborizadores/sal...
+[30-06-2025 20:53:06] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 4
+[30-06-2025 20:53:10] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[30-06-2025 20:53:13] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 20:53:22] INFO : root : productos : obtener_productos_y_precios : 14 productos visibles
+[30-06-2025 20:53:24] INFO : root : productos : obtener_productos_y_precios : * 12 productos.
+[30-06-2025 20:53:28] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[30-06-2025 20:53:31] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 20:53:39] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[30-06-2025 20:53:41] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 20:53:45] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[30-06-2025 20:53:48] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 20:53:56] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[30-06-2025 20:54:00] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[30-06-2025 20:54:03] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[30-06-2025 20:54:06] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[30-06-2025 20:54:14] INFO : root : productos : obtener_productos_y_precios : 4 productos visibles
+[30-06-2025 20:54:14] INFO : root : productos : obtener_productos_y_precios : * 2 productos.
+[30-06-2025 20:54:16] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\almacen_sal-aderezos-y-saborizadores_sal_30-06-2025.xlsx'
+[30-06-2025 20:54:40] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.90 minutos
+[30-06-2025 20:54:40] INFO : root : rendimiento : medir_recursos : Uso de CPU: 14.30%
+[30-06-2025 20:54:40] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[30-06-2025 20:54:40] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========

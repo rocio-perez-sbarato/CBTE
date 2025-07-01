@@ -44,17 +44,21 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
 
                 try:
                     precio_elemento = producto.find_element(By.CSS_SELECTOR, "span.valtech-carrefourar-product-price-0-x-sellingPriceValue")
-                    selling_price = precio_elemento.text.replace("\n", "").strip()
-                    selling_price = limpiar_precio(selling_price)
+                    selling_price_raw = precio_elemento.text.replace("\n", "").strip()
                 except:
-                    selling_price = "No disponible"
+                    selling_price_raw = "No disponible"
 
                 try:
                     list_price_elemento = producto.find_element(By.CSS_SELECTOR, "span.valtech-carrefourar-product-price-0-x-listPrice")
-                    list_price = list_price_elemento.text.replace("\n", "").strip()
+                    list_price_raw = list_price_elemento.text.replace("\n", "").strip()
                 except:
-                    list_price = selling_price
+                    list_price_raw = selling_price_raw
                     
+                # Limpiar precios una sola vez
+                selling_price_limpio = limpiar_precio(selling_price_raw) if selling_price_raw else None
+                list_price_limpio = limpiar_precio(list_price_raw) if list_price_raw else selling_price_limpio
+
+
                 # === PRECIO POR KG/LT ===
                 try:
                     contenedor_peso = producto.find_element(
@@ -68,19 +72,17 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
 
                 try:
                     mi_crf_elemento = producto.find_element(By.CSS_SELECTOR, "div[data-highlight-name*='Mi CRF']")
-                    beneficio_mi_crf = "Sí"
+                    beneficio_mi_crf = "Si"
                 except:
                     beneficio_mi_crf = "No"
 
-                list_price_limpio = limpiar_precio(list_price)
-                selling_price_limpio = limpiar_precio(selling_price)
                 precio_kglt_limpio = limpiar_precio(precio_kglt)
                 
                 productos_precios.append({
                     "Nombre del producto": nuevo_nombre,
                     "Precio final": selling_price_limpio,
-                    "Precio original": list_price_limpio if list_price_limpio != selling_price_limpio else selling_price_limpio,
-                    "Tiene oferta": "Sí" if list_price_limpio != selling_price_limpio else "No",
+                    "Precio original": list_price_limpio,
+                    "Tiene oferta": "Si" if list_price_limpio != selling_price_limpio else "No",
                     "Beneficio Mi CRF": beneficio_mi_crf,
                     "Precio por kg/lt": precio_kglt_limpio
                 })
