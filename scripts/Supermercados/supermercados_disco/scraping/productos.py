@@ -63,6 +63,7 @@ def obtener_productos_y_precios_disco(driver, max_reintentos=5, espera_entre_int
                 productos_precios.append({
                     "Producto": nombre_producto,
                     "Precio": precio_limpio,
+                    "Tiene oferta": "No", # Generalización de formato
                     "Precio x kg/lt": precio_kglt_limpio
                 })
 

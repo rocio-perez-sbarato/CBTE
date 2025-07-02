@@ -79,12 +79,12 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
                 precio_kglt_limpio = limpiar_precio(precio_kglt)
                 
                 productos_precios.append({
-                    "Nombre del producto": nuevo_nombre,
-                    "Precio final": selling_price_limpio,
+                    "Producto": nuevo_nombre,
+                    "Precio": selling_price_limpio,
                     "Precio original": list_price_limpio,
                     "Tiene oferta": "Si" if list_price_limpio != selling_price_limpio else "No",
                     "Beneficio Mi CRF": beneficio_mi_crf,
-                    "Precio por kg/lt": precio_kglt_limpio
+                    "Precio x kg/lt": precio_kglt_limpio
                 })
 
             productos_filtrados = filtrar_productos(productos_precios)

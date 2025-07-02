@@ -25,16 +25,35 @@ def limpiar_precio(texto_precio):
     
     return precio_formateado
 def limpiar_precio_kg_lt(texto):
-    """Extrae el precio por kg/lt desde un string y lo devuelve como string con 3 decimales."""
-    match = re.search(r"\$?\s*([\d\.,]+)", texto)
-    if match:
-        numero_str = match.group(1).replace('.', '').replace(',', '.')
+    texto = texto.lower()
+    unidad_match = re.search(r"x\s*(\d*\s*(?:gr\.|kg|lt|un))", texto)
+    precio_match = re.search(r"\$\s*([\d\.,]+)", texto)
+
+    if not unidad_match or not precio_match:
+        return "No disponible"
+
+    unidad = unidad_match.group(1).replace(' ', '')
+    precio_str = precio_match.group(1).replace('.', '').replace(',', '.')
+
+    try:
+        precio = float(precio_str)
+    except ValueError:
+        return "No disponible"
+
+    if unidad in ["kg", "lt", "un"]:
+        return f"{precio:.2f}"
+    elif unidad.endswith("gr."):
+        # Extraer la cantidad en gramos
         try:
-            precio_float = float(numero_str)
-            return f"{precio_float:.3f}"
+            gramos = int(unidad.replace("gr.", ""))
         except ValueError:
             return "No disponible"
-    return "No disponible"
+        # Multiplicar directamente por 10 si son 100 gr, o por (1000/gramos) para generalizar
+        factor = 10 if gramos == 100 else 1000 / gramos
+        precio_kg = precio * factor
+        return f"{precio_kg:.2f}"
+    else:
+        return "No disponible"
 
 def filtrar_productos(productos):
     """Filtra los productos que son 'slider' o tienen todos los atributos 'No disponible'."""

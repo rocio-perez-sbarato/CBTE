@@ -2,8 +2,7 @@ import re
 
 def limpiar_nombre(nombre):
     """Elimina la palabra 'Producto' al inicio del nombre, con o sin espacio."""
-    return re.sub(r"^Producto\s*", "", nombre)  # Quita 'Producto' + cualquier espacio opcional
-
+    return re.sub(r"^Producto\s*", "", nombre)  
 
 def limpiar_precio(texto_precio):
     """
@@ -22,9 +21,8 @@ def limpiar_precio(texto_precio):
     try:
         precio_float = float(texto_precio)
     except ValueError:
-        precio_float = None  # O el valor que quieras poner si no se puede parsear
-    
-    # Formatear con 3 decimales para conservar ceros finales si querés string
+        precio_float = None  
+
     precio_formateado = f"{precio_float:.3f}" if precio_float is not None else None
     
     return precio_formateado
