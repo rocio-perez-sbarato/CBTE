@@ -48,7 +48,7 @@ def limpiar_precio_kg_lt(texto):
             gramos = int(unidad.replace("gr.", ""))
         except ValueError:
             return "No disponible"
-        # Multiplicar directamente por 10 si son 100 gr, o por (1000/gramos) para generalizar
+        
         factor = 10 if gramos == 100 else 1000 / gramos
         precio_kg = precio * factor
         return f"{precio_kg:.2f}"

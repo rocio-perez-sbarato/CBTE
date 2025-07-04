@@ -1191,3 +1191,234 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 [02-07-2025 16:28:04] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 3.28 minutos
 [02-07-2025 16:28:04] INFO : root : rendimiento : medir_recursos : Uso de CPU: -0.70%
 [02-07-2025 16:28:04] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 10:55:47] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 10:55:47] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes...
+[04-07-2025 10:56:10] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[04-07-2025 10:56:16] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[04-07-2025 10:56:19] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 10:56:35] INFO : root : productos : obtener_productos_y_precios_disco : * 20 productos.
+[04-07-2025 10:56:38] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_aceites-y-vinagres_aceites-comunes_04-07-2025.xlsx'
+[04-07-2025 10:56:42] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[04-07-2025 10:56:42] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.92 minutos
+[04-07-2025 10:56:42] INFO : root : rendimiento : medir_recursos : Uso de CPU: 13.20%
+[04-07-2025 10:56:42] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 10:57:16] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 10:57:16] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/desayuno-y-merienda/galletitas-dulces...
+[04-07-2025 10:57:35] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 14
+[04-07-2025 10:57:43] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 14...
+[04-07-2025 10:57:46] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 10:58:05] INFO : root : productos : obtener_productos_y_precios_disco : * 26 productos.
+[04-07-2025 10:58:10] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 14...
+[04-07-2025 10:58:13] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 10:58:31] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 10:58:37] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 14...
+[04-07-2025 10:58:40] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 10:58:58] INFO : root : productos : obtener_productos_y_precios_disco : * 22 productos.
+[04-07-2025 10:59:04] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 14...
+[04-07-2025 10:59:07] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 10:59:24] INFO : root : productos : obtener_productos_y_precios_disco : * 22 productos.
+[04-07-2025 10:59:30] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 14...
+[04-07-2025 10:59:33] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 10:59:49] INFO : root : productos : obtener_productos_y_precios_disco : * 22 productos.
+[04-07-2025 10:59:55] INFO : root : productos : scrapear_categoria : Scrapeando página 6 de 14...
+[04-07-2025 10:59:58] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:00:15] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:00:21] INFO : root : productos : scrapear_categoria : Scrapeando página 7 de 14...
+[04-07-2025 11:00:24] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:00:40] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:00:45] INFO : root : productos : scrapear_categoria : Scrapeando página 8 de 14...
+[04-07-2025 11:00:49] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:01:06] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:01:13] INFO : root : productos : scrapear_categoria : Scrapeando página 9 de 14...
+[04-07-2025 11:01:16] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:01:33] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:01:39] INFO : root : productos : scrapear_categoria : Scrapeando página 10 de 14...
+[04-07-2025 11:01:42] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:02:00] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:02:06] INFO : root : productos : scrapear_categoria : Scrapeando página 11 de 14...
+[04-07-2025 11:02:09] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:02:27] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:02:35] INFO : root : productos : scrapear_categoria : Scrapeando página 12 de 14...
+[04-07-2025 11:02:38] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:02:56] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:03:02] INFO : root : productos : scrapear_categoria : Scrapeando página 13 de 14...
+[04-07-2025 11:03:05] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:03:22] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:03:28] INFO : root : productos : scrapear_categoria : Scrapeando página 14 de 14...
+[04-07-2025 11:03:31] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:03:47] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[04-07-2025 11:03:49] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_desayuno-y-merienda_galletitas-dulces_04-07-2025.xlsx'
+[04-07-2025 11:03:53] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[04-07-2025 11:03:53] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 6.61 minutos
+[04-07-2025 11:03:53] INFO : root : rendimiento : medir_recursos : Uso de CPU: -9.90%
+[04-07-2025 11:03:53] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 11:11:29] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 11:11:29] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/desayuno-y-merienda/cereales?initialMap=c,c,c&initialQuery=almacen/desayuno-y-merienda/cereales&map=category-1,category-2,category-3,tipo-de-producto&query=/almacen/desayuno-y-merienda/cereales/barras-de-cereal&searchState...
+[04-07-2025 11:11:50] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 2
+[04-07-2025 11:11:54] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 2...
+[04-07-2025 11:11:57] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:12:15] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:12:18] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 2...
+[04-07-2025 11:12:21] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:12:38] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:12:39] ERROR : root : main : main : Error al procesar https://www.disco.com.ar/almacen/desayuno-y-merienda/cereales?initialMap=c,c,c&initialQuery=almacen/desayuno-y-merienda/cereales&map=category-1,category-2,category-3,tipo-de-producto&query=/almacen/desayuno-y-merienda/cereales/barras-de-cereal&searchState: [Errno 2] No such file or directory: 'C:\\Users\\rocio\\Documentos (in this PC)\\Facultad\\Canasta básica\\CBTE\\data\\supermercados\\disco\\almacen_desayuno-y-merienda_cereales?initialMap=c,c,c&initialQuery=almacen_desayuno-y-merienda_cereales&map=category-1,category-2,category-3,tipo-de-producto&query=_almacen_desayuno-y-merienda_cereales_barras-de-cereal&searchState_04-07-2025.xlsx'
+[04-07-2025 11:12:42] INFO : root : main : main : Categorías que fallaron
+[04-07-2025 11:12:42] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.22 minutos
+[04-07-2025 11:12:42] INFO : root : rendimiento : medir_recursos : Uso de CPU: 13.30%
+[04-07-2025 11:12:42] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 11:13:46] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 11:13:46] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/desayuno-y-merienda/cereales...
+[04-07-2025 11:14:05] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 8
+[04-07-2025 11:14:10] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 8...
+[04-07-2025 11:14:13] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:14:29] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:14:38] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 8...
+[04-07-2025 11:14:41] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:14:58] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:15:02] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 8...
+[04-07-2025 11:15:05] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:15:22] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:15:28] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 8...
+[04-07-2025 11:15:31] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:15:49] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:15:56] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 8...
+[04-07-2025 11:15:59] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:16:17] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:16:23] INFO : root : productos : scrapear_categoria : Scrapeando página 6 de 8...
+[04-07-2025 11:16:26] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:16:43] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:16:49] INFO : root : productos : scrapear_categoria : Scrapeando página 7 de 8...
+[04-07-2025 11:16:52] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:17:10] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:17:15] INFO : root : productos : scrapear_categoria : Scrapeando página 8 de 8...
+[04-07-2025 11:17:18] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:17:35] INFO : root : productos : obtener_productos_y_precios_disco : * 18 productos.
+[04-07-2025 11:17:36] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_desayuno-y-merienda_cereales_04-07-2025.xlsx'
+[04-07-2025 11:17:39] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[04-07-2025 11:17:39] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 3.89 minutos
+[04-07-2025 11:17:39] INFO : root : rendimiento : medir_recursos : Uso de CPU: 9.50%
+[04-07-2025 11:17:39] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 11:23:05] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 11:23:05] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/desayuno-y-merienda/cereales...
+[04-07-2025 11:23:25] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 8
+[04-07-2025 11:23:28] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 8...
+[04-07-2025 11:23:31] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:23:49] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:23:52] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 8...
+[04-07-2025 11:23:55] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:24:12] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:24:15] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 8...
+[04-07-2025 11:24:18] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:24:34] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:24:37] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 8...
+[04-07-2025 11:24:40] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:24:57] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:25:00] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 8...
+[04-07-2025 11:25:03] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:25:21] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:25:24] INFO : root : productos : scrapear_categoria : Scrapeando página 6 de 8...
+[04-07-2025 11:25:27] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:25:44] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:25:47] INFO : root : productos : scrapear_categoria : Scrapeando página 7 de 8...
+[04-07-2025 11:25:50] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:26:07] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:26:10] INFO : root : productos : scrapear_categoria : Scrapeando página 8 de 8...
+[04-07-2025 11:26:13] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:26:30] INFO : root : productos : obtener_productos_y_precios_disco : * 18 productos.
+[04-07-2025 11:26:31] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_desayuno-y-merienda_cereales_04-07-2025.xlsx'
+[04-07-2025 11:26:34] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[04-07-2025 11:26:34] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 3.49 minutos
+[04-07-2025 11:26:34] INFO : root : rendimiento : medir_recursos : Uso de CPU: -9.90%
+[04-07-2025 11:26:34] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 11:32:08] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 11:32:08] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/golosinas-y-chocolates/alfajores?page=1...
+[04-07-2025 11:32:30] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[04-07-2025 11:32:35] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[04-07-2025 11:32:38] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:32:54] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:32:58] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[04-07-2025 11:33:01] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:33:18] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:33:22] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[04-07-2025 11:33:25] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:33:42] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:33:45] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[04-07-2025 11:33:48] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:34:06] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:34:12] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[04-07-2025 11:34:15] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:34:32] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:34:33] ERROR : root : main : main : Error al procesar https://www.disco.com.ar/almacen/golosinas-y-chocolates/alfajores?page=1: [Errno 22] Invalid argument: 'C:\\Users\\rocio\\Documentos (in this PC)\\Facultad\\Canasta básica\\CBTE\\data\\supermercados\\disco\\almacen_golosinas-y-chocolates_alfajores?page=1_04-07-2025.xlsx'
+[04-07-2025 11:34:36] INFO : root : main : main : Categorías que fallaron
+[04-07-2025 11:34:36] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.46 minutos
+[04-07-2025 11:34:36] INFO : root : rendimiento : medir_recursos : Uso de CPU: 11.00%
+[04-07-2025 11:34:36] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 11:36:24] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 11:36:24] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/golosinas-y-chocolates/alfajores...
+[04-07-2025 11:36:47] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[04-07-2025 11:36:51] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[04-07-2025 11:36:54] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:37:11] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:37:17] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[04-07-2025 11:37:20] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:37:38] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:37:47] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[04-07-2025 11:37:50] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:38:08] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:38:13] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[04-07-2025 11:38:16] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:38:34] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:38:42] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[04-07-2025 11:38:45] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:39:01] INFO : root : productos : obtener_productos_y_precios_disco : * 10 productos.
+[04-07-2025 11:39:01] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_golosinas-y-chocolates_alfajores_04-07-2025.xlsx'
+[04-07-2025 11:39:05] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[04-07-2025 11:39:05] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.68 minutos
+[04-07-2025 11:39:05] INFO : root : rendimiento : medir_recursos : Uso de CPU: 10.40%
+[04-07-2025 11:39:05] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 11:44:39] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 11:44:39] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/golosinas-y-chocolates/alfajores...
+[04-07-2025 11:44:59] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[04-07-2025 11:45:03] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[04-07-2025 11:45:06] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:45:22] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:45:25] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[04-07-2025 11:45:28] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:45:46] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:45:49] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[04-07-2025 11:45:52] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:46:10] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:46:13] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[04-07-2025 11:46:16] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:46:34] INFO : root : productos : obtener_productos_y_precios_disco : * 23 productos.
+[04-07-2025 11:46:37] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[04-07-2025 11:46:40] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 11:46:56] INFO : root : productos : obtener_productos_y_precios_disco : * 10 productos.
+[04-07-2025 11:46:56] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_golosinas-y-chocolates_alfajores_04-07-2025.xlsx'
+[04-07-2025 11:46:59] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[04-07-2025 11:47:00] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.34 minutos
+[04-07-2025 11:47:00] INFO : root : rendimiento : medir_recursos : Uso de CPU: -6.00%
+[04-07-2025 11:47:00] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[04-07-2025 12:17:12] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[04-07-2025 12:17:12] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/golosinas-y-chocolates/alfajores...
+[04-07-2025 12:17:31] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[04-07-2025 12:17:39] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[04-07-2025 12:17:42] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 12:17:54] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[04-07-2025 12:18:00] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[04-07-2025 12:18:03] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 12:18:15] INFO : root : productos : obtener_productos_y_precios_disco : * 15 productos.
+[04-07-2025 12:18:21] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[04-07-2025 12:18:24] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 12:18:36] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[04-07-2025 12:18:41] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[04-07-2025 12:18:44] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 12:18:56] INFO : root : productos : obtener_productos_y_precios_disco : * 19 productos.
+[04-07-2025 12:19:04] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[04-07-2025 12:19:07] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[04-07-2025 12:19:18] INFO : root : productos : obtener_productos_y_precios_disco : * 10 productos.
+[04-07-2025 12:19:18] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_golosinas-y-chocolates_alfajores_04-07-2025.xlsx'
+[04-07-2025 12:19:22] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[04-07-2025 12:19:22] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.16 minutos
+[04-07-2025 12:19:22] INFO : root : rendimiento : medir_recursos : Uso de CPU: -3.00%
+[04-07-2025 12:19:22] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========

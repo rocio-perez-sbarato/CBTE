@@ -14,14 +14,19 @@ logger = logging.getLogger('root')
 # TODO: ver si se arregla scrolleando hasta cierta parte de la pantalla
 
 def obtener_productos_y_precios_disco(driver, max_reintentos=5, espera_entre_intentos=3):
-    """Extrae productos y precios desde la página de Disco."""
-    
+    """Extrae productos, precios y promociones desde la página de Disco."""
+
+    clases_promociones = [
+        "discoargentina-store-theme-3Hc7_vKK9au6dX_Su4b0Ae",  # -25%, -30%
+        "discoargentina-store-theme-MnHW0PCgcT3ih2-RUT-t_",   # 2do al 70%
+        "discoargentina-store-theme-Aq2AAEuiQuapu8IqwN0Aj"   # 3x2
+    ]
+
     for intento in range(max_reintentos):
         logger.info(f"Intento {intento + 1} de {max_reintentos}")
-        
-        for _ in range(5):
-            driver.execute_script("window.scrollBy(0, 500);")
-            time.sleep(1)
+
+        objetivo = driver.find_element(By.CLASS_NAME, "discoargentina-search-result-custom-1-x-span-selector-pages")
+        driver.execute_script("arguments[0].scrollIntoView();", objetivo)
 
         try:
             WebDriverWait(driver, 150).until(
@@ -37,13 +42,13 @@ def obtener_productos_y_precios_disco(driver, max_reintentos=5, espera_entre_int
 
             for producto in productos:
                 try:
-                    nombre = producto.find_element(By.CSS_SELECTOR, "div.vtex-product-summary-2-x-nameContainer h2")
-                    nombre_producto = nombre.text.strip()
+                    nombre = producto.find_element(
+                        By.CSS_SELECTOR, "div.vtex-product-summary-2-x-nameContainer h2"
+                    ).text.strip()
                 except:
-                    nombre_producto = "No disponible"
+                    nombre = "No disponible"
 
                 try:
-                    # El precio en Disco está dentro de un div con id 'priceContainer'
                     precio_elemento = producto.find_element(By.CSS_SELECTOR, "div#priceContainer")
                     precio = precio_elemento.text.strip()
                 except:
@@ -57,13 +62,24 @@ def obtener_productos_y_precios_disco(driver, max_reintentos=5, espera_entre_int
                 except:
                     precio_kg_lt = "No disponible"
 
+                promociones = []
+                for clase in clases_promociones:
+                    spans = producto.find_elements(By.CSS_SELECTOR, f"span.{clase}")
+                    for span in spans:
+                        promo_text = span.text.strip()
+                        if promo_text:
+                            promociones.append(promo_text) # Guardo las ofertas
+
+                promo_final = "Si" if promociones else "No"
+
+                # Limpieza de precios
                 precio_limpio = limpiar_precio(precio)
                 precio_kglt_limpio = limpiar_precio_kg_lt(precio_kg_lt)
-                
+
                 productos_precios.append({
-                    "Producto": nombre_producto,
+                    "Producto": nombre,
                     "Precio": precio_limpio,
-                    "Tiene oferta": "No", # Generalización de formato
+                    "Tiene oferta": promo_final, 
                     "Precio x kg/lt": precio_kglt_limpio
                 })
 

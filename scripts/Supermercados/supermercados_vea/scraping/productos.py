@@ -57,13 +57,23 @@ def obtener_productos_y_precios_vea(driver, max_reintentos=5, espera_entre_inten
                 except:
                     precio_kg_lt = "No disponible"
 
+                promociones = []
+                for clase in clases_promociones:
+                    spans = producto.find_elements(By.CSS_SELECTOR, f"span.{clase}")
+                    for span in spans:
+                        promo_text = span.text.strip()
+                        if promo_text:
+                            promociones.append(promo_text) # Guardo las ofertas
+
+                promo_final = "Si" if promociones else "No"
+
                 precio_limpio = limpiar_precio(precio)
                 precio_kglt_limpio = limpiar_precio_kg_lt(precio_kg_lt)
                 
                 productos_precios.append({
                     "Producto": nombre_producto,
                     "Precio": precio_limpio,
-                    "Tiene oferta": "No", # Generalización de formato
+                    "Tiene oferta": promo_final, 
                     "Precio x kg/lt": precio_kglt_limpio
                 })
 

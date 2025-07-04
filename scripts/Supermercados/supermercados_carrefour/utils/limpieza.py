@@ -27,7 +27,6 @@ def limpiar_precio(texto_precio):
     
     return precio_formateado
 
-
 def filtrar_productos(productos):
     """Filtra los productos que son 'slider' o tienen todos los atributos 'No disponible'."""
     productos_filtrados = []
