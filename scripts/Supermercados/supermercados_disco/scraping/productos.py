@@ -25,19 +25,26 @@ def obtener_productos_y_precios_disco(driver, max_reintentos=5, espera_entre_int
     for intento in range(max_reintentos):
         logger.info(f"Intento {intento + 1} de {max_reintentos}")
 
-        objetivo = driver.find_element(By.CLASS_NAME, "discoargentina-search-result-custom-1-x-span-selector-pages")
-        driver.execute_script("arguments[0].scrollIntoView();", objetivo)
+        for _ in range(5):
+            driver.execute_script("window.scrollBy(0, 500);")
+            time.sleep(50)
 
         try:
             WebDriverWait(driver, 150).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "section[aria-label]"))
+                EC.presence_of_element_located((
+                    By.CSS_SELECTOR,
+                    "div[class*='discoargentina-cmedia-integration-cencosud-1-x-galleryItem']"
+                ))
             )
 
             body = driver.find_element(By.TAG_NAME, "body")
             body.send_keys(Keys.PAGE_DOWN)
-            time.sleep(10)
+            time.sleep(500)
 
-            productos = driver.find_elements(By.CSS_SELECTOR, "section[aria-label]")
+            productos = driver.find_elements(
+                By.CSS_SELECTOR,
+                "div[class*='discoargentina-cmedia-integration-cencosud-1-x-galleryItem']"
+            )
             productos_precios = []
 
             for producto in productos:

@@ -16,6 +16,12 @@ logger = logging.getLogger('root')
 def obtener_productos_y_precios_vea(driver, max_reintentos=5, espera_entre_intentos=3):
     """Extrae productos y precios desde la página de Disco."""
     
+    clases_promociones = [
+        "veaargentina-store-theme-3Hc7_vKK9au6dX_Su4b0Ae",  # -25%, -30%
+        "veaargentina-store-theme-Aq2AAEuiQuapu8IqwN0Aj",   
+        "veaargentina-store-theme-SpFtPOZlANEkxX04GqL31"
+    ]
+    
     for intento in range(max_reintentos):
         logger.info(f"Intento {intento + 1} de {max_reintentos}")
         
@@ -25,14 +31,20 @@ def obtener_productos_y_precios_vea(driver, max_reintentos=5, espera_entre_inten
 
         try:
             WebDriverWait(driver, 150).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "section[aria-label]"))
+                EC.presence_of_element_located((
+                    By.CSS_SELECTOR,
+                    "div[class*='galleryItem']"
+                ))
             )
 
             body = driver.find_element(By.TAG_NAME, "body")
             body.send_keys(Keys.PAGE_DOWN)
             time.sleep(10)
 
-            productos = driver.find_elements(By.CSS_SELECTOR, "section[aria-label]")
+            productos = driver.find_elements(
+                By.CSS_SELECTOR,
+                "div[class*='galleryItem']"
+            )
             productos_precios = []
 
             for producto in productos:
@@ -59,11 +71,11 @@ def obtener_productos_y_precios_vea(driver, max_reintentos=5, espera_entre_inten
 
                 promociones = []
                 for clase in clases_promociones:
-                    spans = producto.find_elements(By.CSS_SELECTOR, f"span.{clase}")
-                    for span in spans:
-                        promo_text = span.text.strip()
-                        if promo_text:
-                            promociones.append(promo_text) # Guardo las ofertas
+                    elementos = producto.find_elements(By.CSS_SELECTOR, f"div.{clase}, span.{clase}")
+                    for el in elementos:
+                        texto = el.text.strip()
+                        if texto:
+                            promociones.append(texto)
 
                 promo_final = "Si" if promociones else "No"
 

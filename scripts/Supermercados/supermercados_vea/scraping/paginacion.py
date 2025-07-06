@@ -27,5 +27,5 @@ def obtener_total_paginas(driver):
             return 1
 
     except Exception as e:
-        logger.error(f"😢 Error obteniendo total de páginas: {e}")
+        logger.error(f"Error obteniendo total de páginas: {e}")
         return 1

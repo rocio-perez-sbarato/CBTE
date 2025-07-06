@@ -1422,3 +1422,752 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 [04-07-2025 12:19:22] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.16 minutos
 [04-07-2025 12:19:22] INFO : root : rendimiento : medir_recursos : Uso de CPU: -3.00%
 [04-07-2025 12:19:22] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[06-07-2025 09:56:05] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 09:56:05] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 09:56:48] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 09:56:56] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 09:56:59] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 09:57:25] INFO : root : productos : obtener_productos_y_precios : 8 productos visibles
+[06-07-2025 09:57:57] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: 'Nombre del producto'
+[06-07-2025 09:58:00] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 09:58:10] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 09:58:21] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: 'Nombre del producto'
+[06-07-2025 09:58:24] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[06-07-2025 09:58:31] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 09:59:31] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 09:59:31] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 10:00:00] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 10:00:06] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 10:00:09] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:00:27] INFO : root : productos : obtener_productos_y_precios : 2 productos visibles
+[06-07-2025 10:00:27] CRITICAL : root : productos : obtener_productos_y_precios : No se encontraron productos. Reintentando...
+[06-07-2025 10:00:30] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 10:00:44] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 10:01:03] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: 'Precio final'
+[06-07-2025 10:01:06] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[06-07-2025 10:01:56] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 10:01:57] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 10:02:27] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 10:02:31] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 10:02:35] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:03:00] INFO : root : productos : obtener_productos_y_precios : 8 productos visibles
+[06-07-2025 10:03:21] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:03:39] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\desayuno-y-merienda_cafe_cafe-instantaneo_06-07-2025.xlsx'
+[06-07-2025 10:04:15] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.32 minutos
+[06-07-2025 10:04:16] INFO : root : rendimiento : medir_recursos : Uso de CPU: -0.20%
+[06-07-2025 10:04:16] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 10:04:16] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 10:09:23] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 10:09:23] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 10:09:47] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 10:09:51] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 10:09:54] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:10:04] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:10:15] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:10:16] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\desayuno-y-merienda_cafe_cafe-instantaneo_06-07-2025.xlsx'
+[06-07-2025 10:10:43] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.34 minutos
+[06-07-2025 10:10:43] INFO : root : rendimiento : medir_recursos : Uso de CPU: -4.60%
+[06-07-2025 10:10:43] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 10:10:43] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 10:30:05] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 10:30:05] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 10:30:28] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 10:30:35] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 10:30:38] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:30:46] INFO : root : productos : obtener_productos_y_precios : 12 productos visibles
+[06-07-2025 10:30:48] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: The element with the reference f678ad53-af19-4a48-b3d6-206b26822fc4 is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:796:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
+
+[06-07-2025 10:30:51] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 10:30:59] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:31:01] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:31:02] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\desayuno-y-merienda_cafe_cafe-instantaneo_06-07-2025.xlsx'
+[06-07-2025 10:31:29] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.39 minutos
+[06-07-2025 10:31:29] INFO : root : rendimiento : medir_recursos : Uso de CPU: -1.90%
+[06-07-2025 10:31:29] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 10:31:29] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 10:33:01] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 10:33:01] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 10:33:23] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 10:33:29] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 10:33:32] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:33:42] INFO : root : productos : obtener_productos_y_precios : 12 productos visibles
+[06-07-2025 10:33:45] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: The element with the reference 9f7bd873-e5d3-4e68-9df2-4761139ae494 is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:796:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
+
+[06-07-2025 10:33:48] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 10:33:55] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:33:58] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:33:59] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\desayuno-y-merienda_cafe_cafe-instantaneo_06-07-2025.xlsx'
+[06-07-2025 10:34:28] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.44 minutos
+[06-07-2025 10:34:28] INFO : root : rendimiento : medir_recursos : Uso de CPU: -9.10%
+[06-07-2025 10:34:28] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 10:34:28] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 10:47:49] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 10:47:49] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 10:48:12] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 6
+[06-07-2025 10:48:18] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 6...
+[06-07-2025 10:48:21] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:48:29] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 10:48:41] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 10:48:48] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 6...
+[06-07-2025 10:48:51] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:49:00] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:49:06] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:49:15] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 6...
+[06-07-2025 10:49:18] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:49:26] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:49:31] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:49:39] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 6...
+[06-07-2025 10:49:42] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:50:17] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 10:50:17] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 10:50:40] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 10:50:46] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 10:50:49] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:50:58] INFO : root : productos : obtener_productos_y_precios : 12 productos visibles
+[06-07-2025 10:51:01] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: The element with the reference f28921cf-a4af-443a-a16d-9ea15f36387e is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:796:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
+
+[06-07-2025 10:51:04] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 10:51:13] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:51:16] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:51:18] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\desayuno-y-merienda_cafe_cafe-instantaneo_06-07-2025.xlsx'
+[06-07-2025 10:51:46] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.48 minutos
+[06-07-2025 10:51:46] INFO : root : rendimiento : medir_recursos : Uso de CPU: 6.50%
+[06-07-2025 10:51:46] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 10:51:46] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 10:52:25] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 10:52:25] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 10:52:49] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 6
+[06-07-2025 10:52:55] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 6...
+[06-07-2025 10:52:58] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:53:06] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:53:13] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:53:19] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 6...
+[06-07-2025 10:53:22] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:53:30] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:53:37] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:53:42] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 6...
+[06-07-2025 10:53:45] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:53:53] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 10:53:58] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 10:54:02] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 6...
+[06-07-2025 10:54:05] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:54:14] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 10:54:22] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 10:54:29] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 6...
+[06-07-2025 10:54:32] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:54:40] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 10:54:51] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 10:55:00] INFO : root : productos : scrapear_categoria : Scrapeando página 6 de 6...
+[06-07-2025 10:55:03] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 10:55:11] INFO : root : productos : obtener_productos_y_precios : 4 productos visibles
+[06-07-2025 10:55:13] INFO : root : productos : obtener_productos_y_precios : * 2 productos.
+[06-07-2025 10:55:14] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\desayuno-y-merienda_cafe_cafe-instantaneo_06-07-2025.xlsx'
+[06-07-2025 10:55:40] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 3.25 minutos
+[06-07-2025 10:55:40] INFO : root : rendimiento : medir_recursos : Uso de CPU: 1.30%
+[06-07-2025 10:55:40] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 10:55:40] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 11:00:06] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 11:00:07] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 11:00:24] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 6
+[06-07-2025 11:00:29] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 6...
+[06-07-2025 11:00:33] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:00:41] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:00:45] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:00:50] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 6...
+[06-07-2025 11:00:53] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:01:00] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:01:03] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:01:06] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 6...
+[06-07-2025 11:01:09] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:01:19] INFO : root : productos : obtener_productos_y_precios : 14 productos visibles
+[06-07-2025 11:01:21] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:01:24] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 11:01:32] INFO : root : productos : obtener_productos_y_precios : 14 productos visibles
+[06-07-2025 11:01:34] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:01:37] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[06-07-2025 11:01:44] INFO : root : productos : obtener_productos_y_precios : 14 productos visibles
+[06-07-2025 11:01:46] ERROR : root : productos : obtener_productos_y_precios : Error en intento 3: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:01:49] INFO : root : productos : obtener_productos_y_precios : Intento 4 de 5
+[06-07-2025 11:01:56] INFO : root : productos : obtener_productos_y_precios : 14 productos visibles
+[06-07-2025 11:01:59] ERROR : root : productos : obtener_productos_y_precios : Error en intento 4: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:02:02] INFO : root : productos : obtener_productos_y_precios : Intento 5 de 5
+[06-07-2025 11:02:09] INFO : root : productos : obtener_productos_y_precios : 14 productos visibles
+[06-07-2025 11:02:11] ERROR : root : productos : obtener_productos_y_precios : Error en intento 5: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:02:14] INFO : root : productos : obtener_productos_y_precios : No se encontraron productos luego de varios intentos.
+
+[06-07-2025 11:02:19] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 6...
+[06-07-2025 11:02:22] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:02:30] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:02:35] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:02:38] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 11:02:45] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:02:47] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:02:50] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[06-07-2025 11:02:58] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:03:00] ERROR : root : productos : obtener_productos_y_precios : Error en intento 3: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:03:03] INFO : root : productos : obtener_productos_y_precios : Intento 4 de 5
+[06-07-2025 11:03:10] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:03:14] ERROR : root : productos : obtener_productos_y_precios : Error en intento 4: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:03:17] INFO : root : productos : obtener_productos_y_precios : Intento 5 de 5
+[06-07-2025 11:03:24] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:03:26] ERROR : root : productos : obtener_productos_y_precios : Error en intento 5: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:03:29] INFO : root : productos : obtener_productos_y_precios : No se encontraron productos luego de varios intentos.
+
+[06-07-2025 11:03:34] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 6...
+[06-07-2025 11:03:37] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:03:44] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:03:47] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:03:50] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 11:03:57] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:03:59] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:04:02] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[06-07-2025 11:04:09] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:04:12] ERROR : root : productos : obtener_productos_y_precios : Error en intento 3: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:04:15] INFO : root : productos : obtener_productos_y_precios : Intento 4 de 5
+[06-07-2025 11:04:22] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:04:24] ERROR : root : productos : obtener_productos_y_precios : Error en intento 4: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:04:27] INFO : root : productos : obtener_productos_y_precios : Intento 5 de 5
+[06-07-2025 11:04:34] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:04:36] ERROR : root : productos : obtener_productos_y_precios : Error en intento 5: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:04:39] INFO : root : productos : obtener_productos_y_precios : No se encontraron productos luego de varios intentos.
+
+[06-07-2025 11:04:44] INFO : root : productos : scrapear_categoria : Scrapeando página 6 de 6...
+[06-07-2025 11:04:47] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:04:54] INFO : root : productos : obtener_productos_y_precios : 4 productos visibles
+[06-07-2025 11:04:54] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:04:57] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 11:05:04] INFO : root : productos : obtener_productos_y_precios : 4 productos visibles
+[06-07-2025 11:05:05] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:05:08] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[06-07-2025 11:05:15] INFO : root : productos : obtener_productos_y_precios : 4 productos visibles
+[06-07-2025 11:05:15] ERROR : root : productos : obtener_productos_y_precios : Error en intento 3: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:05:18] INFO : root : productos : obtener_productos_y_precios : Intento 4 de 5
+[06-07-2025 11:05:25] INFO : root : productos : obtener_productos_y_precios : 4 productos visibles
+[06-07-2025 11:05:26] ERROR : root : productos : obtener_productos_y_precios : Error en intento 4: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:05:29] INFO : root : productos : obtener_productos_y_precios : Intento 5 de 5
+[06-07-2025 11:05:36] INFO : root : productos : obtener_productos_y_precios : 4 productos visibles
+[06-07-2025 11:05:36] ERROR : root : productos : obtener_productos_y_precios : Error en intento 5: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:05:39] INFO : root : productos : obtener_productos_y_precios : No se encontraron productos luego de varios intentos.
+
+[06-07-2025 11:05:42] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\desayuno-y-merienda_cafe_cafe-instantaneo_06-07-2025.xlsx'
+[06-07-2025 11:06:07] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 6.00 minutos
+[06-07-2025 11:06:07] INFO : root : rendimiento : medir_recursos : Uso de CPU: 6.80%
+[06-07-2025 11:06:07] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 11:06:07] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 11:06:42] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 11:06:42] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/desayuno-y-merienda/cafe/cafe-instantaneo...
+[06-07-2025 11:06:59] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 11:09:19] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 11:09:19] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/Desayuno-y-merienda/Yerba...
+[06-07-2025 11:09:38] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 8
+[06-07-2025 11:09:44] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 8...
+[06-07-2025 11:09:47] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:09:55] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:09:58] ERROR : root : productos : obtener_productos_y_precios : Error en intento 1: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:10:01] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 11:10:08] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:10:12] ERROR : root : productos : obtener_productos_y_precios : Error en intento 2: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:10:15] INFO : root : productos : obtener_productos_y_precios : Intento 3 de 5
+[06-07-2025 11:10:22] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:10:25] ERROR : root : productos : obtener_productos_y_precios : Error en intento 3: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:10:28] INFO : root : productos : obtener_productos_y_precios : Intento 4 de 5
+[06-07-2025 11:10:35] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:10:38] ERROR : root : productos : obtener_productos_y_precios : Error en intento 4: Message: Unable to locate element: .vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[06-07-2025 11:10:41] INFO : root : productos : obtener_productos_y_precios : Intento 5 de 5
+[06-07-2025 11:10:48] INFO : root : productos : obtener_productos_y_precios : 18 productos visibles
+[06-07-2025 11:23:39] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 11:23:39] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/Desayuno-y-merienda/Yerba...
+[06-07-2025 11:23:56] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 11:24:02] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 11:24:05] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:24:13] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:24:18] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:24:20] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\Desayuno-y-merienda_Yerba_06-07-2025.xlsx'
+[06-07-2025 11:24:45] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.10 minutos
+[06-07-2025 11:24:45] INFO : root : rendimiento : medir_recursos : Uso de CPU: -11.50%
+[06-07-2025 11:24:45] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 11:24:45] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 11:28:59] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[06-07-2025 11:28:59] INFO : root : main : main : Scrapeando categoría https://www.carrefour.com.ar/Desayuno-y-merienda/Galletitas-bizcochitos-y-tostadas/Galletitas-dulces...
+[06-07-2025 11:29:17] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 24
+[06-07-2025 11:29:23] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 24...
+[06-07-2025 11:29:26] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:29:34] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:29:39] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:29:46] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 24...
+[06-07-2025 11:29:49] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:29:57] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:30:00] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:30:07] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 24...
+[06-07-2025 11:30:10] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:30:18] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:30:21] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:30:29] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 24...
+[06-07-2025 11:30:32] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:30:40] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:30:43] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:30:49] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 24...
+[06-07-2025 11:30:52] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:31:00] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:31:04] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:31:11] INFO : root : productos : scrapear_categoria : Scrapeando página 6 de 24...
+[06-07-2025 11:31:14] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:31:22] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:31:24] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:31:31] INFO : root : productos : scrapear_categoria : Scrapeando página 7 de 24...
+[06-07-2025 11:31:34] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:31:42] INFO : root : productos : obtener_productos_y_precios : 8 productos visibles
+[06-07-2025 11:31:43] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 11:31:51] INFO : root : productos : scrapear_categoria : Scrapeando página 8 de 24...
+[06-07-2025 11:31:54] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:32:02] INFO : root : productos : obtener_productos_y_precios : 12 productos visibles
+[06-07-2025 11:32:04] INFO : root : productos : obtener_productos_y_precios : * 12 productos.
+[06-07-2025 11:32:10] INFO : root : productos : scrapear_categoria : Scrapeando página 9 de 24...
+[06-07-2025 11:32:13] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:32:22] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:32:25] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:32:31] INFO : root : productos : scrapear_categoria : Scrapeando página 10 de 24...
+[06-07-2025 11:32:34] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:32:41] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:32:44] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:32:50] INFO : root : productos : scrapear_categoria : Scrapeando página 11 de 24...
+[06-07-2025 11:32:53] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:33:01] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:33:04] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:33:11] INFO : root : productos : scrapear_categoria : Scrapeando página 12 de 24...
+[06-07-2025 11:33:14] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:33:22] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:33:25] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:33:32] INFO : root : productos : scrapear_categoria : Scrapeando página 13 de 24...
+[06-07-2025 11:33:35] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:33:42] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:33:45] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:33:52] INFO : root : productos : scrapear_categoria : Scrapeando página 14 de 24...
+[06-07-2025 11:33:55] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:34:03] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:34:06] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:34:14] INFO : root : productos : scrapear_categoria : Scrapeando página 15 de 24...
+[06-07-2025 11:34:17] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:34:25] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:34:42] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:34:54] INFO : root : productos : scrapear_categoria : Scrapeando página 16 de 24...
+[06-07-2025 11:34:57] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:35:06] INFO : root : productos : obtener_productos_y_precios : 0 productos visibles
+[06-07-2025 11:35:06] CRITICAL : root : productos : obtener_productos_y_precios : No se encontraron productos. Reintentando...
+[06-07-2025 11:35:09] INFO : root : productos : obtener_productos_y_precios : Intento 2 de 5
+[06-07-2025 11:35:21] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:35:30] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:35:38] INFO : root : productos : scrapear_categoria : Scrapeando página 17 de 24...
+[06-07-2025 11:35:41] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:35:50] INFO : root : productos : obtener_productos_y_precios : 8 productos visibles
+[06-07-2025 11:35:54] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 11:36:01] INFO : root : productos : scrapear_categoria : Scrapeando página 18 de 24...
+[06-07-2025 11:36:04] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:36:12] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:36:16] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:36:25] INFO : root : productos : scrapear_categoria : Scrapeando página 19 de 24...
+[06-07-2025 11:36:28] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:36:36] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:36:42] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:36:49] INFO : root : productos : scrapear_categoria : Scrapeando página 20 de 24...
+[06-07-2025 11:36:52] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:37:00] INFO : root : productos : obtener_productos_y_precios : 8 productos visibles
+[06-07-2025 11:37:06] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 11:37:13] INFO : root : productos : scrapear_categoria : Scrapeando página 21 de 24...
+[06-07-2025 11:37:16] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:37:23] INFO : root : productos : obtener_productos_y_precios : 16 productos visibles
+[06-07-2025 11:37:28] INFO : root : productos : obtener_productos_y_precios : * 16 productos.
+[06-07-2025 11:37:36] INFO : root : productos : scrapear_categoria : Scrapeando página 22 de 24...
+[06-07-2025 11:37:39] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:37:47] INFO : root : productos : obtener_productos_y_precios : 8 productos visibles
+[06-07-2025 11:37:51] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 11:37:56] INFO : root : productos : scrapear_categoria : Scrapeando página 23 de 24...
+[06-07-2025 11:37:59] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:38:08] INFO : root : productos : obtener_productos_y_precios : 8 productos visibles
+[06-07-2025 11:38:10] INFO : root : productos : obtener_productos_y_precios : * 8 productos.
+[06-07-2025 11:38:18] INFO : root : productos : scrapear_categoria : Scrapeando página 24 de 24...
+[06-07-2025 11:38:21] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[06-07-2025 11:38:28] INFO : root : productos : obtener_productos_y_precios : 10 productos visibles
+[06-07-2025 11:38:32] INFO : root : productos : obtener_productos_y_precios : * 10 productos.
+[06-07-2025 11:38:34] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\carrefour\Desayuno-y-merienda_Galletitas-bizcochitos-y-tostadas_Galletitas-dulces_06-07-2025.xlsx'
+[06-07-2025 11:39:00] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 10.02 minutos
+[06-07-2025 11:39:00] INFO : root : rendimiento : medir_recursos : Uso de CPU: 9.20%
+[06-07-2025 11:39:00] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 11:39:00] INFO : root : main : main : ===========SCRAPING DE CARREFOUR FINALIZADO===========
+[06-07-2025 11:42:32] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 11:42:32] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/aceites-y-vinagres/aceites-comunes
+[06-07-2025 11:42:46] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 11:42:46] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/aceites-y-vinagres/aceites-comunes
+[06-07-2025 11:43:10] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 11:43:18] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 11:43:21] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 11:45:23] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[06-07-2025 11:45:23] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/golosinas-y-chocolates/alfajores...
+[06-07-2025 11:45:45] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[06-07-2025 11:45:50] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[06-07-2025 11:45:53] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[06-07-2025 11:46:07] INFO : root : productos : obtener_productos_y_precios_disco : * 16 productos.
+[06-07-2025 11:46:12] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[06-07-2025 11:46:15] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[06-07-2025 11:46:28] INFO : root : productos : obtener_productos_y_precios_disco : * 16 productos.
+[06-07-2025 11:46:34] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[06-07-2025 11:46:37] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[06-07-2025 11:46:50] INFO : root : productos : obtener_productos_y_precios_disco : * 16 productos.
+[06-07-2025 11:46:59] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[06-07-2025 11:47:02] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[06-07-2025 11:47:15] INFO : root : productos : obtener_productos_y_precios_disco : * 16 productos.
+[06-07-2025 11:47:20] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[06-07-2025 11:47:23] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[06-07-2025 11:47:34] INFO : root : productos : obtener_productos_y_precios_disco : * 2 productos.
+[06-07-2025 11:47:35] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_golosinas-y-chocolates_alfajores_06-07-2025.xlsx'
+[06-07-2025 11:47:38] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[06-07-2025 11:47:38] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.25 minutos
+[06-07-2025 11:47:38] INFO : root : rendimiento : medir_recursos : Uso de CPU: 5.60%
+[06-07-2025 11:47:38] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[06-07-2025 11:58:10] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 11:58:10] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/aceites-y-vinagres/aceites-comunes
+[06-07-2025 11:58:36] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 11:58:41] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 11:58:44] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:09:30] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 12:09:30] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/aceites-y-vinagres/aceites-comunes
+[06-07-2025 12:09:52] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 12:09:59] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 12:10:02] ERROR : root : main : main : Error al procesar https://www.vea.com.ar/almacen/aceites-y-vinagres/aceites-comunes: name 'obtener_productos_y_precios_vea' is not defined
+[06-07-2025 12:10:07] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.62 minutos
+[06-07-2025 12:10:07] INFO : root : rendimiento : medir_recursos : Uso de CPU: 23.00%
+[06-07-2025 12:10:07] INFO : root : main : main : Categorías que fallaron
+[06-07-2025 12:10:07] INFO : root : main : main : - https://www.vea.com.ar/almacen/aceites-y-vinagres/aceites-comunes
+[06-07-2025 12:10:07] INFO : root : main : main : ===========SCRAPING DE VEA FINALIZADO===========
+[06-07-2025 12:10:25] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 12:10:25] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/aceites-y-vinagres/aceites-comunes
+[06-07-2025 12:10:46] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 12:10:53] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 12:11:09] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\vea\almacen_aceites-y-vinagres_aceites-comunes_06-07-2025.xlsx'
+[06-07-2025 12:11:14] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 0.82 minutos
+[06-07-2025 12:11:14] INFO : root : rendimiento : medir_recursos : Uso de CPU: 36.90%
+[06-07-2025 12:11:14] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 12:11:14] INFO : root : main : main : ===========SCRAPING DE VEA FINALIZADO===========
+[06-07-2025 12:12:59] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 12:12:59] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/aceites-y-vinagres/aceites-comunes
+[06-07-2025 12:13:24] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 1
+[06-07-2025 12:13:32] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[06-07-2025 12:13:35] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:13:57] INFO : root : productos : obtener_productos_y_precios_vea : * 19 productos.
+[06-07-2025 12:13:57] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\vea\almacen_aceites-y-vinagres_aceites-comunes_06-07-2025.xlsx'
+[06-07-2025 12:14:02] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 1.04 minutos
+[06-07-2025 12:14:02] INFO : root : rendimiento : medir_recursos : Uso de CPU: 12.00%
+[06-07-2025 12:14:02] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 12:14:02] INFO : root : main : main : ===========SCRAPING DE VEA FINALIZADO===========
+[06-07-2025 12:15:25] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 12:15:25] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/golosinas-y-chocolates/alfajores
+[06-07-2025 12:15:50] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[06-07-2025 12:16:01] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[06-07-2025 12:16:04] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:16:23] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:16:28] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[06-07-2025 12:16:31] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:16:50] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:16:55] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[06-07-2025 12:16:58] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:17:17] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:17:25] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[06-07-2025 12:17:28] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:17:58] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:18:04] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[06-07-2025 12:18:07] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:18:26] INFO : root : productos : obtener_productos_y_precios_vea : * 10 productos.
+[06-07-2025 12:18:27] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\vea\almacen_golosinas-y-chocolates_alfajores_06-07-2025.xlsx'
+[06-07-2025 12:18:31] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 3.11 minutos
+[06-07-2025 12:18:31] INFO : root : rendimiento : medir_recursos : Uso de CPU: 10.70%
+[06-07-2025 12:18:31] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 12:18:31] INFO : root : main : main : ===========SCRAPING DE VEA FINALIZADO===========
+[06-07-2025 12:26:19] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 12:26:19] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/golosinas-y-chocolates/alfajores
+[06-07-2025 12:26:51] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[06-07-2025 12:27:01] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[06-07-2025 12:27:04] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:27:23] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:27:28] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[06-07-2025 12:27:31] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:27:50] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:27:54] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[06-07-2025 12:27:57] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:28:17] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:28:21] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[06-07-2025 12:28:24] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:28:46] INFO : root : productos : obtener_productos_y_precios_vea : * 20 productos.
+[06-07-2025 12:28:51] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[06-07-2025 12:28:54] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:29:13] INFO : root : productos : obtener_productos_y_precios_vea : * 10 productos.
+[06-07-2025 12:29:14] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\vea\almacen_golosinas-y-chocolates_alfajores_06-07-2025.xlsx'
+[06-07-2025 12:29:19] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 3.00 minutos
+[06-07-2025 12:29:19] INFO : root : rendimiento : medir_recursos : Uso de CPU: -7.60%
+[06-07-2025 12:29:19] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 12:29:19] INFO : root : main : main : ===========SCRAPING DE VEA FINALIZADO===========
+[06-07-2025 12:32:41] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 12:32:41] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/golosinas-y-chocolates/alfajores
+[06-07-2025 12:33:03] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[06-07-2025 12:33:13] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[06-07-2025 12:33:16] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:33:37] INFO : root : productos : obtener_productos_y_precios_vea : * 20 productos.
+[06-07-2025 12:33:41] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[06-07-2025 12:33:44] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:34:04] INFO : root : productos : obtener_productos_y_precios_vea : * 20 productos.
+[06-07-2025 12:34:08] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[06-07-2025 12:34:12] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:34:33] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:34:38] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[06-07-2025 12:34:41] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:35:00] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:35:07] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[06-07-2025 12:35:11] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:35:29] INFO : root : productos : obtener_productos_y_precios_vea : * 10 productos.
+[06-07-2025 12:35:30] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\vea\almacen_golosinas-y-chocolates_alfajores_06-07-2025.xlsx'
+[06-07-2025 12:35:34] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.89 minutos
+[06-07-2025 12:35:34] INFO : root : rendimiento : medir_recursos : Uso de CPU: 25.00%
+[06-07-2025 12:35:34] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 12:35:34] INFO : root : main : main : ===========SCRAPING DE VEA FINALIZADO===========
+[06-07-2025 12:40:14] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 12:40:14] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/golosinas-y-chocolates/alfajores
+[06-07-2025 12:40:38] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[06-07-2025 12:40:45] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[06-07-2025 12:40:48] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:41:10] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:41:16] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[06-07-2025 12:41:19] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:41:47] INFO : root : productos : obtener_productos_y_precios_vea : * 20 productos.
+[06-07-2025 12:41:57] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[06-07-2025 12:42:00] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:42:20] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:42:25] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[06-07-2025 12:42:28] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:42:55] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:43:07] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[06-07-2025 12:43:11] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:43:35] INFO : root : productos : obtener_productos_y_precios_vea : * 10 productos.
+[06-07-2025 12:43:37] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\vea\almacen_golosinas-y-chocolates_alfajores_06-07-2025.xlsx'
+[06-07-2025 12:43:43] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 3.49 minutos
+[06-07-2025 12:43:43] INFO : root : rendimiento : medir_recursos : Uso de CPU: 13.20%
+[06-07-2025 12:43:43] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 12:43:43] INFO : root : main : main : ===========SCRAPING DE VEA FINALIZADO===========
+[06-07-2025 12:46:43] INFO : root : main : main : ===========INICIANDO SCRAPING DE VEA===========
+[06-07-2025 12:46:43] INFO : root : main : main : Scrapeando categoría https://www.vea.com.ar/almacen/golosinas-y-chocolates/alfajores
+[06-07-2025 12:47:08] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 5
+[06-07-2025 12:47:15] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 5...
+[06-07-2025 12:47:18] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:47:40] INFO : root : productos : obtener_productos_y_precios_vea : * 16 productos.
+[06-07-2025 12:47:44] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 5...
+[06-07-2025 12:47:47] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:48:05] INFO : root : productos : obtener_productos_y_precios_vea : * 20 productos.
+[06-07-2025 12:48:09] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 5...
+[06-07-2025 12:48:12] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:48:31] INFO : root : productos : obtener_productos_y_precios_vea : * 20 productos.
+[06-07-2025 12:48:34] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 5...
+[06-07-2025 12:48:37] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:48:56] INFO : root : productos : obtener_productos_y_precios_vea : * 20 productos.
+[06-07-2025 12:49:00] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 5...
+[06-07-2025 12:49:03] INFO : root : productos : obtener_productos_y_precios_vea : Intento 1 de 5
+[06-07-2025 12:49:19] INFO : root : productos : obtener_productos_y_precios_vea : * 10 productos.
+[06-07-2025 12:49:20] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\supermercados\vea\almacen_golosinas-y-chocolates_alfajores_06-07-2025.xlsx'
+[06-07-2025 12:49:23] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.67 minutos
+[06-07-2025 12:49:23] INFO : root : rendimiento : medir_recursos : Uso de CPU: -2.40%
+[06-07-2025 12:49:23] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[06-07-2025 12:49:23] INFO : root : main : main : ===========SCRAPING DE VEA FINALIZADO===========

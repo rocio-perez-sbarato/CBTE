@@ -1,4 +1,5 @@
-import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import logging 
 import logging.config 
@@ -9,7 +10,10 @@ logger = logging.getLogger('root')
 def obtener_total_paginas(driver):
     """Obtiene el número total de páginas de la categoría."""
     try:
-        time.sleep(3)  # Asegurar que la página carga completamente
+        # Esperar explícitamente a que aparezcan los botones de paginación
+        WebDriverWait(driver, 5000).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "div.valtech-carrefourar-search-result-3-x-paginationButtonPages button"))
+        )
 
         # Buscar los botones de paginación
         paginas = driver.find_elements(By.CSS_SELECTOR, "div.valtech-carrefourar-search-result-3-x-paginationButtonPages button")

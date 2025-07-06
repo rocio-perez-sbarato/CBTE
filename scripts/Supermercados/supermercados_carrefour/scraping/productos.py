@@ -21,11 +21,11 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
         logger.info(f"Intento {intento + 1} de {max_reintentos}")
         # Scroll para cargar productos
         for _ in range(5):
-            driver.execute_script("window.scrollBy(0, 500);")
+            driver.execute_script("window.scrollBy(0, 5000);")
             time.sleep(1)
 
         try:
-            WebDriverWait(driver, 150).until(
+            WebDriverWait(driver, 5000).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "section[aria-label]"))
             )
 
@@ -33,22 +33,27 @@ def obtener_productos_y_precios(driver, max_reintentos=5, espera_entre_intentos=
             body.send_keys(Keys.PAGE_DOWN)
             time.sleep(2)
 
-            productos = driver.find_elements(By.CSS_SELECTOR, "section[aria-label]")
+            # productos = driver.find_elements(By.CSS_SELECTOR, "section[aria-label]")
+            productos = driver.find_elements(
+                By.CSS_SELECTOR,
+                "div[class*='valtech-carrefourar-product-summary-status-0-x-container']"
+                )
             logger.info(f"{len(productos)} productos visibles")
 
             productos_precios = []
 
             for producto in productos:
-                nombre = producto.get_attribute("aria-label")
+                nombre_elemento = producto.find_element(By.CSS_SELECTOR,
+                    ".vtex-product-summary-2-x-productBrand, .vtex-product-summary-2-x-brandName.t-body")
+                nombre = nombre_elemento.text.strip()
                 nuevo_nombre = limpiar_nombre(nombre)
-
                 try:
                     precio_elemento = producto.find_element(By.CSS_SELECTOR, "span.valtech-carrefourar-product-price-0-x-sellingPriceValue")
                     selling_price_raw = precio_elemento.text.replace("\n", "").strip()
                 except:
                     selling_price_raw = "No disponible"
 
-                try:
+                try: # Ofertas 
                     list_price_elemento = producto.find_element(By.CSS_SELECTOR, "span.valtech-carrefourar-product-price-0-x-listPrice")
                     list_price_raw = list_price_elemento.text.replace("\n", "").strip()
                 except:

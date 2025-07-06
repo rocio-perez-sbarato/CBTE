@@ -32,8 +32,8 @@ def filtrar_productos(productos):
     productos_filtrados = []
     for producto in productos:
         # Filtrar productos llamados 'slider' o con atributos 'No disponible'
-        if "slider" not in producto["Nombre del producto"].lower() and \
-           not (producto["Precio final"] == "No disponible" and
+        if "slider" not in producto["Producto"].lower() and \
+            not (producto["Precio"] == "No disponible" and
                 producto["Precio original"] == "No disponible" and
                 producto["Beneficio Mi CRF"] == "No"):
             productos_filtrados.append(producto)
