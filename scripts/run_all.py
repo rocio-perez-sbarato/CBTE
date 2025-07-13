@@ -11,7 +11,6 @@ logger = logging.getLogger('root')
 scripts = [
     "internet/main.py",
     "telefonia/main.py",
-    "supermercados/supermercados_cordiez/main.py",  
     "alquileres/alquileres_argenprop/main.py",
     "alquileres/alquileres_lavoz/main.py",
     "libreria/libreria_ferniplast/main.py",
@@ -20,9 +19,9 @@ scripts = [
     "supermercados/supermercados_disco/main.py",
     "supermercados/supermercados_vea/main.py",
     #"supermercados/supermercados_carrefour/main.py", TARDA MUCHO
-    "upload_to_drive.py", # Comentar línea si no lo querés subir a drive
-    "erase_data.py", # Comentar esta línea si no lo vas a subir a drive 
-    "erase_log.py" # Comentar esta línea si no lo vas a subir a drive
+    #"upload_to_drive.py", # Comentar línea si no lo querés subir a drive
+    #"erase_data.py", # Comentar esta línea si no lo vas a subir a drive 
+    #"erase_log.py" # Comentar esta línea si no lo vas a subir a drive
 ]
 
 def run_all():
@@ -35,8 +34,6 @@ def run_all():
             result = subprocess.run(["python", path], check=True, capture_output=True, text=True)
 
             logger.info(f"{script} finalizado correctamente.")
-            logger.debug(f"Salida:\n{result.stdout}")
-            time.sleep(50) # Para darle un respiro a la RAM
         except subprocess.CalledProcessError as e:
             logger.error(f"Error al ejecutar {script}. Código de salida: {e.returncode}")
             logger.error(f"Stderr:\n{e.stderr}")

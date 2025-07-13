@@ -7,19 +7,15 @@
 
 ## Ejecución del scraping
 
-Desde la raíz del directorio, escribir en la terminal 
+1. Descargar código
+   
+> Andá al repositorio en GitHub. 
+>Hacé clic en el botón verde que dice Code.
+>Elegí la opción "Download ZIP".
+>Descomprimí el archivo ZIP en tu computadora.
 
-```
-python scripts/run_all.py
-```
-y esperar aproximadamente 6 horas.
-
-En caso de que se busque realizar el scraping de uno de los módulos, escribir en la terminal
-
-```
-python scripts/<categoria>/<subcategoria>/main.py
-```
-Por ejemplo, `python scripts/alquileres/alquileres_argenprop/main.py`
+2. Ejecutar el archivo `run_scraping.bat`
+> Abrí la carpeta del proyecto y hacer doble click en el archivo `run_scraping.bat`
 
 ## (OPCIONAL) Configuración de credenciales
 

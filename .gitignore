@@ -5,6 +5,9 @@ scripts/credentials.json
 __pycache__/
 *.py[cod]
 
+# Virtual environment
+venv/
+
 # Archivos de configuración de Jupyter y VSCode
 .ipynb_checkpoints/
 .vscode/
