@@ -18,10 +18,10 @@ scripts = [
     "libreria/libreria_pencilbag/main.py",
     "supermercados/supermercados_disco/main.py",
     "supermercados/supermercados_vea/main.py",
-    #"supermercados/supermercados_carrefour/main.py", TARDA MUCHO
-    #"upload_to_drive.py", # Comentar línea si no lo querés subir a drive
-    #"erase_data.py", # Comentar esta línea si no lo vas a subir a drive 
-    #"erase_log.py" # Comentar esta línea si no lo vas a subir a drive
+    "supermercados/supermercados_carrefour/main.py", 
+    "upload_to_drive.py", # Comentar línea si no lo querés subir a drive
+    "erase_data.py", # Comentar esta línea si no lo vas a subir a drive 
+    "erase_log.py" # Comentar esta línea si no lo vas a subir a drive
 ]
 
 def run_all():
