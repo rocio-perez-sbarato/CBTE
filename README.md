@@ -5,6 +5,7 @@
 
 - [Sitios web y direcciones de mail a utilizar](https://docs.google.com/document/d/13MpGGDrN_KKaTUKt0wFvzooiDy8hsn8pJkmCBJO5_9s/edit?usp=sharing)
 
+
 ## Ejecución del scraping
 
 1. Descargar código
@@ -14,10 +15,15 @@
 >Elegí la opción "Download ZIP".
 >Descomprimí el archivo ZIP en tu computadora.
 
-2. Ejecutar el archivo `run_scraping.bat`
-> Abrí la carpeta del proyecto y hacer doble click en el archivo `run_scraping.bat`
+2. Ejecutar las siguientes lineas en Windows Powershell o la terminal que sea
+> ir a la carpeta CBTE con el comando cd. Ejemplo: cd ./Descargas/CBTE
+> `python -m venv venv`
+> `./venv/Scripts/activate`
+> `pip install -r requirements.txt`
+> `python scripts/supermercados/supermercados_vea/main.py`, por ejemplo
+> Si tu compu es buena, `python scripts/run_all.py`
 
-## (OPCIONAL) Configuración de credenciales
+## Configuración de credenciales
 
 Este proyecto utiliza la API de Google Drive para subir la carpeta data a la carpeta de drive del proyecto. 
 
@@ -44,4 +50,3 @@ Para poder usarlo, tenés que
 
 1. Ir a [Drive Sync](https://expertbeacon.com/how-to-upload-files-to-google-drive-with-python-in-2023/#google_vignette)
 2. Seguir los pasos 1 y 2
-
