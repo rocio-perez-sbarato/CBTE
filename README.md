@@ -17,11 +17,7 @@
 
 2. Ejecutar las siguientes lineas en Windows Powershell o la terminal que sea
 > ir a la carpeta CBTE con el comando cd. Ejemplo: cd ./Descargas/CBTE
-> `python -m venv venv`
-> `./venv/Scripts/activate`
-> `pip install -r requirements.txt`
-> `python scripts/supermercados/supermercados_vea/main.py`, por ejemplo
-> Si tu compu es buena, `python scripts/run_all.py`
+> `python -m venv venv` -> `./venv/Scripts/activate` -> `pip install -r requirements.txt` -> `python scripts/supermercados/supermercados_vea/main.py`, por ejemplo. Si tu compu es buena, `python scripts/run_all.py`
 
 ## Configuración de credenciales
 
