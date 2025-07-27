@@ -190,3 +190,1007 @@
 [26-07-2025 13:49:42] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Cuarto', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '100000'}
 [26-07-2025 13:49:43] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Cuarto_26-07-2025.xlsx'
 [26-07-2025 13:49:43] INFO : root : main : <module> : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[27-07-2025 11:49:51] INFO : root : main : <module> : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[27-07-2025 11:49:53] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '55000'}
+[27-07-2025 11:49:53] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '39000'}
+[27-07-2025 11:49:53] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '39000'}
+[27-07-2025 11:49:53] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '45000'}
+[27-07-2025 11:49:53] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '65000'}
+[27-07-2025 11:49:56] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Plata_27-07-2025.xlsx'
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '44000'}
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '44000'}
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Flechabus', 'Precio': '56500'}
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Flechabus', 'Precio': '76200'}
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '49000'}
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '60000'}
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '63000'}
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'El Practico', 'Precio': '72000'}
+[27-07-2025 11:50:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'El Practico', 'Precio': '57600'}
+[27-07-2025 11:50:00] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Resistencia_27-07-2025.xlsx'
+[27-07-2025 11:50:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rawson Terminal', 'Empresa': 'Andesmar', 'Precio': '116820'}
+[27-07-2025 11:50:03] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rawson_27-07-2025.xlsx'
+[27-07-2025 11:50:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '44000'}
+[27-07-2025 11:50:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '44000'}
+[27-07-2025 11:50:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '65000'}
+[27-07-2025 11:50:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'El Practico', 'Precio': '72000'}
+[27-07-2025 11:50:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'El Practico', 'Precio': '57600'}
+[27-07-2025 11:50:06] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Corrientes_27-07-2025.xlsx'
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '24100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '43300'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '31200'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '49000'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Serrano', 'Precio': '43300'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Serrano', 'Precio': '24100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '24100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '43300'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '36100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '43100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '25000'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '36100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '43100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '25000'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '31200'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '49000'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '31200'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '49000'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '36100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '43300'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Dumas Cat', 'Precio': '43100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Dumas Cat', 'Precio': '24100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '24000'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '43100'}
+[27-07-2025 11:50:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '24000'}
+[27-07-2025 11:50:09] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Parana_27-07-2025.xlsx'
+[27-07-2025 11:50:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Formosa Terminal', 'Empresa': 'Flechabus', 'Precio': '78700'}
+[27-07-2025 11:50:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Formosa Terminal', 'Empresa': 'Flechabus', 'Precio': '90300'}
+[27-07-2025 11:50:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Formosa Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '88000'}
+[27-07-2025 11:50:12] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Formosa_27-07-2025.xlsx'
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'La 20 de Junio', 'Precio': '75000'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Andesmar', 'Precio': '92000'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Andesmar', 'Precio': '92000'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Flechabus', 'Precio': '97400'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Flechabus', 'Precio': '92000'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Flechabus', 'Precio': '96200'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Flechabus', 'Precio': '69000'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Andesmar', 'Precio': '64500'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Balut', 'Precio': '106000'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Balut', 'Precio': '106000'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Balut', 'Precio': '117000'}
+[27-07-2025 11:50:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'La 20 de Junio', 'Precio': '75000'}
+[27-07-2025 11:50:15] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Salvador-de-Jujuy_27-07-2025.xlsx'
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Dumas Cat', 'Precio': '56500'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Dumas Cat', 'Precio': '36000'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Mar Chiquita', 'Precio': '36000'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Mar Chiquita', 'Precio': '62600'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Andesmar', 'Precio': '55800'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Andesmar', 'Precio': '55800'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Flechabus', 'Precio': '62600'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Flechabus', 'Precio': '36000'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Chevallier', 'Precio': '36000'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Chevallier', 'Precio': '62600'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Dumas Cat', 'Precio': '59300'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Flechabus', 'Precio': '62600'}
+[27-07-2025 11:50:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Flechabus', 'Precio': '36000'}
+[27-07-2025 11:50:18] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Rosa_27-07-2025.xlsx'
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '11800'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '35500'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '35500'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '14937'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '46800'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '30000'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '35500'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'Socasa', 'Precio': '33000'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'Socasa', 'Precio': '14900'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '11800'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '35500'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '14937'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '46800'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'Socasa', 'Precio': '33000'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'Socasa', 'Precio': '14900'}
+[27-07-2025 11:50:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '11800'}
+[27-07-2025 11:50:21] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Rioja_27-07-2025.xlsx'
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Autotransporte San Juan', 'Precio': '29400'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Autotransporte San Juan', 'Precio': '55000'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '29400'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '55000'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Chevallier', 'Precio': '29400'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Chevallier', 'Precio': '55000'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '34320'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45500'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '34320'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45500'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'CATA Internacional', 'Precio': '29400'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'CATA Internacional', 'Precio': '55000'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '29400'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '55000'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '29400'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '55000'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'CATA Internacional', 'Precio': '29400'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '55000'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '34320'}
+[27-07-2025 11:50:24] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45500'}
+[27-07-2025 11:50:24] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Mendoza_27-07-2025.xlsx'
+[27-07-2025 11:50:27] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '60000'}
+[27-07-2025 11:50:27] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '60000'}
+[27-07-2025 11:50:27] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '85000'}
+[27-07-2025 11:50:27] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '73000'}
+[27-07-2025 11:50:27] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Expreso Singer', 'Precio': '91800'}
+[27-07-2025 11:50:27] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '69160'}
+[27-07-2025 11:50:27] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '110500'}
+[27-07-2025 11:50:27] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '85000'}
+[27-07-2025 11:50:27] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Posadas_27-07-2025.xlsx'
+[27-07-2025 11:50:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Chevallier', 'Precio': '111200'}
+[27-07-2025 11:50:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Chevallier', 'Precio': '98800'}
+[27-07-2025 11:50:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Dumas Cat', 'Precio': '81999'}
+[27-07-2025 11:50:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Dumas Cat', 'Precio': '64400'}
+[27-07-2025 11:50:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Flechabus', 'Precio': '111200'}
+[27-07-2025 11:50:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Flechabus', 'Precio': '98800'}
+[27-07-2025 11:50:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Flechabus', 'Precio': '111200'}
+[27-07-2025 11:50:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Flechabus', 'Precio': '98800'}
+[27-07-2025 11:50:31] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Neuquen_27-07-2025.xlsx'
+[27-07-2025 11:50:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Andesmar', 'Precio': '84200'}
+[27-07-2025 11:50:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Andesmar', 'Precio': '84200'}
+[27-07-2025 11:50:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Andesmar', 'Precio': '58000'}
+[27-07-2025 11:50:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Balut', 'Precio': '103000'}
+[27-07-2025 11:50:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'La Veloz del Norte', 'Precio': '49200'}
+[27-07-2025 11:50:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'La Veloz del Norte', 'Precio': '94200'}
+[27-07-2025 11:50:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Fono Bus', 'Precio': '78500'}
+[27-07-2025 11:50:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Fono Bus', 'Precio': '70100'}
+[27-07-2025 11:50:35] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Salta_27-07-2025.xlsx'
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'Autotransporte San Juan', 'Precio': '21500'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'Autotransporte San Juan', 'Precio': '38000'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '21500'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '38000'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '24440'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '33800'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '24440'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '33800'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '21500'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '38000'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'CATA Internacional', 'Precio': '21500'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'Socasa', 'Precio': '37000'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'Socasa', 'Precio': '18800'}
+[27-07-2025 11:50:38] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '24440'}
+[27-07-2025 11:50:38] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Juan_27-07-2025.xlsx'
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '27800'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '32000'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Chevallier', 'Precio': '19460'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Chevallier', 'Precio': '32000'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '22100'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45598'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '22100'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45598'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Chevallier', 'Precio': '32400'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Chevallier', 'Precio': '28200'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'CATA Internacional', 'Precio': '19460'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'CATA Internacional', 'Precio': '32000'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '19460'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '32000'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '22100'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45598'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '19460'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '32000'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '19460'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '32000'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '32000'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '22100'}
+[27-07-2025 11:50:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45598'}
+[27-07-2025 11:50:41] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Luis_27-07-2025.xlsx'
+[27-07-2025 11:50:43] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Gallegos', 'Empresa': 'Andesmar', 'Precio': '210320'}
+[27-07-2025 11:50:43] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Gallegos_27-07-2025.xlsx'
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '23100'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '40200'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '29900'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45000'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Serrano', 'Precio': '40200'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Serrano', 'Precio': '23100'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '23100'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '40200'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '32400'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '40200'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '24000'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '32000'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '32000'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '32400'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '40200'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '24000'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '29900'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45000'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '29900'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45000'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '32400'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '40200'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Dumas Cat', 'Precio': '40200'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Dumas Cat', 'Precio': '23100'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '23000'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '40200'}
+[27-07-2025 11:50:46] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '23000'}
+[27-07-2025 11:50:46] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Fe_27-07-2025.xlsx'
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La 20 de Junio', 'Precio': '24050'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La 20 de Junio', 'Precio': '54600'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '38000'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '42000'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Andesmar', 'Precio': '40400'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Andesmar', 'Precio': '40400'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Flechabus', 'Precio': '45200'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Flechabus', 'Precio': '40400'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Flechabus', 'Precio': '40400'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Flechabus', 'Precio': '45200'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '40300'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '50000'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '32300'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La Veloz del Norte', 'Precio': '45200'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La Veloz del Norte', 'Precio': '40400'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Andesmar', 'Precio': '35000'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La Veloz del Norte', 'Precio': '40400'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La Veloz del Norte', 'Precio': '45200'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Fono Bus', 'Precio': '37600'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Fono Bus', 'Precio': '33600'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'San Juan Mar del Plata', 'Precio': '38400'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'San Juan Mar del Plata', 'Precio': '45200'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La 20 de Junio', 'Precio': '24050'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La 20 de Junio', 'Precio': '54600'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'General Urquiza', 'Precio': '37100'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'General Urquiza', 'Precio': '28300'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '40300'}
+[27-07-2025 11:50:50] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '32300'}
+[27-07-2025 11:50:50] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santiago-del-Estero_27-07-2025.xlsx'
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Servicio con combinación', 'Precio': '28500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'General Urquiza', 'Precio': '29400'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'General Urquiza', 'Precio': '32200'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Servicio con combinación', 'Precio': '28500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 11:50:58] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Bell-Ville_27-07-2025.xlsx'
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 11:51:06] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Dean-Funes_27-07-2025.xlsx'
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6500'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'El Tatu Carretero', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'El Tatu Carretero', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'El Tatu Carretero', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:09] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 11:51:10] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Jesus-Maria_27-07-2025.xlsx'
+[27-07-2025 11:51:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Servicio con combinación', 'Precio': '36600'}
+[27-07-2025 11:51:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 11:51:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 11:51:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 11:51:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 11:51:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 11:51:12] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Carlota_27-07-2025.xlsx'
+[27-07-2025 11:51:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Laboulaye', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '43300'}
+[27-07-2025 11:51:15] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Laboulaye', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '43300'}
+[27-07-2025 11:51:15] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Laboulaye_27-07-2025.xlsx'
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Servicio con combinación', 'Precio': '35500'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Servicio con combinación', 'Precio': '33800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '40800'}
+[27-07-2025 11:51:18] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '37200'}
+[27-07-2025 11:51:18] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Marcos-Juarez_27-07-2025.xlsx'
+[27-07-2025 11:51:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Cuarto', 'Empresa': 'CATA Internacional', 'Precio': '100000'}
+[27-07-2025 11:51:21] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Cuarto', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '100000'}
+[27-07-2025 11:51:21] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Cuarto_27-07-2025.xlsx'
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '5100'}
+[27-07-2025 11:51:23] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Segundo_27-07-2025.xlsx'
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Serrano', 'Precio': '28300'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Serrano', 'Precio': '23800'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '26000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '28000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '25000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '26000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '28000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '25000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '26000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '28000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '26000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '23000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '28000'}
+[27-07-2025 11:51:33] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '23000'}
+[27-07-2025 11:51:33] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Francisco_27-07-2025.xlsx'
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'El Tatu Carretero', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'El Tatu Carretero', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'El Tatu Carretero', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 11:51:41] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-del-Totoral_27-07-2025.xlsx'
+[27-07-2025 11:51:43] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Dolores', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '18500'}
+[27-07-2025 11:51:43] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Dolores', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '18500'}
+[27-07-2025 11:51:43] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Dolores_27-07-2025.xlsx'
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '22600'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '26800'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '26800'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '22600'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '22600'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '22600'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '26800'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 11:51:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
+[27-07-2025 11:51:49] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Maria_27-07-2025.xlsx'
+[27-07-2025 11:51:49] INFO : root : main : <module> : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[27-07-2025 12:10:27] INFO : root : main : <module> : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[27-07-2025 12:10:29] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '45000'}
+[27-07-2025 12:10:29] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '25000'}
+[27-07-2025 12:10:29] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'Chevallier', 'Precio': '39000'}
+[27-07-2025 12:10:29] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'Chevallier', 'Precio': '45000'}
+[27-07-2025 12:10:29] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '25000'}
+[27-07-2025 12:10:29] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Plata Terminal', 'Empresa': 'General Urquiza', 'Precio': '45000'}
+[27-07-2025 12:10:30] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Plata_27-07-2025.xlsx'
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '26000'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '48000'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'General Urquiza', 'Precio': '46200'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'General Urquiza', 'Precio': '35000'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'General Urquiza', 'Precio': '46200'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'General Urquiza', 'Precio': '20600'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '26000'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '48000'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'General Urquiza', 'Precio': '35000'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'General Urquiza', 'Precio': '46200'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '26000'}
+[27-07-2025 12:10:32] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Catamarca Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '48000'}
+[27-07-2025 12:10:32] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Catamarca_27-07-2025.xlsx'
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Expreso Encon', 'Precio': '90200'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Expreso Encon', 'Precio': '78000'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '44000'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '44000'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Flechabus', 'Precio': '56500'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Flechabus', 'Precio': '76200'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '49000'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '60000'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '63000'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'El Practico', 'Precio': '72000'}
+[27-07-2025 12:10:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Resistencia Terminal', 'Empresa': 'El Practico', 'Precio': '57600'}
+[27-07-2025 12:10:36] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Resistencia_27-07-2025.xlsx'
+[27-07-2025 12:10:39] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rawson Terminal', 'Empresa': 'Andesmar', 'Precio': '116820'}
+[27-07-2025 12:10:39] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rawson_27-07-2025.xlsx'
+[27-07-2025 12:10:42] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'Expreso Encon', 'Precio': '90200'}
+[27-07-2025 12:10:42] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'Expreso Encon', 'Precio': '78000'}
+[27-07-2025 12:10:42] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '44000'}
+[27-07-2025 12:10:42] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '44000'}
+[27-07-2025 12:10:42] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '65000'}
+[27-07-2025 12:10:42] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'El Practico', 'Precio': '72000'}
+[27-07-2025 12:10:42] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Corrientes Terminal', 'Empresa': 'El Practico', 'Precio': '57600'}
+[27-07-2025 12:10:42] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Corrientes_27-07-2025.xlsx'
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '24100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '43300'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '31200'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '49000'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Serrano', 'Precio': '24100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Serrano', 'Precio': '43300'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '24100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '43300'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '36100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '43100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '25000'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '31200'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '49000'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '31200'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '49000'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '43300'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Zenit', 'Precio': '36100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Dumas Cat', 'Precio': '43100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'Dumas Cat', 'Precio': '36100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '24000'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '43100'}
+[27-07-2025 12:10:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Parana Terminal', 'Empresa': 'El Practico', 'Precio': '24000'}
+[27-07-2025 12:10:45] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Parana_27-07-2025.xlsx'
+[27-07-2025 12:10:48] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Formosa Terminal', 'Empresa': 'Flechabus', 'Precio': '78700'}
+[27-07-2025 12:10:48] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Formosa Terminal', 'Empresa': 'Flechabus', 'Precio': '90300'}
+[27-07-2025 12:10:48] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Formosa Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '88000'}
+[27-07-2025 12:10:48] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Formosa_27-07-2025.xlsx'
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'La 20 de Junio', 'Precio': '75000'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Andesmar', 'Precio': '92000'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Andesmar', 'Precio': '92000'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Flechabus', 'Precio': '92000'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Flechabus', 'Precio': '97400'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Flechabus', 'Precio': '97400'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Flechabus', 'Precio': '92000'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Andesmar', 'Precio': '64500'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Balut', 'Precio': '106000'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Balut', 'Precio': '106000'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'Balut', 'Precio': '117000'}
+[27-07-2025 12:10:51] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Salvador de Jujuy', 'Empresa': 'La 20 de Junio', 'Precio': '75000'}
+[27-07-2025 12:10:51] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Salvador-de-Jujuy_27-07-2025.xlsx'
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Dumas Cat', 'Precio': '56500'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Dumas Cat', 'Precio': '36000'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Mar Chiquita', 'Precio': '62600'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Mar Chiquita', 'Precio': '36000'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Andesmar', 'Precio': '55800'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Andesmar', 'Precio': '55800'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Flechabus', 'Precio': '36000'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Flechabus', 'Precio': '62600'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Dumas Cat', 'Precio': '59300'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Flechabus', 'Precio': '36000'}
+[27-07-2025 12:10:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Rosa', 'Empresa': 'Flechabus', 'Precio': '62600'}
+[27-07-2025 12:10:54] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Rosa_27-07-2025.xlsx'
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '11800'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '35500'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '35500'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '14937'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '46800'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '30000'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '35500'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'Socasa', 'Precio': '33000'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'Socasa', 'Precio': '14900'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '14937'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '46800'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'Socasa', 'Precio': '33000'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'Socasa', 'Precio': '14900'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '11800'}
+[27-07-2025 12:10:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Rioja Terminal', 'Empresa': 'General Urquiza', 'Precio': '35500'}
+[27-07-2025 12:10:57] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Rioja_27-07-2025.xlsx'
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '29400'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '55000'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Chevallier', 'Precio': '29400'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Chevallier', 'Precio': '55000'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '34320'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45500'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '34320'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45500'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'CATA Internacional', 'Precio': '29400'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '29400'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '55000'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '29400'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '55000'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'CATA Internacional', 'Precio': '29400'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'CATA Internacional', 'Precio': '55000'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '55000'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '34320'}
+[27-07-2025 12:11:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Mendoza Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45500'}
+[27-07-2025 12:11:00] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Mendoza_27-07-2025.xlsx'
+[27-07-2025 12:11:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '60000'}
+[27-07-2025 12:11:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '60000'}
+[27-07-2025 12:11:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '85000'}
+[27-07-2025 12:11:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '73000'}
+[27-07-2025 12:11:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Expreso Singer', 'Precio': '91800'}
+[27-07-2025 12:11:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '69160'}
+[27-07-2025 12:11:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '110500'}
+[27-07-2025 12:11:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Posadas Terminal', 'Empresa': 'Emp.Asociadas - Río Uruguay', 'Precio': '85000'}
+[27-07-2025 12:11:03] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Posadas_27-07-2025.xlsx'
+[27-07-2025 12:11:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Chevallier', 'Precio': '98800'}
+[27-07-2025 12:11:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Chevallier', 'Precio': '111200'}
+[27-07-2025 12:11:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Dumas Cat', 'Precio': '81999'}
+[27-07-2025 12:11:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Dumas Cat', 'Precio': '64400'}
+[27-07-2025 12:11:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Flechabus', 'Precio': '98800'}
+[27-07-2025 12:11:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Flechabus', 'Precio': '111200'}
+[27-07-2025 12:11:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Flechabus', 'Precio': '98800'}
+[27-07-2025 12:11:06] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Neuquen Terminal', 'Empresa': 'Flechabus', 'Precio': '111200'}
+[27-07-2025 12:11:06] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Neuquen_27-07-2025.xlsx'
+[27-07-2025 12:11:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Andesmar', 'Precio': '84200'}
+[27-07-2025 12:11:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Andesmar', 'Precio': '84200'}
+[27-07-2025 12:11:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Andesmar', 'Precio': '58000'}
+[27-07-2025 12:11:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Balut', 'Precio': '103000'}
+[27-07-2025 12:11:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'La Veloz del Norte', 'Precio': '49200'}
+[27-07-2025 12:11:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'La Veloz del Norte', 'Precio': '70200'}
+[27-07-2025 12:11:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Fono Bus', 'Precio': '78500'}
+[27-07-2025 12:11:10] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Salta Terminal', 'Empresa': 'Fono Bus', 'Precio': '70100'}
+[27-07-2025 12:11:10] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Salta_27-07-2025.xlsx'
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '21500'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '38000'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '24440'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '33800'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '24440'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '33800'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'Socasa', 'Precio': '37000'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'Socasa', 'Precio': '20000'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '21500'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '38000'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'CATA Internacional', 'Precio': '21500'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'CATA Internacional', 'Precio': '38000'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'Socasa', 'Precio': '37000'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'Socasa', 'Precio': '18800'}
+[27-07-2025 12:11:13] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Juan Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '24440'}
+[27-07-2025 12:11:13] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Juan_27-07-2025.xlsx'
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '27800'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '32000'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Chevallier', 'Precio': '19460'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Chevallier', 'Precio': '32000'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '22100'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45598'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '22100'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45598'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Chevallier', 'Precio': '28200'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Chevallier', 'Precio': '32400'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'CATA Internacional', 'Precio': '19460'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '19460'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '32000'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '22100'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45598'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '19460'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '32000'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '19460'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '32000'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '32000'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '22100'}
+[27-07-2025 12:11:16] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Luis Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45598'}
+[27-07-2025 12:11:17] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Luis_27-07-2025.xlsx'
+[27-07-2025 12:11:19] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Gallegos', 'Empresa': 'Andesmar', 'Precio': '210320'}
+[27-07-2025 12:11:19] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Gallegos_27-07-2025.xlsx'
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '23100'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '40200'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '29900'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45000'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Serrano', 'Precio': '23100'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Serrano', 'Precio': '40200'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '23100'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '40200'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '32400'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '40200'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '24000'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '32000'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '32000'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '29900'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45000'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '29900'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '45000'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '40200'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Zenit', 'Precio': '32400'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Dumas Cat', 'Precio': '40200'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'Dumas Cat', 'Precio': '32400'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '23000'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '40200'}
+[27-07-2025 12:11:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santa Fe Terminal', 'Empresa': 'El Practico', 'Precio': '23000'}
+[27-07-2025 12:11:22] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Fe_27-07-2025.xlsx'
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La 20 de Junio', 'Precio': '24050'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La 20 de Junio', 'Precio': '54600'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '38000'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '42000'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Andesmar', 'Precio': '40400'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Andesmar', 'Precio': '40400'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Flechabus', 'Precio': '40400'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Flechabus', 'Precio': '45200'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Flechabus', 'Precio': '45200'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Flechabus', 'Precio': '40400'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '40300'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '50000'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '32300'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La Veloz del Norte', 'Precio': '40400'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La Veloz del Norte', 'Precio': '45200'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Andesmar', 'Precio': '35000'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La Veloz del Norte', 'Precio': '40400'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La Veloz del Norte', 'Precio': '45200'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Fono Bus', 'Precio': '37600'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'Fono Bus', 'Precio': '33600'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'San Juan Mar del Plata', 'Precio': '38400'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'San Juan Mar del Plata', 'Precio': '45200'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La 20 de Junio', 'Precio': '24050'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'La 20 de Junio', 'Precio': '54600'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'General Urquiza', 'Precio': '45200'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'General Urquiza', 'Precio': '40400'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '40300'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '50000'}
+[27-07-2025 12:11:25] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Santiago del Estero', 'Empresa': 'El Practico', 'Precio': '32300'}
+[27-07-2025 12:11:25] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santiago-del-Estero_27-07-2025.xlsx'
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Flechabus', 'Precio': '41900'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '46800'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '58000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '50000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Crucero del Sur - Tmo. Parque', 'Precio': '57000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Andesmar', 'Precio': '55400'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Andesmar', 'Precio': '55400'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Flechabus', 'Precio': '55400'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Flechabus', 'Precio': '62000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Flechabus', 'Precio': '62000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Flechabus', 'Precio': '55400'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'El Practico', 'Precio': '55300'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'El Practico', 'Precio': '68000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'El Practico', 'Precio': '44300'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'General Urquiza', 'Precio': '55400'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'General Urquiza', 'Precio': '62000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'La Veloz del Norte', 'Precio': '55400'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'La Veloz del Norte', 'Precio': '62000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'General Urquiza', 'Precio': '62000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'General Urquiza', 'Precio': '55400'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Andesmar', 'Precio': '45000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'La Veloz del Norte', 'Precio': '38000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'La Veloz del Norte', 'Precio': '51200'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Fono Bus', 'Precio': '51600'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'Fono Bus', 'Precio': '46100'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '43900'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'San Juan Mar del Plata', 'Precio': '62000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '46800'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'La 20 de Junio', 'Precio': '58000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'General Urquiza', 'Precio': '62000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'General Urquiza', 'Precio': '55400'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'El Practico', 'Precio': '55300'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'El Practico', 'Precio': '68000'}
+[27-07-2025 12:11:31] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Tucuman Terminal', 'Empresa': 'El Practico', 'Precio': '44300'}
+[27-07-2025 12:11:31] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Tucuman_27-07-2025.xlsx'
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Servicio con combinación', 'Precio': '28500'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'General Urquiza', 'Precio': '29400'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'General Urquiza', 'Precio': '32200'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 12:11:36] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Bell Ville', 'Empresa': 'Empresa Cordoba', 'Precio': '25500'}
+[27-07-2025 12:11:36] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Bell-Ville_27-07-2025.xlsx'
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Dean Funes', 'Empresa': 'Fono Bus Media', 'Precio': '14300'}
+[27-07-2025 12:11:45] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Dean-Funes_27-07-2025.xlsx'
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6500'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'El Tatu Carretero', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'El Tatu Carretero', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'El Tatu Carretero', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Jesus Maria', 'Empresa': 'Fono Bus Media', 'Precio': '6000'}
+[27-07-2025 12:11:49] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Jesus-Maria_27-07-2025.xlsx'
+[27-07-2025 12:11:52] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Servicio con combinación', 'Precio': '36600'}
+[27-07-2025 12:11:52] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 12:11:52] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 12:11:52] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 12:11:52] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Servicio con combinación', 'Precio': '36600'}
+[27-07-2025 12:11:52] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'La Carlota', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '34800'}
+[27-07-2025 12:11:52] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Carlota_27-07-2025.xlsx'
+[27-07-2025 12:11:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Laboulaye', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '43300'}
+[27-07-2025 12:11:54] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Laboulaye', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '43300'}
+[27-07-2025 12:11:54] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Laboulaye_27-07-2025.xlsx'
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Servicio con combinación', 'Precio': '35500'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Servicio con combinación', 'Precio': '33800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '37200'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '37200'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Empresa Cordoba', 'Precio': '32300'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '37200'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'General Urquiza', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '37200'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '40800'}
+[27-07-2025 12:11:57] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Marcos Juarez', 'Empresa': 'Sierras de Cordoba', 'Precio': '37200'}
+[27-07-2025 12:11:57] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Marcos-Juarez_27-07-2025.xlsx'
+[27-07-2025 12:12:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Cuarto', 'Empresa': 'CATA Internacional', 'Precio': '100000'}
+[27-07-2025 12:12:00] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Cuarto', 'Empresa': 'Andesmar/Tramat/El Rápido Internacional', 'Precio': '100000'}
+[27-07-2025 12:12:00] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Cuarto_27-07-2025.xlsx'
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Empresa Cordoba', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Rio Segundo', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '5100'}
+[27-07-2025 12:12:03] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Segundo_27-07-2025.xlsx'
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Serrano', 'Precio': '23800'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Serrano', 'Precio': '28300'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '26000'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '28000'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '25000'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '26000'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '28000'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '26000'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Flechabus', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Flechabus', 'Precio': '28300'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Turista', 'Precio': '26095'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Mar Chiquita', 'Precio': '23780'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'Fono Bus Media', 'Precio': '24700'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '23000'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '28000'}
+[27-07-2025 12:12:12] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'San Francisco', 'Empresa': 'El Practico', 'Precio': '23000'}
+[27-07-2025 12:12:12] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Francisco_27-07-2025.xlsx'
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'La Diligencia', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'La Diligencia', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'La Diligencia', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'La Diligencia', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'La Diligencia', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'La Diligencia', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Sta. Rosa  Rio Primero', 'Empresa': 'Fono Bus Media', 'Precio': '9700'}
+[27-07-2025 12:12:17] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Rosa-Rio-Primero_27-07-2025.xlsx'
+[27-07-2025 12:12:19] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Tulumba', 'Empresa': 'Fono Bus Media', 'Precio': '17800'}
+[27-07-2025 12:12:19] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Tulumba', 'Empresa': 'Fono Bus Media', 'Precio': '17800'}
+[27-07-2025 12:12:19] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Tulumba', 'Empresa': 'Fono Bus Media', 'Precio': '17800'}
+[27-07-2025 12:12:19] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Tulumba_27-07-2025.xlsx'
+[27-07-2025 12:12:22] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Cura Brochero', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '21800'}
+[27-07-2025 12:12:22] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Cura-Brochero_27-07-2025.xlsx'
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'El Tatu Carretero', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'El Tatu Carretero', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'El Tatu Carretero', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:26] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa del Totoral', 'Empresa': 'Fono Bus Media', 'Precio': '9300'}
+[27-07-2025 12:12:27] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-del-Totoral_27-07-2025.xlsx'
+[27-07-2025 12:12:29] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Dolores', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '25600'}
+[27-07-2025 12:12:29] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Dolores_27-07-2025.xlsx'
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '22600'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '22600'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '22600'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '22600'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'General Urquiza', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Empresa Cordoba', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Coata/Córdoba/Cia Omn Arg', 'Precio': '19700'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '26800'}
+[27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
+[27-07-2025 12:12:35] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Maria_27-07-2025.xlsx'
+[27-07-2025 12:12:35] INFO : root : main : <module> : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
