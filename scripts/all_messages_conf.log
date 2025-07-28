@@ -1194,3 +1194,472 @@
 [27-07-2025 12:12:35] INFO : root : pasajes : obtener_precios_pasajes : {'Origen': 'Cordoba Terminal', 'Destino': 'Villa Maria', 'Empresa': 'Sierras de Cordoba', 'Precio': '22600'}
 [27-07-2025 12:12:35] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Maria_27-07-2025.xlsx'
 [27-07-2025 12:12:35] INFO : root : main : <module> : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[27-07-2025 22:33:26] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[27-07-2025 22:33:42] CRITICAL : root : scraping : obtener_precios_pasajes_plataforma10 : Algo salió mal
+[27-07-2025 22:33:42] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[27-07-2025 22:33:59] CRITICAL : root : scraping : obtener_precios_pasajes_plataforma10 : Algo salió mal
+[27-07-2025 22:33:59] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[27-07-2025 22:34:20] CRITICAL : root : scraping : obtener_precios_pasajes_plataforma10 : Algo salió mal
+[27-07-2025 22:34:20] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[27-07-2025 22:35:03] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[27-07-2025 22:35:20] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La-Plata_19_7__27-07-2025.xlsx'
+[28-07-2025 09:31:54] INFO : root : main : main : ===========INICIANDO SCRAPING DE CARREFOUR===========
+
+[28-07-2025 09:32:10] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La-Plata_19_7__28-07-2025.xlsx'
+[28-07-2025 09:32:38] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Catamarca_19_416__28-07-2025.xlsx'
+[28-07-2025 09:32:56] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Resistencia_19_350__28-07-2025.xlsx'
+[28-07-2025 09:33:19] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rawson_19_584__28-07-2025.xlsx'
+[28-07-2025 09:33:41] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Retiro_19_10__28-07-2025.xlsx'
+[28-07-2025 09:33:58] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Corrientes_19_369__28-07-2025.xlsx'
+[28-07-2025 09:34:19] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Parana_19_507__28-07-2025.xlsx'
+[28-07-2025 09:34:35] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Formosa_19_372__28-07-2025.xlsx'
+[28-07-2025 09:34:54] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Salvador-de-Jujuy_19_323__28-07-2025.xlsx'
+[28-07-2025 09:35:19] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa-Rosa_19_545__28-07-2025.xlsx'
+[28-07-2025 09:35:39] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La-Rioja_19_1211__28-07-2025.xlsx'
+[28-07-2025 09:35:57] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Mendoza_19_315__28-07-2025.xlsx'
+[28-07-2025 09:36:16] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Posadas_19_1471__28-07-2025.xlsx'
+[28-07-2025 09:36:34] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Neuquen_19_521__28-07-2025.xlsx'
+[28-07-2025 09:36:50] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[28-07-2025 09:37:21] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Salta_19_321__28-07-2025.xlsx'
+[28-07-2025 09:37:53] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Juan_19_409__28-07-2025.xlsx'
+[28-07-2025 09:38:25] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Luis_19_334__28-07-2025.xlsx'
+[28-07-2025 09:38:47] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[28-07-2025 09:39:09] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa-Fe_19_325__28-07-2025.xlsx'
+[28-07-2025 09:39:28] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santiago-del-Estero_19_15__28-07-2025.xlsx'
+[28-07-2025 09:39:46] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[28-07-2025 09:40:16] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Miguel-de-Tucuman_19_17__28-07-2025.xlsx'
+[28-07-2025 09:40:38] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Alta-Gracia_19_29__28-07-2025.xlsx'
+[28-07-2025 09:40:59] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Bell-Ville_19_302__28-07-2025.xlsx'
+[28-07-2025 09:41:29] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Cosquin_19_165__28-07-2025.xlsx'
+[28-07-2025 09:41:47] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Cruz-del-Eje_19_166__28-07-2025.xlsx'
+[28-07-2025 09:42:05] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Dean-Funes_19_497__28-07-2025.xlsx'
+[28-07-2025 09:42:25] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Jesus-Maria_19_32__28-07-2025.xlsx'
+[28-07-2025 09:42:46] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[28-07-2025 09:43:07] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Laboulaye_19_482__28-07-2025.xlsx'
+[28-07-2025 09:43:22] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[28-07-2025 09:43:43] CRITICAL : root : scraping : obtener_precios_pasajes_plataforma10 : Error en una empresa: Message: Unable to locate element: div[class*="content-company"] img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[28-07-2025 09:43:44] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rio-Cuarto_19_26__28-07-2025.xlsx'
+[28-07-2025 09:44:04] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rio-Segundo_19_297__28-07-2025.xlsx'
+[28-07-2025 09:44:30] CRITICAL : root : scraping : obtener_precios_pasajes_plataforma10 : Error en una empresa: Message: Unable to locate element: div[class*="content-company"] img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[28-07-2025 09:44:30] CRITICAL : root : main : main : Error al procesar https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Tercero/19/2800/31-07-2025/_/1/0/0: cannot access local variable 'company_name' where it is not associated with a value
+[28-07-2025 09:44:46] CRITICAL : root : scraping : obtener_precios_pasajes_plataforma10 : Error en una empresa: Message: Unable to locate element: div[class*="content-company"] img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[28-07-2025 09:44:47] CRITICAL : root : scraping : obtener_precios_pasajes_plataforma10 : Error en una empresa: Message: Unable to locate element: div[class*="content-company"] img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[28-07-2025 09:44:47] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Agustin_19_1345__28-07-2025.xlsx'
+[28-07-2025 09:45:11] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Carlos-Minas_19_9710__28-07-2025.xlsx'
+[28-07-2025 09:45:36] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Francisco_19_506__28-07-2025.xlsx'
+[28-07-2025 09:45:58] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Francisco-del-Chañar_19_8954__28-07-2025.xlsx'
+[28-07-2025 09:46:17] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa-Rosa-de-Rio-Primero_19_8972__28-07-2025.xlsx'
+[28-07-2025 09:46:41] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-Tulumba_19_10783__28-07-2025.xlsx'
+[28-07-2025 09:46:57] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Cura-Brochero_19_96__28-07-2025.xlsx'
+[28-07-2025 09:47:14] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-de-Maria-del-Rio-Seco_19_4214__28-07-2025.xlsx'
+[28-07-2025 09:47:31] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-del-Totoral_19_3056__28-07-2025.xlsx'
+[28-07-2025 09:47:56] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-Dolores_19_88__28-07-2025.xlsx'
+[28-07-2025 09:48:27] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-Huidobro_19_773__28-07-2025.xlsx'
+[28-07-2025 09:48:46] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-Maria_19_290__28-07-2025.xlsx'
+[28-07-2025 10:15:02] INFO : root : main : main : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[28-07-2025 10:15:02] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Plata?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:05] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Plata_28-07-2025.xlsx'
+[28-07-2025 10:15:05] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Catamarca?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:08] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Catamarca_28-07-2025.xlsx'
+[28-07-2025 10:15:08] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Resistencia?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:11] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Resistencia_28-07-2025.xlsx'
+[28-07-2025 10:15:11] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rawson?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:13] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rawson_28-07-2025.xlsx'
+[28-07-2025 10:15:13] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Retiro-Buenos-Aires?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:18] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Retiro-Buenos-Aires_28-07-2025.xlsx'
+[28-07-2025 10:15:18] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Corrientes?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:21] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Corrientes_28-07-2025.xlsx'
+[28-07-2025 10:15:21] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Parana?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:23] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Parana_28-07-2025.xlsx'
+[28-07-2025 10:15:23] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Formosa?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:26] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Formosa_28-07-2025.xlsx'
+[28-07-2025 10:15:26] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Salvador-de-Jujuy?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:29] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Salvador-de-Jujuy_28-07-2025.xlsx'
+[28-07-2025 10:15:29] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Santa-Rosa?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:32] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Rosa_28-07-2025.xlsx'
+[28-07-2025 10:15:32] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Rioja?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:35] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Rioja_28-07-2025.xlsx'
+[28-07-2025 10:15:35] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Mendoza?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:38] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Mendoza_28-07-2025.xlsx'
+[28-07-2025 10:15:38] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Posadas?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:41] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Posadas_28-07-2025.xlsx'
+[28-07-2025 10:15:41] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Neuquen?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:44] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Neuquen_28-07-2025.xlsx'
+[28-07-2025 10:15:44] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Viedma-Terminal?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:47] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Salta?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:50] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Salta_28-07-2025.xlsx'
+[28-07-2025 10:15:50] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Juan?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:53] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Juan_28-07-2025.xlsx'
+[28-07-2025 10:15:53] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Luis?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:56] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Luis_28-07-2025.xlsx'
+[28-07-2025 10:15:56] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rio-Gallegos?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:15:59] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Gallegos_28-07-2025.xlsx'
+[28-07-2025 10:15:59] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Santa-Fe?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:02] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Fe_28-07-2025.xlsx'
+[28-07-2025 10:16:02] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Santiago-del-Estero?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:05] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santiago-del-Estero_28-07-2025.xlsx'
+[28-07-2025 10:16:05] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Ushuaia?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:07] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Tucuman?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:10] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Tucuman_28-07-2025.xlsx'
+[28-07-2025 10:16:10] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Alta-Gracia?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:12] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Bell-Ville?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:15] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Bell-Ville_28-07-2025.xlsx'
+[28-07-2025 10:16:15] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Cosquin?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:18] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Cruz-del-Eje?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:21] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Dean-Funes?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:23] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Dean-Funes_28-07-2025.xlsx'
+[28-07-2025 10:16:23] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Jesus-Maria?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:27] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Jesus-Maria_28-07-2025.xlsx'
+[28-07-2025 10:16:27] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Carlota?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:30] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Carlota_28-07-2025.xlsx'
+[28-07-2025 10:16:30] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Laboulaye?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:35] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Laboulaye_28-07-2025.xlsx'
+[28-07-2025 10:16:35] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Marcos-Juarez?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:38] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Marcos-Juarez_28-07-2025.xlsx'
+[28-07-2025 10:16:38] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rio-Cuarto?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:41] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Cuarto_28-07-2025.xlsx'
+[28-07-2025 10:16:41] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rio-Segundo?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:43] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Segundo_28-07-2025.xlsx'
+[28-07-2025 10:16:43] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rio-Tercero?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:45] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Agustin?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:48] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Carlos-Minas?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:49] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Francisco?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:53] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Francisco_28-07-2025.xlsx'
+[28-07-2025 10:16:53] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Francisco-de-Chanar?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:53] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Santa-Rosa-Rio-Primero?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:57] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Rosa-Rio-Primero_28-07-2025.xlsx'
+[28-07-2025 10:16:57] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-Tulumba?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:16:59] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Tulumba_28-07-2025.xlsx'
+[28-07-2025 10:16:59] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Cura-Brochero?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:17:01] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Cura-Brochero_28-07-2025.xlsx'
+[28-07-2025 10:17:01] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-de-Maria?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:17:04] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-del-Totoral?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:17:06] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-del-Totoral_28-07-2025.xlsx'
+[28-07-2025 10:17:06] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-Dolores?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:17:09] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Dolores_28-07-2025.xlsx'
+[28-07-2025 10:17:09] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-Huidobro?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:17:11] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-Maria?FIda=08/06/2025&CntPas=1...
+
+[28-07-2025 10:17:14] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Maria_28-07-2025.xlsx'
+[28-07-2025 10:17:14] INFO : root : main : main : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[28-07-2025 10:20:17] INFO : root : main : main : ===========INICIANDO SCRAPING DE PLATAFORMA10 ===========
+
+[28-07-2025 10:20:17] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Plata/19/7/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:20:33] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La-Plata_19_7_28-07-2025.xlsx'
+[28-07-2025 10:20:36] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:20:36] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Catamarca/19/416/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:20:58] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Catamarca_19_416_28-07-2025.xlsx'
+[28-07-2025 10:21:02] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:21:02] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Resistencia/19/350/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:21:16] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Resistencia_19_350_28-07-2025.xlsx'
+[28-07-2025 10:21:19] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:21:19] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rawson/19/584/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:21:31] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rawson_19_584_28-07-2025.xlsx'
+[28-07-2025 10:21:35] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:21:35] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Retiro/19/10/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:21:56] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Retiro_19_10_28-07-2025.xlsx'
+[28-07-2025 10:22:00] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:22:00] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Corrientes/19/369/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:22:12] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Corrientes_19_369_28-07-2025.xlsx'
+[28-07-2025 10:22:15] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:22:15] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Parana/19/507/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:22:28] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Parana_19_507_28-07-2025.xlsx'
+[28-07-2025 10:22:32] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:22:32] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Formosa/19/372/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:22:44] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Formosa_19_372_28-07-2025.xlsx'
+[28-07-2025 10:22:48] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:22:48] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Salvador-de-Jujuy/19/323/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:23:02] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Salvador-de-Jujuy_19_323_28-07-2025.xlsx'
+[28-07-2025 10:23:05] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:23:05] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santa-Rosa/19/545/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:23:19] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa-Rosa_19_545_28-07-2025.xlsx'
+[28-07-2025 10:23:22] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:23:22] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Rioja/19/1211/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:23:35] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La-Rioja_19_1211_28-07-2025.xlsx'
+[28-07-2025 10:23:39] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:23:39] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Mendoza/19/315/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:23:53] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Mendoza_19_315_28-07-2025.xlsx'
+[28-07-2025 10:23:57] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:23:57] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Posadas/19/1471/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:24:16] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Posadas_19_1471_28-07-2025.xlsx'
+[28-07-2025 10:24:20] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:24:20] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Neuquen/19/521/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:24:31] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Neuquen_19_521_28-07-2025.xlsx'
+[28-07-2025 10:24:35] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+
+[28-07-2025 10:24:35] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Viedma/19/713/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:32:59] INFO : root : main : main : ===========INICIANDO SCRAPING DE PLATAFORMA10 ===========
+
+[28-07-2025 10:32:59] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Plata/19/7/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:33:12] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La-Plata_19_7_28-07-2025.xlsx'
+[28-07-2025 10:33:15] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Catamarca/19/416/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:34:25] INFO : root : main : main : ===========INICIANDO SCRAPING DE PLATAFORMA10 ===========
+
+[28-07-2025 10:34:25] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Plata/19/7/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:34:49] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La-Plata_19_7_28-07-2025.xlsx'
+[28-07-2025 10:34:52] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Catamarca/19/416/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:35:06] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Catamarca_19_416_28-07-2025.xlsx'
+[28-07-2025 10:35:10] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Resistencia/19/350/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:35:24] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Resistencia_19_350_28-07-2025.xlsx'
+[28-07-2025 10:35:28] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rawson/19/584/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:35:40] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rawson_19_584_28-07-2025.xlsx'
+[28-07-2025 10:35:44] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Retiro/19/10/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:36:09] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Retiro_19_10_28-07-2025.xlsx'
+[28-07-2025 10:36:13] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Corrientes/19/369/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:36:25] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Corrientes_19_369_28-07-2025.xlsx'
+[28-07-2025 10:36:29] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Parana/19/507/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:36:46] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Parana_19_507_28-07-2025.xlsx'
+[28-07-2025 10:36:49] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Formosa/19/372/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:37:02] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Formosa_19_372_28-07-2025.xlsx'
+[28-07-2025 10:37:06] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Salvador-de-Jujuy/19/323/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:37:19] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Salvador-de-Jujuy_19_323_28-07-2025.xlsx'
+[28-07-2025 10:37:22] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santa-Rosa/19/545/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:37:36] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa-Rosa_19_545_28-07-2025.xlsx'
+[28-07-2025 10:37:39] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Rioja/19/1211/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:37:51] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La-Rioja_19_1211_28-07-2025.xlsx'
+[28-07-2025 10:37:54] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Mendoza/19/315/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:38:07] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Mendoza_19_315_28-07-2025.xlsx'
+[28-07-2025 10:38:11] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Posadas/19/1471/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:38:28] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Posadas_19_1471_28-07-2025.xlsx'
+[28-07-2025 10:38:31] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Neuquen/19/521/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:38:51] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Neuquen_19_521_28-07-2025.xlsx'
+[28-07-2025 10:38:55] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Viedma/19/713/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:39:21] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:39:21] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:39:25] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Salta/19/321/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:39:44] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Salta_19_321_28-07-2025.xlsx'
+[28-07-2025 10:39:47] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Juan/19/409/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:39:59] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Juan_19_409_28-07-2025.xlsx'
+[28-07-2025 10:40:03] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Luis/19/334/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:40:16] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Luis_19_334_28-07-2025.xlsx'
+[28-07-2025 10:40:20] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Gallegos/19/621/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:40:31] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rio-Gallegos_19_621_28-07-2025.xlsx'
+[28-07-2025 10:40:35] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santa-Fe/19/325/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:40:51] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa-Fe_19_325_28-07-2025.xlsx'
+[28-07-2025 10:40:54] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santiago-del-Estero/19/15/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:41:08] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santiago-del-Estero_19_15_28-07-2025.xlsx'
+[28-07-2025 10:41:12] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Ushuaia/19/1515/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:41:34] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:41:34] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:41:38] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Miguel-de-Tucuman/19/17/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:42:00] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Miguel-de-Tucuman_19_17_28-07-2025.xlsx'
+[28-07-2025 10:42:03] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Alta-Gracia/19/29/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:42:44] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:42:44] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:42:47] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Bell-Ville/19/302/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:43:15] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:43:15] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:43:19] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Cosquin/19/165/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:43:46] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:43:46] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:43:49] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Cruz-del-Eje/19/166/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:44:15] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:44:15] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:44:18] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Dean-Funes/19/497/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:44:32] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Dean-Funes_19_497_28-07-2025.xlsx'
+[28-07-2025 10:44:36] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Jesus-Maria/19/32/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:44:50] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Jesus-Maria_19_32_28-07-2025.xlsx'
+[28-07-2025 10:44:54] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Carlota/19/387/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:45:20] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:45:20] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:45:24] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Laboulaye/19/482/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:45:41] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Laboulaye_19_482_28-07-2025.xlsx'
+[28-07-2025 10:45:45] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Marcos-Juarez/19/303/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:46:09] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:46:09] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:46:12] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Cuarto/19/26/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:46:31] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rio-Cuarto_19_26_28-07-2025.xlsx'
+[28-07-2025 10:46:35] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Segundo/19/297/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:47:13] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:47:13] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:47:16] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Tercero/19/2800/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:47:35] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rio-Tercero_19_2800_28-07-2025.xlsx'
+[28-07-2025 10:47:38] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Agustin/19/1345/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:47:51] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Agustin_19_1345_28-07-2025.xlsx'
+[28-07-2025 10:47:55] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Carlos-Minas/19/9710/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:48:23] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:48:23] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:48:26] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Francisco/19/506/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:48:52] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Francisco_19_506_28-07-2025.xlsx'
+[28-07-2025 10:48:56] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Francisco-del-Chañar/19/8954/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:49:07] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San-Francisco-del-Chañar_19_8954_28-07-2025.xlsx'
+[28-07-2025 10:49:10] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santa-Rosa-de-Rio-Primero/19/8972/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:49:22] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa-Rosa-de-Rio-Primero_19_8972_28-07-2025.xlsx'
+[28-07-2025 10:49:25] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Tulumba/19/10783/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:49:37] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-Tulumba_19_10783_28-07-2025.xlsx'
+[28-07-2025 10:49:41] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Cura-Brochero/19/96/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:50:10] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:50:10] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:50:13] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-de-Maria-del-Rio-Seco/19/4214/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:50:29] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-de-Maria-del-Rio-Seco_19_4214_28-07-2025.xlsx'
+[28-07-2025 10:50:33] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-del-Totoral/19/3056/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:50:53] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-del-Totoral_19_3056_28-07-2025.xlsx'
+[28-07-2025 10:50:56] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Dolores/19/88/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:51:28] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[28-07-2025 10:51:28] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[28-07-2025 10:51:31] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Huidobro/19/773/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:51:42] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-Huidobro_19_773_28-07-2025.xlsx'
+[28-07-2025 10:51:46] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Maria/19/290/06-08-2025/_/1/0/0...
+
+[28-07-2025 10:51:58] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-Maria_19_290_28-07-2025.xlsx'
+[28-07-2025 10:52:02] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========

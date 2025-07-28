@@ -15,5 +15,5 @@ def obtener_precios_pasajes(data):
         }
 
         viajes.append(viaje)
-        logger.info(f"{viaje}")
+        
     return viajes

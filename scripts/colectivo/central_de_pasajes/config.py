@@ -4,7 +4,7 @@ destinos = ["La Plata", #
             "Catamarca", #
             "Resistencia", #
             "Rawson", #
-            "Retiro Buenos Aires",
+            "Retiro Buenos Aires", #
             "Corrientes", #
             "Parana", #
             "Formosa",#
@@ -21,7 +21,7 @@ destinos = ["La Plata", #
             "Rio Gallegos", #
             "Santa Fe", #
             "Santiago del Estero", #
-            "Ushuaia", # No llegan hasta acá los bondis
+            "Ushuaia", ## No llegan hasta acá los bondis
             "Tucuman", #
             "Alta Gracia",
             "Bell Ville", #
@@ -31,7 +31,7 @@ destinos = ["La Plata", #
             "Jesus Maria", #
             "La Carlota", #
             "Laboulaye", #
-            "Marcos Juarez",#
+            "Marcos Juarez", #
             "Rio Cuarto", #
             "Rio Segundo", #
             "Rio Tercero",
@@ -39,10 +39,10 @@ destinos = ["La Plata", #
             "San Carlos Minas",
             "San Francisco", #
             "San Francisco de Chanar",
-            "Santa Rosa Rio Primero",
+            "Santa Rosa Rio Primero", #
             "Villa Tulumba", #
             "Cura Brochero", #
-            "Villa de Maria",
+            "Villa de Maria", 
             "Villa del Totoral", #
             "Villa Dolores", #
             "Villa Huidobro", 

@@ -1,37 +1,33 @@
 
 from scraping.navegador import crear_driver
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-import time
+from config import destinos, datos, pagina
+from scraping.pasajes import obtener_precios_pasajes_plataforma10
+from utils.archivos import guardar_en_excel
+import logging 
+import logging.config 
 
-driver = crear_driver()
 
-# Ir a la página
-url = 'https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Huidobro/19/773/31-07-2025/_/1/0/0'
-driver.get(url)
+logging.config.fileConfig('logging_config/logging.conf') 
+logger = logging.getLogger('root')
 
-# Esperar a que cargue el contenido dinámico
-time.sleep(6)
+def main():
 
-# Seleccionar todas las tarjetas de resultados
-cards = driver.find_elements(By.CSS_SELECTOR, ".searchResultCard_card__5Avpr")
+    logger.info("===========INICIANDO SCRAPING DE PLATAFORMA10 ===========\n")
 
-for card in cards:
+    for lugar in destinos: 
+        link_destino = pagina + lugar + datos
+        logger.info(f"Scrapeando {link_destino}...\n")
+        try:
+            driver = crear_driver()
+            pasajes = obtener_precios_pasajes_plataforma10(driver, link_destino, lugar)
+            guardar_en_excel(pasajes, lugar)
+        except Exception as e:
+            logger.critical(f"La fecha o destino no están disponibles {link_destino}: {e}")
+        finally:
+            driver.quit()
     
-    try:
-        # Empresa (alt del logo dentro del contenedor de empresa)
-        img = card.find_element(By.CSS_SELECTOR, 'div[class*="content-company"] img')
-        company_name = img.get_attribute("alt").strip()
-    except:
-        company_name = "Empresa no encontrada"
-        
-    try:
-        # Extraer precio (p. ej., "$ 19.000")
-        price_element = card.find_element(By.CSS_SELECTOR, ".searchResultCard_card__price__OPhFJ")
-        price = price_element.text.strip()
-        print(f"Empresa: {company_name} , Precio: {price}")
-    except Exception as e:
-        print("Error en una tarjeta:", e)
+    logger.info("===========SCRAPING DE PLATAFORMA10 FINALIZADO===========")
 
-driver.quit()
+
+if __name__ == "__main__":
+    main()
