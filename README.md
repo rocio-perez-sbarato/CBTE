@@ -1,10 +1,38 @@
-# Scraping de precios
-## Canasta Básica Estudiantil
+## Canasta Básica Total Estudiantil
+### Elaborado por y para estudiantes
 
-- [Estructura del proyecto y avances](https://gitmind.com/app/docs/mss9thvm)
+- [📄 **Leer Informe julio 2025**](https://github.com/usuario/nombre-repo/archive/refs/heads/main.zip)
+- [📚 **Leer informes anteriores**](https://github.com/usuario/nombre-repo/releases)
+- [✉️ **Unirme a la lista de mails**](https://example.com/lista-mails)
 
-- [Sitios web y direcciones de mail a utilizar](https://docs.google.com/document/d/13MpGGDrN_KKaTUKt0wFvzooiDy8hsn8pJkmCBJO5_9s/edit?usp=sharing)
+### JULIO 2025 
 
+## Perfiles de consumo y gastos mensuales
+
+| 🛒 Caso | Monto estimado |
+|--------|----------------|
+| Estudiante que vive en un departamento alquilado | **$750k** |
+| Estudiante que vive en residencia universitaria | **$500k** |
+| Estudiante que vive con su grupo familiar y no es el principal aportante | **$350k** |
+
+## Proyecto de investigación
+
+Accedé al [proyecto](https://sociales.unc.edu.ar/) para conocer qué es y cómo medimos la canasta básica.
+
+## Contacto
+
+¿Querés participar o tenés alguna consulta? Mandanos un mail a **_canasta.basica@gmail.com_**.
+
+## Equipo
+
+Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/) y de la [Facultad de Matemática, Astronomía, Física y Computación](https://www.famaf.unc.edu.ar/).
+
+## Nota 
+
+Este README es solo un resumen técnico del proyecto.  
+La versión **más visual y fácil de navegar** está disponible en nuestra página web de GitHub Pages.  
+
+➡️ **[🌐 Ir a la página del proyecto ](https://rocio-perez-sbarato.github.io)**
 
 ## Ejecución del scraping
 
