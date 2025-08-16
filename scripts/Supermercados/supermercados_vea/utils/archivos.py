@@ -1,5 +1,6 @@
 import os
 import datetime
+import re
 import pandas as pd
 from utils.limpieza import limpiar_url
 import logging 
@@ -13,7 +14,7 @@ def agregar_fecha(nombre_base):
     fecha_hoy = datetime.datetime.today().strftime("%d-%m-%Y")
     
     # Remover caracteres no válidos del nombre base (ejemplo: "/")
-    nombre_base = nombre_base.replace("/", "_")
+    nombre_base = re.sub(r'[<>:"/\\|?*&]', '_', nombre_base)
     
     # Separar la extensión
     nombre, extension = os.path.splitext(nombre_base)

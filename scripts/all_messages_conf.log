@@ -1663,3 +1663,113 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 
 [28-07-2025 10:51:58] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos (in this PC)\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa-Maria_19_290_28-07-2025.xlsx'
 [28-07-2025 10:52:02] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+[15-08-2025 19:49:08] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[15-08-2025 19:49:08] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/a...
+[15-08-2025 19:49:27] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 0
+[15-08-2025 19:49:27] INFO : root : archivos : guardar_en_excel : No hay productos para guardar.
+[15-08-2025 19:49:31] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/l...
+[15-08-2025 19:49:53] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 18
+[15-08-2025 19:49:58] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 18...
+[15-08-2025 19:50:01] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[15-08-2025 19:56:51] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[15-08-2025 19:56:51] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/a?order=OrderByPriceASC...
+[15-08-2025 19:57:34] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[15-08-2025 19:57:34] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes?order=OrderByPriceASC...
+[15-08-2025 19:57:52] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 2
+[15-08-2025 19:57:58] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 2...
+[15-08-2025 19:58:01] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[15-08-2025 20:04:41] ERROR : root : productos : obtener_productos_y_precios_disco : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[15-08-2025 20:04:44] INFO : root : productos : obtener_productos_y_precios_disco : Intento 2 de 5
+[15-08-2025 20:11:25] ERROR : root : productos : obtener_productos_y_precios_disco : Error en intento 2: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[15-08-2025 20:11:28] INFO : root : productos : obtener_productos_y_precios_disco : Intento 3 de 5
+[15-08-2025 20:18:08] ERROR : root : productos : obtener_productos_y_precios_disco : Error en intento 3: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[15-08-2025 20:18:11] INFO : root : productos : obtener_productos_y_precios_disco : Intento 4 de 5
+[15-08-2025 20:24:09] INFO : root : main : main : ===========INICIANDO SCRAPING DE FERNIPLAST===========
+[15-08-2025 20:24:09] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/marcadores-y-resaltadores/?order=OrderByPriceASC
+[15-08-2025 20:24:26] INFO : root : paginacion : obtener_cantidad_paginas : Total de productos: 93
+[15-08-2025 20:24:26] INFO : root : paginacion : obtener_cantidad_paginas : Total de páginas: 4
+[15-08-2025 20:24:26] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[15-08-2025 20:24:32] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[15-08-2025 20:29:47] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[15-08-2025 20:29:47] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/desayuno-y-merienda/yerbas?order=OrderByPriceASC...
+[15-08-2025 20:30:05] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 6
+[15-08-2025 20:30:10] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 6...
+[15-08-2025 20:30:13] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[16-08-2025 15:56:07] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[16-08-2025 15:56:07] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes?order=OrderByPriceASC&page=1...
+[16-08-2025 15:56:23] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[16-08-2025 16:00:23] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[16-08-2025 16:00:23] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes&page=1...
+[16-08-2025 16:00:41] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[16-08-2025 16:10:14] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[16-08-2025 16:10:14] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes&page=1...
+[16-08-2025 16:10:27] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[16-08-2025 18:24:41] INFO : root : main : main : ===========INICIANDO SCRAPING DE GRAFITTI===========
+[16-08-2025 18:24:41] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/escritura1/lapiceras-y-boligrafos/?sort_by=price-ascending
+[16-08-2025 18:24:52] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[16-08-2025 18:24:58] INFO : root : productos : obtener_productos_y_precios : 9 productos visibles
+[16-08-2025 18:24:59] INFO : root : productos : obtener_productos_y_precios : * 9 productos.
+[16-08-2025 18:24:59] INFO : root : main : main : Error al procesar https://www.graffittilibreria.com/libreria-escolar/escritura1/lapiceras-y-boligrafos/?sort_by=price-ascending: No module named 'openpyxl'
+[16-08-2025 18:25:03] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/escritura1/fibras-y-marcadores/?sort_by=price-ascending
+[16-08-2025 18:25:14] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[16-08-2025 18:25:20] INFO : root : productos : obtener_productos_y_precios : 42 productos visibles
+[16-08-2025 18:25:23] INFO : root : productos : obtener_productos_y_precios : * 42 productos.
+[16-08-2025 18:25:23] INFO : root : main : main : Error al procesar https://www.graffittilibreria.com/libreria-escolar/escritura1/fibras-y-marcadores/?sort_by=price-ascending: No module named 'openpyxl'
+[16-08-2025 18:25:26] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/gomas1/?sort_by=price-ascending
+[16-08-2025 18:25:36] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[16-08-2025 18:26:14] INFO : root : main : main : ===========INICIANDO SCRAPING DE GRAFITTI===========
+[16-08-2025 18:26:14] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/escritura1/lapiceras-y-boligrafos/?sort_by=price-ascending
+[16-08-2025 18:26:24] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[16-08-2025 18:26:30] INFO : root : productos : obtener_productos_y_precios : 9 productos visibles
+[16-08-2025 18:26:30] INFO : root : productos : obtener_productos_y_precios : * 9 productos.
+[16-08-2025 18:26:30] INFO : root : main : main : Error al procesar https://www.graffittilibreria.com/libreria-escolar/escritura1/lapiceras-y-boligrafos/?sort_by=price-ascending: No module named 'openpyxl'
+[16-08-2025 18:26:34] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/escritura1/fibras-y-marcadores/?sort_by=price-ascending
+[16-08-2025 18:27:30] INFO : root : main : main : ===========INICIANDO SCRAPING DE GRAFITTI===========
+[16-08-2025 18:27:30] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/escritura1/lapiceras-y-boligrafos/?sort_by=price-ascending
+[16-08-2025 18:27:41] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[16-08-2025 18:27:48] INFO : root : productos : obtener_productos_y_precios : 9 productos visibles
+[16-08-2025 18:27:49] INFO : root : productos : obtener_productos_y_precios : * 9 productos.
+[16-08-2025 18:27:52] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\grafitti\libreria-escolar_escritura1_lapiceras-y-boligrafos_16-08-2025.xlsx'
+[16-08-2025 18:27:55] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/escritura1/fibras-y-marcadores/?sort_by=price-ascending
+[16-08-2025 18:28:06] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[16-08-2025 18:28:11] INFO : root : productos : obtener_productos_y_precios : 42 productos visibles
+[16-08-2025 18:28:14] INFO : root : productos : obtener_productos_y_precios : * 42 productos.
+[16-08-2025 18:28:14] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\grafitti\libreria-escolar_escritura1_fibras-y-marcadores_16-08-2025.xlsx'
+[16-08-2025 18:28:17] INFO : root : main : main : Scrapeando categoría https://www.graffittilibreria.com/libreria-escolar/gomas1/?sort_by=price-ascending
+[16-08-2025 18:28:26] INFO : root : productos : obtener_productos_y_precios : Intento 1 de 5
+[16-08-2025 18:30:31] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[16-08-2025 18:30:31] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes?order=OrderByPriceASC&page=1...
+[16-08-2025 18:30:50] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[16-08-2025 18:43:22] INFO : root : productos : obtener_productos_y_precios_disco : * 20 productos.
+[16-08-2025 18:43:22] ERROR : root : main : main : Error al procesar https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes?order=OrderByPriceASC&page=1: [Errno 22] Invalid argument: 'C:\\Users\\rocio\\Documentos\\Facultad\\Canasta básica\\CBTE\\data\\supermercados\\disco\\almacen_aceites-y-vinagres_aceites-comunes?order=OrderByPriceASC&page=1_16-08-2025.xlsx'
+[16-08-2025 18:43:25] INFO : root : main : main : Categorías que fallaron
+[16-08-2025 18:43:25] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 12.91 minutos
+[16-08-2025 18:43:25] INFO : root : rendimiento : medir_recursos : Uso de CPU: -16.30%
+[16-08-2025 18:43:25] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[16-08-2025 18:49:56] INFO : root : main : main : ===========INICIANDO SCRAPING DE DISCO===========
+[16-08-2025 18:49:56] INFO : root : main : main : Scrapeando categoría https://www.disco.com.ar/almacen/aceites-y-vinagres/aceites-comunes?order=OrderByPriceASC&page=1...
+[16-08-2025 18:50:09] INFO : root : productos : obtener_productos_y_precios_disco : Intento 1 de 5
+[16-08-2025 19:02:40] INFO : root : productos : obtener_productos_y_precios_disco : * 20 productos.
+[16-08-2025 19:02:41] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\supermercados\disco\almacen_aceites-y-vinagres_aceites-comunes_order=OrderByPriceASC_page=1_16-08-2025.xlsx'
+[16-08-2025 19:02:45] INFO : root : main : main : ¡Todas las categorías se scrapearon correctamente!
+[16-08-2025 19:02:45] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 12.81 minutos
+[16-08-2025 19:02:45] INFO : root : rendimiento : medir_recursos : Uso de CPU: -29.00%
+[16-08-2025 19:02:45] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
