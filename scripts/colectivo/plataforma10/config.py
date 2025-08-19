@@ -1,7 +1,6 @@
 # Archivo con destinos 
 # Los destinos no pueden tener tildes
 
-
 destinos = ["La-Plata/19/7", #
             "Catamarca/19/416", #
             "Resistencia/19/350", #
@@ -51,5 +50,5 @@ destinos = ["La-Plata/19/7", #
             "Villa-Maria/19/290" #
             ] 
 
-datos = "/06-08-2025/_/1/0/0"
+datos = "/25-08-2025/_/1/0/0"
 pagina = "https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/" 

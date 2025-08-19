@@ -1,6 +1,6 @@
 # Definir la URL base y las 50 categorías
 base_url = "https://www.disco.com.ar/"
-order = "?order=OrderByPriceASC"
+
 categorias_deseadas = ["almacen/aceites-y-vinagres/aceites-comunes",
                    "almacen/aceites-y-vinagres/vinagres",
                     "almacen/arroz-y-legumbres/arroz",
@@ -53,4 +53,4 @@ categorias_deseadas = ["almacen/aceites-y-vinagres/aceites-comunes",
                     "perfumeria/cuidado-personal/proteccion-femenina"]
 
 # Obtener los links de las categorías
-links_categorias = [f"{base_url}{cat}{order}" for cat in categorias_deseadas]
+links_categorias = [f"{base_url}{cat}" for cat in categorias_deseadas]

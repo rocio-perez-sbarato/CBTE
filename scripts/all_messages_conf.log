@@ -1773,3 +1773,1007 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 [16-08-2025 19:02:45] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 12.81 minutos
 [16-08-2025 19:02:45] INFO : root : rendimiento : medir_recursos : Uso de CPU: -29.00%
 [16-08-2025 19:02:45] INFO : root : main : main : ===========SCRAPING DE DISCO FINALIZADO===========
+[18-08-2025 14:05:24] INFO : root : main : main : ===========INICIANDO SCRAPING DE TELEFONIA===========
+
+[18-08-2025 14:05:41] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta (GB)': 'Móvil 8 GB', 'precio': '$15.726'}
+[18-08-2025 14:05:44] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_18-08-2025.xlsx
+[18-08-2025 14:06:40] INFO : root : main : main : Plan Movistar obtenido: None
+[18-08-2025 14:06:40] CRITICAL : root : archivos : guardar_en_excel : No se guardaron datos, ocurrió un error.
+[18-08-2025 14:07:12] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta (GB)': '2 GIGAS', 'precio': '$14.620'}
+[18-08-2025 14:07:12] INFO : root : archivos : guardar_en_excel : Datos guardados en data/telefonia\servicios_telefonia_18-08-2025.xlsx
+[18-08-2025 14:07:12] INFO : root : main : main : ===========SCRAPING DE TELEFONIA FINALIZADO===========
+
+[18-08-2025 14:10:32] INFO : root : main : main : ===========INICIANDO SCRAPING DE INTERNET===========
+
+[18-08-2025 14:10:54] INFO : root : main : main : Plan Personal obtenido: {'Compañía': 'Personal', 'oferta (MB)': 'Internet 300 MB + + Flow Full sin deco', 'precio': '$21.000'}
+[18-08-2025 14:10:55] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_18-08-2025.xlsx
+[18-08-2025 14:12:17] INFO : root : main : main : Plan Movistar obtenido: {'Compañía': 'Movistar', 'oferta (MB)': '300 megas', 'precio': '19.000'}
+[18-08-2025 14:12:17] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_18-08-2025.xlsx
+[18-08-2025 14:12:33] INFO : root : main : main : Plan Claro obtenido: {'Compañía': 'Claro', 'oferta (MB)': 'Fibra óptica', 'precio': '$16.999/mes'}
+[18-08-2025 14:12:33] INFO : root : archivos : guardar_en_excel : Datos guardados en data/internet\servicios_internet_18-08-2025.xlsx
+[18-08-2025 14:12:33] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.01 minutos
+[18-08-2025 14:12:33] INFO : root : rendimiento : medir_recursos : Uso de CPU: 44.90%
+[18-08-2025 14:12:33] INFO : root : main : main : ===========SCRAPING DE INTERNET FINALIZADO===========
+
+[18-08-2025 14:13:16] INFO : root : main : main : ===========INICIANDO SCRAPING DE LAVOZ===========
+
+[18-08-2025 14:13:16] INFO : root : main : main : Scrapeando los alquileres en https://clasificados.lavoz.com.ar/inmuebles/departamentos/alquileres/1-dormitorio?cantidad-de-dormitorios%5B0%5D=1-dormitorio&tipo-de-unidad=departamento&ciudad=cordoba
+[18-08-2025 14:13:22] INFO : root : main : main : Driver creado.
+[18-08-2025 14:13:22] INFO : root : main : main : Iniciando el scraping...
+[18-08-2025 14:13:35] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 66
+[18-08-2025 14:13:35] INFO : root : alquileres : scrapear_pagina : Total de páginas a scrapear: 66
+[18-08-2025 14:13:39] INFO : root : alquileres : scrapear_pagina : Scrapeando página 1 de 66...
+[18-08-2025 14:13:42] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:13:53] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:13:57] INFO : root : alquileres : scrapear_pagina : Scrapeando página 2 de 66...
+[18-08-2025 14:14:00] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:14:11] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:14:15] INFO : root : alquileres : scrapear_pagina : Scrapeando página 3 de 66...
+[18-08-2025 14:14:18] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:14:29] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:14:35] INFO : root : alquileres : scrapear_pagina : Scrapeando página 4 de 66...
+[18-08-2025 14:14:38] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:14:49] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:15:01] INFO : root : alquileres : scrapear_pagina : Scrapeando página 5 de 66...
+[18-08-2025 14:15:04] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:15:15] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:15:28] INFO : root : alquileres : scrapear_pagina : Scrapeando página 6 de 66...
+[18-08-2025 14:15:31] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:15:42] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:15:48] INFO : root : alquileres : scrapear_pagina : Scrapeando página 7 de 66...
+[18-08-2025 14:15:51] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:16:02] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:16:08] INFO : root : alquileres : scrapear_pagina : Scrapeando página 8 de 66...
+[18-08-2025 14:16:11] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:16:21] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:16:25] INFO : root : alquileres : scrapear_pagina : Scrapeando página 9 de 66...
+[18-08-2025 14:16:28] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:16:39] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:16:49] INFO : root : alquileres : scrapear_pagina : Scrapeando página 10 de 66...
+[18-08-2025 14:16:52] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:17:03] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:17:14] INFO : root : alquileres : scrapear_pagina : Scrapeando página 11 de 66...
+[18-08-2025 14:17:17] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:17:28] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:17:32] INFO : root : alquileres : scrapear_pagina : Scrapeando página 12 de 66...
+[18-08-2025 14:17:35] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:17:45] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:17:49] INFO : root : alquileres : scrapear_pagina : Scrapeando página 13 de 66...
+[18-08-2025 14:17:52] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:18:03] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:18:08] INFO : root : alquileres : scrapear_pagina : Scrapeando página 14 de 66...
+[18-08-2025 14:18:11] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:18:22] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:18:35] INFO : root : alquileres : scrapear_pagina : Scrapeando página 15 de 66...
+[18-08-2025 14:18:38] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:18:48] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:19:01] INFO : root : alquileres : scrapear_pagina : Scrapeando página 16 de 66...
+[18-08-2025 14:19:04] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:19:15] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:19:25] INFO : root : alquileres : scrapear_pagina : Scrapeando página 17 de 66...
+[18-08-2025 14:19:28] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:19:39] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:19:50] INFO : root : alquileres : scrapear_pagina : Scrapeando página 18 de 66...
+[18-08-2025 14:19:53] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:20:04] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:20:15] INFO : root : alquileres : scrapear_pagina : Scrapeando página 19 de 66...
+[18-08-2025 14:20:18] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:20:30] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:20:42] INFO : root : alquileres : scrapear_pagina : Scrapeando página 20 de 66...
+[18-08-2025 14:20:45] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:20:55] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:21:00] INFO : root : alquileres : scrapear_pagina : Scrapeando página 21 de 66...
+[18-08-2025 14:21:03] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:21:14] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:21:18] INFO : root : alquileres : scrapear_pagina : Scrapeando página 22 de 66...
+[18-08-2025 14:21:21] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:21:32] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:21:37] INFO : root : alquileres : scrapear_pagina : Scrapeando página 23 de 66...
+[18-08-2025 14:21:40] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:21:50] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:21:54] INFO : root : alquileres : scrapear_pagina : Scrapeando página 24 de 66...
+[18-08-2025 14:21:57] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:22:09] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:22:12] INFO : root : alquileres : scrapear_pagina : Scrapeando página 25 de 66...
+[18-08-2025 14:22:15] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:22:26] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:22:31] INFO : root : alquileres : scrapear_pagina : Scrapeando página 26 de 66...
+[18-08-2025 14:22:34] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:22:45] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:22:50] INFO : root : alquileres : scrapear_pagina : Scrapeando página 27 de 66...
+[18-08-2025 14:22:53] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : Intento 1 de 5
+[18-08-2025 14:23:04] INFO : root : alquileres : obtener_alquileres_y_precios_lavoz : 24 propiedades encontradas.
+[18-08-2025 14:25:04] ERROR : root : main : main : Error al procesar https://clasificados.lavoz.com.ar/inmuebles/departamentos/alquileres/1-dormitorio?cantidad-de-dormitorios%5B0%5D=1-dormitorio&tipo-de-unidad=departamento&ciudad=cordoba: HTTPConnectionPool(host='localhost', port=65115): Read timed out. (read timeout=120)
+[18-08-2025 14:28:07] INFO : root : main : main : Driver cerrado.
+[18-08-2025 14:28:07] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 14.87 minutos
+[18-08-2025 14:28:07] INFO : root : rendimiento : medir_recursos : Uso de CPU: -8.00%
+[18-08-2025 14:28:07] INFO : root : main : main : ===========SCRAPING DE LAVOZ FINALIZADO===========
+
+[18-08-2025 14:45:07] INFO : root : main : main : ===========INICIANDO SCRAPING DE ARGENPROP===========
+
+[18-08-2025 14:45:07] INFO : root : main : main : Scrapeando los alquileres en https://www.argenprop.com/departamentos/alquiler/cordoba-arg/2-ambientes/1-dormitorio
+[18-08-2025 14:45:13] INFO : root : main : main : Driver creado.
+[18-08-2025 14:45:13] INFO : root : main : main : Iniciando el scraping...
+[18-08-2025 14:45:29] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 6
+[18-08-2025 14:45:29] INFO : root : alquileres : scrapear_pagina : Total de páginas a scrapear: 6
+[18-08-2025 14:45:32] INFO : root : alquileres : scrapear_pagina : Scrapeando página 1 de 6...
+[18-08-2025 14:45:35] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[18-08-2025 14:45:51] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[18-08-2025 14:45:59] INFO : root : alquileres : scrapear_pagina : Scrapeando página 2 de 6...
+[18-08-2025 14:46:02] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[18-08-2025 14:46:18] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[18-08-2025 14:46:23] INFO : root : alquileres : scrapear_pagina : Scrapeando página 3 de 6...
+[18-08-2025 14:46:26] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[18-08-2025 14:46:41] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[18-08-2025 14:46:46] INFO : root : alquileres : scrapear_pagina : Scrapeando página 4 de 6...
+[18-08-2025 14:46:50] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[18-08-2025 14:47:05] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[18-08-2025 14:47:09] INFO : root : alquileres : scrapear_pagina : Scrapeando página 5 de 6...
+[18-08-2025 14:47:12] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[18-08-2025 14:47:28] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 20 propiedades encontradas.
+[18-08-2025 14:47:33] INFO : root : alquileres : scrapear_pagina : Scrapeando página 6 de 6...
+[18-08-2025 14:47:36] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : Intento 1 de 5
+[18-08-2025 14:47:51] INFO : root : alquileres : obtener_alquileres_y_precios_argenprop : 8 propiedades encontradas.
+[18-08-2025 14:47:51] INFO : root : alquileres : scrapear_pagina : Scraping completo.
+[18-08-2025 14:47:51] INFO : root : main : main : Se obtuvieron 108 departamentos.
+[18-08-2025 14:47:51] INFO : root : main : main : Guardando resultados en Excel...
+[18-08-2025 14:47:52] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\alquileres\argenprop\departamentos_alquiler_cordoba-arg_2-ambientes_1-dormitorio_18-08-2025.xlsx'
+[18-08-2025 14:47:52] INFO : root : main : main : ¡Todas los deptos se escrapearon y guardaron correctamente!
+[18-08-2025 14:47:56] INFO : root : main : main : Driver cerrado.
+[18-08-2025 14:47:56] INFO : root : rendimiento : medir_recursos : Tiempo de ejecución: 2.81 minutos
+[18-08-2025 14:47:56] INFO : root : rendimiento : medir_recursos : Uso de CPU: -1.10%
+[18-08-2025 14:47:56] INFO : root : main : main : ===========SCRAPING DE ARGENPROP FINALIZADO===========
+
+[18-08-2025 14:59:59] INFO : root : main : main : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[18-08-2025 14:59:59] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Plata?FIda=08/09/2025&CntPas=1...
+
+[18-08-2025 15:00:04] INFO : root : main : main : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[18-08-2025 15:00:58] INFO : root : main : main : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[18-08-2025 15:00:58] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Plata?FIda=08/09/2025&CntPas=1...
+
+[18-08-2025 15:01:05] INFO : root : main : main : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[18-08-2025 15:01:58] INFO : root : main : main : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[18-08-2025 15:01:58] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Plata?FIda=25/08/2025&CntPas=1...
+
+[18-08-2025 15:02:00] INFO : root : main : main : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[18-08-2025 15:02:22] INFO : root : main : main : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[18-08-2025 15:02:22] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Corrientes?FIda=25/08/2025&CntPas=1...
+
+[18-08-2025 15:02:25] INFO : root : main : main : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[18-08-2025 15:03:19] INFO : root : main : main : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[18-08-2025 15:03:19] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Dean-Funes?FIda=25/08/2025&CntPas=1...
+
+[18-08-2025 15:03:23] INFO : root : main : main : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[18-08-2025 15:04:12] INFO : root : main : main : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[18-08-2025 15:04:12] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Plata?FIda=09/01/2025&CntPas=1...
+
+[18-08-2025 15:04:17] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Catamarca?FIda=09/01/2025&CntPas=1...
+
+[18-08-2025 15:04:21] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Resistencia?FIda=09/01/2025&CntPas=1...
+
+[18-08-2025 15:14:52] INFO : root : main : main : ===========INICIANDO SCRAPING DE PLATAFORMA10 ===========
+
+[18-08-2025 15:14:52] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Plata/19/7/25-08-2025/_/1/0/0...
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:13] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality-text__0Zsx0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:15:14] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La Plata_18-08-2025.xlsx'
+[18-08-2025 15:15:17] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Catamarca/19/416/25-08-2025/_/1/0/0...
+
+[18-08-2025 15:17:13] INFO : root : main : main : ===========INICIANDO SCRAPING DE PLATAFORMA10 ===========
+
+[18-08-2025 15:17:13] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Plata/19/7/25-08-2025/_/1/0/0...
+
+[18-08-2025 15:17:54] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:54] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:54] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:54] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:54] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:54] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:54] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:54] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: .searchResultCard_card__quality__8Sj99 MuiBox-root mui-0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:17:55] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La Plata_18-08-2025.xlsx'
+[18-08-2025 15:17:59] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Catamarca/19/416/25-08-2025/_/1/0/0...
+
+[18-08-2025 15:20:52] INFO : root : main : main : ===========INICIANDO SCRAPING DE PLATAFORMA10 ===========
+
+[18-08-2025 15:20:52] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Plata/19/7/25-08-2025/_/1/0/0...
+
+[18-08-2025 15:21:35] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:35] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:35] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:35] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:36] WARNING : root : pasajes : obtener_precios_pasajes_plataforma10 : No se pudo obtener tipo de asiento: Message: Unable to locate element: p[class*='searchResultCard_card__quality__8Sj99']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[18-08-2025 15:21:37] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La Plata_18-08-2025.xlsx'
+[18-08-2025 15:22:52] INFO : root : main : main : ===========INICIANDO SCRAPING DE PLATAFORMA10 ===========
+
+[18-08-2025 15:22:52] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Plata/19/7/25-08-2025/_/1/0/0...
+
+[18-08-2025 15:23:17] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La Plata_18-08-2025.xlsx'
+[18-08-2025 15:23:21] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Catamarca/19/416/25-08-2025/_/1/0/0...
+
+[18-08-2025 20:26:53] INFO : root : main : main : ===========INICIANDO SCRAPING DE CENTRAL DE PASAJES===========
+[18-08-2025 20:26:53] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Plata?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:02] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Plata_18-08-2025.xlsx'
+[18-08-2025 20:27:02] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Catamarca?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:05] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Catamarca_18-08-2025.xlsx'
+[18-08-2025 20:27:05] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Resistencia?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:08] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Resistencia_18-08-2025.xlsx'
+[18-08-2025 20:27:08] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rawson?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:11] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rawson_18-08-2025.xlsx'
+[18-08-2025 20:27:11] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Retiro-Buenos-Aires?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:18] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Retiro-Buenos-Aires_18-08-2025.xlsx'
+[18-08-2025 20:27:18] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Corrientes?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:22] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Corrientes_18-08-2025.xlsx'
+[18-08-2025 20:27:22] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Parana?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:25] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Parana_18-08-2025.xlsx'
+[18-08-2025 20:27:25] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Formosa?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:27] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Formosa_18-08-2025.xlsx'
+[18-08-2025 20:27:27] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Salvador-de-Jujuy?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:31] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Salvador-de-Jujuy_18-08-2025.xlsx'
+[18-08-2025 20:27:31] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Santa-Rosa?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:35] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Rosa_18-08-2025.xlsx'
+[18-08-2025 20:27:35] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Rioja?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:39] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Rioja_18-08-2025.xlsx'
+[18-08-2025 20:27:39] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Mendoza?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:42] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Mendoza_18-08-2025.xlsx'
+[18-08-2025 20:27:42] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Posadas?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:46] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Posadas_18-08-2025.xlsx'
+[18-08-2025 20:27:46] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Neuquen?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:50] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Neuquen_18-08-2025.xlsx'
+[18-08-2025 20:27:50] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Viedma-Terminal?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:53] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Salta?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:27:57] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Salta_18-08-2025.xlsx'
+[18-08-2025 20:27:57] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Juan?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:02] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Juan_18-08-2025.xlsx'
+[18-08-2025 20:28:02] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Luis?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:06] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Luis_18-08-2025.xlsx'
+[18-08-2025 20:28:06] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rio-Gallegos?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:11] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Gallegos_18-08-2025.xlsx'
+[18-08-2025 20:28:11] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Santa-Fe?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:15] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Fe_18-08-2025.xlsx'
+[18-08-2025 20:28:15] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Santiago-del-Estero?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:19] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santiago-del-Estero_18-08-2025.xlsx'
+[18-08-2025 20:28:19] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Ushuaia?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:22] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Tucuman?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:27] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Tucuman_18-08-2025.xlsx'
+[18-08-2025 20:28:27] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Alta-Gracia?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:30] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Bell-Ville?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:33] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Bell-Ville_18-08-2025.xlsx'
+[18-08-2025 20:28:33] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Cosquin?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:36] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Cruz-del-Eje?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:40] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Dean-Funes?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:44] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Dean-Funes_18-08-2025.xlsx'
+[18-08-2025 20:28:44] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Jesus-Maria?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:49] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Jesus-Maria_18-08-2025.xlsx'
+[18-08-2025 20:28:49] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/La-Carlota?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:52] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\La-Carlota_18-08-2025.xlsx'
+[18-08-2025 20:28:52] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Laboulaye?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:55] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Laboulaye_18-08-2025.xlsx'
+[18-08-2025 20:28:55] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Marcos-Juarez?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:28:58] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Marcos-Juarez_18-08-2025.xlsx'
+[18-08-2025 20:28:58] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rio-Cuarto?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:02] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Cuarto_18-08-2025.xlsx'
+[18-08-2025 20:29:02] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rio-Segundo?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:05] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Rio-Segundo_18-08-2025.xlsx'
+[18-08-2025 20:29:05] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Rio-Tercero?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:07] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Agustin?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:09] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Carlos-Minas?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:10] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Francisco?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:14] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\San-Francisco_18-08-2025.xlsx'
+[18-08-2025 20:29:14] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/San-Francisco-de-Chanar?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:15] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Santa-Rosa-Rio-Primero?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:18] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Santa-Rosa-Rio-Primero_18-08-2025.xlsx'
+[18-08-2025 20:29:18] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-Tulumba?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:20] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Tulumba_18-08-2025.xlsx'
+[18-08-2025 20:29:20] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Cura-Brochero?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:24] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Cura-Brochero_18-08-2025.xlsx'
+[18-08-2025 20:29:24] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-de-Maria?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:27] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-del-Totoral?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:30] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-del-Totoral_18-08-2025.xlsx'
+[18-08-2025 20:29:30] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-Dolores?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:32] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Dolores_18-08-2025.xlsx'
+[18-08-2025 20:29:32] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-Huidobro?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:35] INFO : root : main : main : Scrapeando https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/Villa-Maria?FIda=08/25/2025&CntPas=1...
+
+[18-08-2025 20:29:38] INFO : root : archivos : dict_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\central de pasajes\Villa-Maria_18-08-2025.xlsx'
+[18-08-2025 20:29:38] INFO : root : main : main : ===========SCRAPING DE CENTRAL DE PASAJES FINALIZADO===========
+[19-08-2025 11:16:41] INFO : root : main : main : ===========INICIANDO SCRAPING DE PLATAFORMA10 ===========
+
+[19-08-2025 11:16:41] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Plata/19/7/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:17:13] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La Plata_19-08-2025.xlsx'
+[19-08-2025 11:17:16] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Catamarca/19/416/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:17:30] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Catamarca_19-08-2025.xlsx'
+[19-08-2025 11:17:33] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Resistencia/19/350/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:17:46] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Resistencia_19-08-2025.xlsx'
+[19-08-2025 11:17:49] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rawson/19/584/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:18:06] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rawson_19-08-2025.xlsx'
+[19-08-2025 11:18:09] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Retiro/19/10/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:18:26] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Retiro_19-08-2025.xlsx'
+[19-08-2025 11:18:30] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Corrientes/19/369/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:18:43] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Corrientes_19-08-2025.xlsx'
+[19-08-2025 11:18:47] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Parana/19/507/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:18:59] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Parana_19-08-2025.xlsx'
+[19-08-2025 11:19:03] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Formosa/19/372/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:19:15] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Formosa_19-08-2025.xlsx'
+[19-08-2025 11:19:18] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Salvador-de-Jujuy/19/323/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:19:31] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San Salvador de Jujuy_19-08-2025.xlsx'
+[19-08-2025 11:19:35] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santa-Rosa/19/545/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:19:49] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa Rosa_19-08-2025.xlsx'
+[19-08-2025 11:19:52] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Rioja/19/1211/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:20:05] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\La Rioja_19-08-2025.xlsx'
+[19-08-2025 11:20:08] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Mendoza/19/315/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:20:23] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Mendoza_19-08-2025.xlsx'
+[19-08-2025 11:20:26] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Posadas/19/1471/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:20:44] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Posadas_19-08-2025.xlsx'
+[19-08-2025 11:20:47] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Neuquen/19/521/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:21:06] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Neuquen_19-08-2025.xlsx'
+[19-08-2025 11:21:09] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Viedma/19/713/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:21:33] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[19-08-2025 11:21:33] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[19-08-2025 11:21:36] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Salta/19/321/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:21:51] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Salta_19-08-2025.xlsx'
+[19-08-2025 11:21:54] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Juan/19/409/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:22:07] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San Juan_19-08-2025.xlsx'
+[19-08-2025 11:22:11] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Luis/19/334/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:22:25] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San Luis_19-08-2025.xlsx'
+[19-08-2025 11:22:28] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Gallegos/19/621/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:22:40] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rio Gallegos_19-08-2025.xlsx'
+[19-08-2025 11:22:43] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santa-Fe/19/325/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:22:57] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa Fe_19-08-2025.xlsx'
+[19-08-2025 11:23:01] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santiago-del-Estero/19/15/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:23:26] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santiago del Estero_19-08-2025.xlsx'
+[19-08-2025 11:23:29] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Ushuaia/19/1515/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:23:55] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[19-08-2025 11:23:55] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[19-08-2025 11:23:59] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Miguel-de-Tucuman/19/17/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:24:14] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San Miguel de Tucuman_19-08-2025.xlsx'
+[19-08-2025 11:24:17] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Alta-Gracia/19/29/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:24:50] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Alta Gracia_19-08-2025.xlsx'
+[19-08-2025 11:24:53] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Bell-Ville/19/302/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:25:06] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Bell Ville_19-08-2025.xlsx'
+[19-08-2025 11:25:09] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Cosquin/19/165/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:25:24] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Cosquin_19-08-2025.xlsx'
+[19-08-2025 11:25:27] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Cruz-del-Eje/19/166/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:25:43] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Cruz del Eje_19-08-2025.xlsx'
+[19-08-2025 11:25:46] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Dean-Funes/19/497/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:26:02] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Dean Funes_19-08-2025.xlsx'
+[19-08-2025 11:26:05] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Jesus-Maria/19/32/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:26:21] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Jesus Maria_19-08-2025.xlsx'
+[19-08-2025 11:26:24] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/La-Carlota/19/387/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:26:50] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[19-08-2025 11:26:50] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[19-08-2025 11:26:54] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Laboulaye/19/482/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:27:06] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Laboulaye_19-08-2025.xlsx'
+[19-08-2025 11:27:09] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Marcos-Juarez/19/303/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:27:36] ERROR : root : pasajes : obtener_precios_pasajes_plataforma10 : No se encontraron tarjetas: Message: 
+
+[19-08-2025 11:27:36] INFO : root : archivos : guardar_en_excel : No hay pasajes para guardar.
+[19-08-2025 11:27:39] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Cuarto/19/26/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:27:52] CRITICAL : root : pasajes : obtener_precios_pasajes_plataforma10 : Error en una empresa: Message: Unable to locate element: div[class*="content-company"] img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[19-08-2025 11:27:54] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rio Cuarto_19-08-2025.xlsx'
+[19-08-2025 11:27:57] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Segundo/19/297/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:28:10] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Rio Segundo_19-08-2025.xlsx'
+[19-08-2025 11:28:13] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Tercero/19/2800/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:28:25] CRITICAL : root : pasajes : obtener_precios_pasajes_plataforma10 : Error en una empresa: Message: Unable to locate element: div[class*="content-company"] img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[19-08-2025 11:28:25] CRITICAL : root : main : main : La fecha o destino no están disponibles https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Rio-Tercero/19/2800/25-08-2025/_/1/0/0: cannot access local variable 'company_name' where it is not associated with a value
+[19-08-2025 11:28:28] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Agustin/19/1345/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:28:41] CRITICAL : root : pasajes : obtener_precios_pasajes_plataforma10 : Error en una empresa: Message: Unable to locate element: div[class*="content-company"] img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[19-08-2025 11:28:41] CRITICAL : root : pasajes : obtener_precios_pasajes_plataforma10 : Error en una empresa: Message: Unable to locate element: div[class*="content-company"] img; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[19-08-2025 11:28:41] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San Agustin_19-08-2025.xlsx'
+[19-08-2025 11:28:45] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Carlos-Minas/19/9710/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:28:56] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San Carlos Minas_19-08-2025.xlsx'
+[19-08-2025 11:29:00] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Francisco/19/506/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:29:12] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San Francisco_19-08-2025.xlsx'
+[19-08-2025 11:29:16] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/San-Francisco-del-Chañar/19/8954/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:29:28] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\San Francisco del Chañar_19-08-2025.xlsx'
+[19-08-2025 11:29:31] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Santa-Rosa-de-Rio-Primero/19/8972/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:30:00] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Santa Rosa de Rio Primero_19-08-2025.xlsx'
+[19-08-2025 11:30:03] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Tulumba/19/10783/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:30:16] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa Tulumba_19-08-2025.xlsx'
+[19-08-2025 11:30:20] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Cura-Brochero/19/96/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:30:32] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Cura Brochero_19-08-2025.xlsx'
+[19-08-2025 11:30:36] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-de-Maria-del-Rio-Seco/19/4214/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:30:48] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa de Maria del Rio Seco_19-08-2025.xlsx'
+[19-08-2025 11:30:51] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-del-Totoral/19/3056/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:31:07] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa del Totoral_19-08-2025.xlsx'
+[19-08-2025 11:31:10] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Dolores/19/88/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:31:24] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa Dolores_19-08-2025.xlsx'
+[19-08-2025 11:31:28] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Huidobro/19/773/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:31:39] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa Huidobro_19-08-2025.xlsx'
+[19-08-2025 11:31:43] INFO : root : main : main : Scrapeando https://www.plataforma10.com.ar/servicios/buscar-pasajes/Cordoba/Villa-Maria/19/290/25-08-2025/_/1/0/0...
+
+[19-08-2025 11:31:55] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\colectivos\plataforma10\Villa Maria_19-08-2025.xlsx'
+[19-08-2025 11:31:59] INFO : root : main : main : ===========SCRAPING DE PLATAFORMA10 FINALIZADO===========
+[19-08-2025 12:25:19] INFO : root : main : main : ===========INICIANDO SCRAPING DE FERNIPLAST===========
+[19-08-2025 12:25:19] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/marcadores-y-resaltadores/?order=OrderByPriceASC
+[19-08-2025 12:25:37] INFO : root : paginacion : obtener_cantidad_paginas : Total de productos: 92
+[19-08-2025 12:25:37] INFO : root : paginacion : obtener_cantidad_paginas : Total de páginas: 4
+[19-08-2025 12:25:37] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[19-08-2025 12:25:48] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:28:24] ERROR : root : productos : obtener_productos_y_precios_ferniplast : Error en intento 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+[19-08-2025 12:29:13] INFO : root : main : main : ===========INICIANDO SCRAPING DE FERNIPLAST===========
+[19-08-2025 12:29:13] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/marcadores-y-resaltadores/
+[19-08-2025 12:29:28] INFO : root : paginacion : obtener_cantidad_paginas : Total de productos: 92
+[19-08-2025 12:29:28] INFO : root : paginacion : obtener_cantidad_paginas : Total de páginas: 4
+[19-08-2025 12:29:28] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[19-08-2025 12:29:36] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:29:43] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[19-08-2025 12:29:44] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[19-08-2025 12:29:51] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:29:58] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[19-08-2025 12:29:59] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[19-08-2025 12:30:07] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:30:14] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[19-08-2025 12:30:15] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[19-08-2025 12:30:22] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:30:29] INFO : root : productos : obtener_productos_y_precios_ferniplast : 8 productos visibles
+[19-08-2025 12:30:30] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_marcadores-y-resaltadores_19-08-2025.xlsx'
+[19-08-2025 12:30:34] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/escritura/boligrafos/
+[19-08-2025 12:30:51] INFO : root : paginacion : obtener_cantidad_paginas : Total de productos: 40
+[19-08-2025 12:30:51] INFO : root : paginacion : obtener_cantidad_paginas : Total de páginas: 2
+[19-08-2025 12:30:51] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 2...
+[19-08-2025 12:30:59] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:31:06] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[19-08-2025 12:31:07] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 2...
+[19-08-2025 12:31:14] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:31:21] INFO : root : productos : obtener_productos_y_precios_ferniplast : 12 productos visibles
+[19-08-2025 12:31:22] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_escritura_boligrafos_19-08-2025.xlsx'
+[19-08-2025 12:31:25] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/escritura/gomas-de-borrar/
+[19-08-2025 12:31:41] INFO : root : paginacion : obtener_cantidad_paginas : No se pudo interpretar el texto del contador.
+[19-08-2025 12:31:41] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[19-08-2025 12:31:48] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:31:56] INFO : root : productos : obtener_productos_y_precios_ferniplast : 13 productos visibles
+[19-08-2025 12:31:56] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_escritura_gomas-de-borrar_19-08-2025.xlsx'
+[19-08-2025 12:32:00] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/escritura/lapices-negros/
+[19-08-2025 12:32:13] INFO : root : paginacion : obtener_cantidad_paginas : No se pudo interpretar el texto del contador.
+[19-08-2025 12:32:13] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[19-08-2025 12:32:19] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:32:27] INFO : root : productos : obtener_productos_y_precios_ferniplast : 6 productos visibles
+[19-08-2025 12:32:27] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_escritura_lapices-negros_19-08-2025.xlsx'
+[19-08-2025 12:32:30] INFO : root : main : main : Scrapeando categoría https://www.ferniplast.com/libreria/cuadernos/
+[19-08-2025 12:32:43] INFO : root : paginacion : obtener_cantidad_paginas : Total de productos: 91
+[19-08-2025 12:32:43] INFO : root : paginacion : obtener_cantidad_paginas : Total de páginas: 4
+[19-08-2025 12:32:43] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 4...
+[19-08-2025 12:32:50] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:32:58] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[19-08-2025 12:32:59] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 4...
+[19-08-2025 12:33:06] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:33:13] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[19-08-2025 12:33:15] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 4...
+[19-08-2025 12:33:24] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:33:31] INFO : root : productos : obtener_productos_y_precios_ferniplast : 28 productos visibles
+[19-08-2025 12:33:32] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 4...
+[19-08-2025 12:33:42] INFO : root : productos : obtener_productos_y_precios_ferniplast : Intento 1 de 5
+[19-08-2025 12:33:49] INFO : root : productos : obtener_productos_y_precios_ferniplast : 7 productos visibles
+[19-08-2025 12:33:49] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\ferniplast\libreria_cuadernos_19-08-2025.xlsx'
+[19-08-2025 12:33:53] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[19-08-2025 12:33:53] INFO : root : main : main : ===========SCRAPING DE FERNIPLAST FINALIZADO===========
+[19-08-2025 12:37:02] INFO : root : main : main : ===========INICIANDO SCRAPING DE PENCILBAG===========
+[19-08-2025 12:37:02] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/escritura1/lapices-grafito/?sort_by=price-ascending...
+[19-08-2025 12:37:20] INFO : root : paginacion : obtener_total_paginas : No se encontraron suficientes <span> en el contenedor.
+[19-08-2025 12:37:22] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[19-08-2025 12:37:25] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:37:30] INFO : root : productos : obtener_productos_y_precios_pencilbag : 38 productos visibles
+[19-08-2025 12:37:33] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 38 productos.
+[19-08-2025 12:37:33] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\escritura1_lapices-grafito_19-08-2025.xlsx'
+[19-08-2025 12:37:36] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/escritura1/resaltadores1/?sort_by=price-ascending...
+[19-08-2025 12:37:54] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 2
+[19-08-2025 12:37:56] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 2...
+[19-08-2025 12:37:59] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:38:04] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:38:07] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:38:08] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 2...
+[19-08-2025 12:38:11] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:38:16] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:38:19] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:38:19] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\escritura1_resaltadores1_19-08-2025.xlsx'
+[19-08-2025 12:38:23] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/gomas/?sort_by=price-ascending...
+[19-08-2025 12:38:40] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 2
+[19-08-2025 12:38:42] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 2...
+[19-08-2025 12:38:45] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:38:50] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:38:53] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:38:54] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 2...
+[19-08-2025 12:38:58] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:39:03] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:39:05] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:39:05] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\gomas_19-08-2025.xlsx'
+[19-08-2025 12:39:09] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/escritura1/boligrafos/clasicos/?sort_by=price-ascending...
+[19-08-2025 12:39:26] INFO : root : paginacion : obtener_total_paginas : No se encontraron suficientes <span> en el contenedor.
+[19-08-2025 12:39:28] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 1...
+[19-08-2025 12:39:31] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:39:36] INFO : root : productos : obtener_productos_y_precios_pencilbag : 42 productos visibles
+[19-08-2025 12:39:38] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 42 productos.
+[19-08-2025 12:39:38] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\escritura1_boligrafos_clasicos_19-08-2025.xlsx'
+[19-08-2025 12:39:42] INFO : root : main : main : Scrapeando categoría https://pencilbaglibreria.com.ar/cuadernos1/?sort_by=price-ascending...
+[19-08-2025 12:39:59] INFO : root : paginacion : obtener_total_paginas : Total de páginas detectadas: 10
+[19-08-2025 12:40:02] INFO : root : productos : scrapear_categoria : Scrapeando página 1 de 10...
+[19-08-2025 12:40:05] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:40:10] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:40:13] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:40:15] INFO : root : productos : scrapear_categoria : Scrapeando página 2 de 10...
+[19-08-2025 12:40:18] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:40:23] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:40:26] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:40:28] INFO : root : productos : scrapear_categoria : Scrapeando página 3 de 10...
+[19-08-2025 12:40:31] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:40:36] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:40:39] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:40:41] INFO : root : productos : scrapear_categoria : Scrapeando página 4 de 10...
+[19-08-2025 12:40:44] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:40:49] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:40:52] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:40:54] INFO : root : productos : scrapear_categoria : Scrapeando página 5 de 10...
+[19-08-2025 12:40:57] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:41:02] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:41:05] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:41:07] INFO : root : productos : scrapear_categoria : Scrapeando página 6 de 10...
+[19-08-2025 12:41:10] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:41:15] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:41:18] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:41:20] INFO : root : productos : scrapear_categoria : Scrapeando página 7 de 10...
+[19-08-2025 12:41:23] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:41:28] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:41:31] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:41:33] INFO : root : productos : scrapear_categoria : Scrapeando página 8 de 10...
+[19-08-2025 12:41:36] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:41:41] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:41:44] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:41:46] INFO : root : productos : scrapear_categoria : Scrapeando página 9 de 10...
+[19-08-2025 12:41:49] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:41:54] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:41:57] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:41:59] INFO : root : productos : scrapear_categoria : Scrapeando página 10 de 10...
+[19-08-2025 12:42:02] INFO : root : productos : obtener_productos_y_precios_pencilbag : Intento 1 de 5
+[19-08-2025 12:42:07] INFO : root : productos : obtener_productos_y_precios_pencilbag : 48 productos visibles
+[19-08-2025 12:42:10] INFO : root : productos : obtener_productos_y_precios_pencilbag : * 48 productos.
+[19-08-2025 12:42:10] INFO : root : archivos : guardar_en_excel : Datos guardados correctamente en 'C:\Users\rocio\Documentos\Facultad\Canasta básica\CBTE\data\libreria\pencilbag\cuadernos1_19-08-2025.xlsx'
+[19-08-2025 12:42:13] INFO : root : main : main : ¡Todas las categorías se escrapearon correctamente!
+[19-08-2025 12:42:13] INFO : root : main : main : ===========SCRAPING DE PENCILBAG FINALIZADO===========

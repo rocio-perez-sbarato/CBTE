@@ -36,13 +36,27 @@ def obtener_precios_pasajes_plataforma10(driver, url, lugar):
             price = price_element.text.strip()
         except Exception as e:
             logger.critical(f"Error en un precio: {e}")
+            
+        try:
+            price_element = card.find_element(By.CSS_SELECTOR, ".searchResultCard_card__price__OPhFJ")
+            price = price_element.text.strip()
+        except Exception as e:
+            logger.critical(f"Error en un precio: {e}")        
+            
+        try:
+            seat_type_element = card.find_element(By.CSS_SELECTOR, ".searchResultCard_quality__IDeMt")
+            seat_type = seat_type_element.text.strip()
+        except Exception as e:
+            logger.warning(f"No se pudo obtener tipo de asiento: {e}")
+            seat_type = None     
 
         if price and company_name:
             productos_precios.append({
                 "Origen": "Cordoba",
                 "Destino": procesar_destino(lugar),
                 "Empresa": company_name,
-                "Precio": limpiar_precio(price)
+                "Precio": limpiar_precio(price),
+                "Tipo": seat_type
             })
         else:
             logger.critical("No hay precios para scrapear")

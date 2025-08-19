@@ -25,6 +25,8 @@ def limpiar_precio(texto_precio):
     
     return precio_formateado
 
+# Creo que esto está dejando un espacio adelante
+# TODO: quitar espacio al principio
 def limpiar_barrio(nombre):
     """Elimina la palabra 'Producto' al inicio del nombre, con o sin espacio."""
     barrio_cordoba = re.sub(r"^Departamento en Alquiler en*", "", nombre)  

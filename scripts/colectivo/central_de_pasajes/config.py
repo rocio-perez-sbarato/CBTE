@@ -49,5 +49,5 @@ destinos = ["La Plata", #
             "Villa Maria" #
             ] 
 
-datos = "?FIda=08/06/2025&CntPas=1"
+datos = "?FIda=08/25/2025&CntPas=1" # fecha en inglés
 pagina = "https://www.centraldepasajes.com.ar/cdp/pasajes-micro/cordoba/" 
