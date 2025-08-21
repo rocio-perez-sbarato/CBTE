@@ -2,7 +2,7 @@
 base_url = "https://www.disco.com.ar/"
 
 categorias_deseadas = ["almacen/aceites-y-vinagres/aceites-comunes",
-                   "almacen/aceites-y-vinagres/vinagres",
+                    "almacen/aceites-y-vinagres/vinagres",
                     "almacen/arroz-y-legumbres/arroz",
                     "almacen/desayuno-y-merienda/galletitas-dulces",
                     "almacen/desayuno-y-merienda/galletitas-saladas",

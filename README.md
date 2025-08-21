@@ -1,39 +1,6 @@
 ## Canasta Básica Total Estudiantil
 ### Elaborado por y para estudiantes
 
-- [📄 **Leer Informe julio 2025**](https://github.com/usuario/nombre-repo/archive/refs/heads/main.zip)
-- [📚 **Leer informes anteriores**](https://github.com/usuario/nombre-repo/releases)
-- [✉️ **Unirme a la lista de mails**](https://example.com/lista-mails)
-
-### JULIO 2025 
-
-## Perfiles de consumo y gastos mensuales
-
-| 🛒 Caso | Monto estimado |
-|--------|----------------|
-| Estudiante que vive en un departamento alquilado | **$750k** |
-| Estudiante que vive en residencia universitaria | **$500k** |
-| Estudiante que vive con su grupo familiar y no es el principal aportante | **$350k** |
-
-## Proyecto de investigación
-
-Accedé al [proyecto](https://sociales.unc.edu.ar/) para conocer qué es y cómo medimos la canasta básica.
-
-## Contacto
-
-¿Querés participar o tenés alguna consulta? Mandanos un mail a **_canasta.basica@gmail.com_**.
-
-## Equipo
-
-Somos estudiantes de la [Facultad de Ciencias Sociales](https://sociales.unc.edu.ar/) y de la [Facultad de Matemática, Astronomía, Física y Computación](https://www.famaf.unc.edu.ar/).
-
-## Nota 
-
-Este README es solo un resumen técnico del proyecto.  
-La versión **más visual y fácil de navegar** está disponible en nuestra página web de GitHub Pages.  
-
-➡️ **[🌐 Ir a la página del proyecto ](https://rocio-perez-sbarato.github.io)**
-
 ## Ejecución del scraping
 
 1. Descargar código
@@ -41,7 +8,7 @@ La versión **más visual y fácil de navegar** está disponible en nuestra pág
 > Andá al repositorio en GitHub. 
 >Hacé clic en el botón verde que dice Code.
 >Elegí la opción "Download ZIP".
->Descomprimí el archivo ZIP en tu computadora.
+>Descomprimí el archivo ZIP en tu computadora. O directamente podés hacer `git clone`. 
 
 2. Ejecutar las siguientes lineas en Windows Powershell o la terminal que sea
 > ir a la carpeta CBTE con el comando cd. Ejemplo: cd ./Descargas/CBTE
@@ -51,7 +18,7 @@ La versión **más visual y fácil de navegar** está disponible en nuestra pág
 
 Este proyecto utiliza la API de Google Drive para subir la carpeta data a la carpeta de drive del proyecto. 
 
-**⚠️ Si no lo querés usar, tenés que comentar la linea que lo ejecuta en el archivo `run_all.py` en la carpeta `scripts`. Tiene que quedar así:**
+**⚠️ Si no lo querés usar y querés correr todo de una, tenés que comentar la linea que lo ejecuta en el archivo `run_all.py` en la carpeta `scripts`. Tiene que quedar así:**
 
 ```
 # Lista de paths a cada main.py

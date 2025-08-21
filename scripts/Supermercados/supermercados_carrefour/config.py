@@ -1,11 +1,17 @@
-# Definir la URL base y las 45 categorías
+# Definir la URL base y las 50 categorías
 base_url = "https://www.carrefour.com.ar/"
-categorias_deseadas = ["almacen/aceites-y-vinagres/vinagres-acetos-y-limon",
+
+categorias_deseadas = ["almacen/sal-aderezos-y-saborizadores/sal",
+                        "almacen/aceites-y-vinagres/vinagres-acetos-y-limon",
+                        "almacen/enlatados-y-conservas/conservas-y-salsas-de-tomate",
+                        "almacen/enlatados-y-conservas/conservas-de-legumbres-y-vegetales",
+                        "Almacen/Arroz-y-legumbres/Arroz",
+                        "Almacen/Arroz-y-legumbres/Legumbres",
                         "Almacen/Pastas-secas/Fideos-largos",
                         "Almacen/Harinas/Harinas-comunes-y-leudantes",
                         "almacen/harinas/polentas",
                         "almacen/aceites-y-vinagres/aceites-comunes",
-                        "lacteos-y-productos-frescos/dulce-de-membrillo-y-otros-dulces/dulce-de-batata",
+                        "lacteos-y-productos-frescos/dulce-de-membrillo-y-otros-dulces",
                         "Lacteos-y-productos-frescos/Dulce-de-leche",
                         "lacteos-y-productos-frescos/huevos",
                         "Lacteos-y-productos-frescos/Leches",

@@ -1,5 +1,5 @@
 from scraping.navegador import crear_driver
-from scraping.productos import obtener_productos_y_precios_disco
+from scraping.productos import scrapear_categoria
 from utils.rendimiento import medir_recursos
 from config import links_categorias
 from utils.archivos import guardar_en_excel
@@ -19,9 +19,9 @@ def main():
         for url_categoria in links_categorias:
             logger.info(f"Scrapeando categoría {url_categoria}...")
             driver = crear_driver()
-            driver.get(url_categoria)
+            
             try:
-                productos = obtener_productos_y_precios_disco(driver)
+                productos = scrapear_categoria(driver, url_categoria)
                 guardar_en_excel(productos, url_categoria)        
             except Exception as e:
                 logger.error(f"Error al procesar {url_categoria}: {e}")
